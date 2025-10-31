@@ -1,0 +1,2290 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{optuna_2019}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2939d0d5b491018f7cc7812609071a79}{%
+           family={Akiba},
+           familyi={A\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92311081bb41fd01eb1ce06f61805909}{%
+           family={Sano},
+           familyi={S\bibinitperiod},
+           given={Shotaro},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a841fb8471f00b147fdd8954fb01c03f}{%
+           family={Yanase},
+           familyi={Y\bibinitperiod},
+           given={Toshihiko},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db73c7d77457602e9a75d75bbe181aba}{%
+           family={Ohta},
+           familyi={O\bibinitperiod},
+           given={Takeru},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18b784f7f35111bc05bcbd245a34ce7}{%
+           family={Koyama},
+           familyi={K\bibinitperiod},
+           given={Masanori},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{fullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{fullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{bibnamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{authorbibnamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{authornamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
+      \strng{authorfullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authorfullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 25th {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{Optuna: A Next-generation Hyperparameter Optimization Framework}
+      \field{year}{2019}
+    \endentry
+    \entry{alves2020deep}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e4cbcb1736d8b45bd6d506be73a1a5ed}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Júlio\bibnamedelima César},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=602b8b5764db16f61b257b73c2116cc0}{%
+           family={Mateus},
+           familyi={M\bibinitperiod},
+           given={Geraldo\bibnamedelima Robson},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{fullhash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{fullhashraw}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{bibnamehash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{authorbibnamehash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{authornamehash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{authorfullhash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{authorfullhashraw}{a4fb1ec9dcbee22a85024b90c070b248}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Computational Logistics}
+      \field{title}{Deep reinforcement learning and optimization approach for multi-echelon supply chain with uncertain demands}
+      \field{year}{2020}
+      \field{pages}{584\bibrangedash 599}
+      \range{pages}{16}
+    \endentry
+    \entry{de2022heuristics}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9deaa2b2f5754d6b40d8e4219f34d960}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={Matheus\bibnamedelimb de\bibnamedelima Freitas},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=2d7f93dd415d442d8bb864f64fbe56db}{%
+           family={Arroyo},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelimb Elias\bibnamedelima Claudio},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=2f43ee993b3c4a77b9ebd5a60d40dd06}{%
+           family={Nogueira},
+           familyi={N\bibinitperiod},
+           given={Thiago\bibnamedelima Henrique},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{fullhash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{fullhashraw}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{bibnamehash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{authorbibnamehash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{authornamehash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{authorfullhash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{authorfullhashraw}{557e22b9d6d23e9c885ab592e7124a6c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Intelligent Systems Design and Applications}
+      \field{title}{Heuristics Assisted by Machine Learning for the Integrated Production Planning and Distribution Problem}
+      \field{year}{2022}
+      \field{pages}{120\bibrangedash 131}
+      \range{pages}{12}
+    \endentry
+    \entry{boudia2008fast}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d6d8d51705ef08906ae8bc89003bae9c}{%
+           family={Boudia},
+           familyi={B\bibinitperiod},
+           given={Mourad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=553f586ffe8b22ce5712f9fe6ecd7417}{%
+           family={Louly},
+           familyi={L\bibinitperiod},
+           given={Mohamed\bibnamedelimb Aly\bibnamedelima Ould},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=900ff4eaee85acd9095309878df56e18}{%
+           family={Prins},
+           familyi={P\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{fullhash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{fullhashraw}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{bibnamehash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{authorbibnamehash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{authornamehash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{authorfullhash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{authorfullhashraw}{2217ec1bba07a0c3d6ff537a1708b439}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Production Planning and Control}
+      \field{number}{2}
+      \field{title}{Fast heuristics for a combined production planning and vehicle routing problem}
+      \field{volume}{19}
+      \field{year}{2008}
+      \field{pages}{85\bibrangedash 96}
+      \range{pages}{12}
+    \endentry
+    \entry{chen2004integrated}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=568c5f0538e5ee4ad2d4d773b8057cc9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhi-Long},
+           giveni={Z\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{fullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{fullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{bibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorbibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authornamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorfullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorfullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Handbook of quantitative supply chain analysis}
+      \field{title}{Integrated production and distribution operations}
+      \field{year}{2004}
+      \field{pages}{711\bibrangedash 745}
+      \range{pages}{35}
+    \endentry
+    \entry{chen2010integrated}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=568c5f0538e5ee4ad2d4d773b8057cc9}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zhi-Long},
+           giveni={Z\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{fullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{fullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{bibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorbibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authornamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorfullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorfullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations research}
+      \field{number}{1}
+      \field{title}{Integrated production and outbound distribution scheduling: review and extensions}
+      \field{volume}{58}
+      \field{year}{2010}
+      \field{pages}{130\bibrangedash 148}
+      \range{pages}{19}
+    \endentry
+    \entry{duan2018effective}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=53230429f4441a419728e0d71bfecbe7}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={Jun-Hua},
+           giveni={J\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6fbec0698865165a173051e525ddb72}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f2f03e8781b80a9a7bfe0c9a100287b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Qing-Da},
+           giveni={Q\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=edecd7ab25dac6baa0785b4fe084860a}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Quan-Ke},
+           giveni={Q\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{eb226ff3b91574f7eb40d02160a284af}
+      \strng{fullhash}{285bb7cd2aa08994ff0d4fccf9a3801a}
+      \strng{fullhashraw}{285bb7cd2aa08994ff0d4fccf9a3801a}
+      \strng{bibnamehash}{eb226ff3b91574f7eb40d02160a284af}
+      \strng{authorbibnamehash}{eb226ff3b91574f7eb40d02160a284af}
+      \strng{authornamehash}{eb226ff3b91574f7eb40d02160a284af}
+      \strng{authorfullhash}{285bb7cd2aa08994ff0d4fccf9a3801a}
+      \strng{authorfullhashraw}{285bb7cd2aa08994ff0d4fccf9a3801a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Intelligent Computing}
+      \field{title}{An effective artificial bee colony for distributed lot-streaming flowshop scheduling problem}
+      \field{year}{2018}
+      \field{pages}{795\bibrangedash 806}
+      \range{pages}{12}
+    \endentry
+    \entry{FelixArroyo}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e999d803b3d6da710a4c9817c2d48048}{%
+           family={Felix},
+           familyi={F\bibinitperiod},
+           given={Gabriel\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=147ae4e8d77474178b0d5111cd020696}{%
+           family={Arroyo},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelimb E.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{14433bf7555172eed0abc6e023d36288}
+      \strng{fullhash}{14433bf7555172eed0abc6e023d36288}
+      \strng{fullhashraw}{14433bf7555172eed0abc6e023d36288}
+      \strng{bibnamehash}{14433bf7555172eed0abc6e023d36288}
+      \strng{authorbibnamehash}{14433bf7555172eed0abc6e023d36288}
+      \strng{authornamehash}{14433bf7555172eed0abc6e023d36288}
+      \strng{authorfullhash}{14433bf7555172eed0abc6e023d36288}
+      \strng{authorfullhashraw}{14433bf7555172eed0abc6e023d36288}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LII Simpósio Brasileiro de Pesquisa Operacional}
+      \field{title}{HEURÍSTICAS PARA O SEQUENCIAMENTO DA PRODUÇÃO E ROTEAMENTO DE VEÍCULOS COM FROTA HETEROGÊNEA}
+      \field{year}{2020}
+    \endentry
+    \entry{Arroyo_felix}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f6e3633567dadab918d67fe34dbe7d7d}{%
+           family={Félix},
+           familyi={F\bibinitperiod},
+           given={Gabriel\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=147ae4e8d77474178b0d5111cd020696}{%
+           family={Arroyo},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelimb E.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=a1d5cd3ad0fda750eb09731fc89fcaeb}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Matheus},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=00205351ab4f99c0159fcd1ce4793acc}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bed1557e1bc08a8f9053b8aab4e73551}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod}}}%
+        {{hash=64eb1ee6d18e1966b04130c8f39c1cbf}{%
+           family={Balachandran},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=217de8f7fbadad8de1a854e5ab0ea7cc}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Joong\bibnamedelima Hoon},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=79ff7fb2033f676d42fc1c1275de5f33}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Jagdish\bibnamedelima Chand},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{fullhash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{fullhashraw}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{bibnamehash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{authorbibnamehash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{authornamehash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{authorfullhash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{authorfullhashraw}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{editorbibnamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
+      \strng{editornamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
+      \strng{editorfullhash}{9b5759c6801ae956402ff308df772a54}
+      \strng{editorfullhashraw}{9b5759c6801ae956402ff308df772a54}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Third Congress on Intelligent Systems}
+      \field{isbn}{978-981-19-9379-4}
+      \field{title}{Iterated Local Search Heuristic for Integrated Single Machine Scheduling and Vehicle Routing}
+      \field{year}{2023}
+      \field{pages}{223\bibrangedash 235}
+      \range{pages}{13}
+    \endentry
+    \entry{ghinato1995sistema}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=255354b136515d4ff0bfafbfc65d17d8}{%
+           family={Ghinato},
+           familyi={G\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SciELO Brasil}%
+      }
+      \strng{namehash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{fullhash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{fullhashraw}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{bibnamehash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{authorbibnamehash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{authornamehash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{authorfullhash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{authorfullhashraw}{255354b136515d4ff0bfafbfc65d17d8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Production}
+      \field{title}{Sistema Toyota de Produção: mais do que simplesmente just-in-time}
+      \field{volume}{5}
+      \field{year}{1995}
+      \field{pages}{169\bibrangedash 189}
+      \range{pages}{21}
+    \endentry
+    \entry{haddad2014aiv}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3be3c0c9991c0089a0777d996c6b6898}{%
+           family={Haddad},
+           familyi={H\bibinitperiod},
+           given={Matheus\bibnamedelima Nohra},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63b61d57e2444a8a4c0148d9d0159ce8}{%
+           family={Cota},
+           familyi={C\bibinitperiod},
+           given={Luciano\bibnamedelima Perdigao},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27e499da82a395404925fe4143695be6}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Marcone\bibnamedelimb Jamilson\bibnamedelima Freitas},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c0a25fdccf32d60a6a0b8fc18279433}{%
+           family={Maculan},
+           familyi={M\bibinitperiod},
+           given={Nelson},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {SCITEPRESS}%
+      }
+      \strng{namehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
+      \strng{fullhash}{848970b8e44ad12420a8c343cf65eba0}
+      \strng{fullhashraw}{848970b8e44ad12420a8c343cf65eba0}
+      \strng{bibnamehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
+      \strng{authorbibnamehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
+      \strng{authornamehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
+      \strng{authorfullhash}{848970b8e44ad12420a8c343cf65eba0}
+      \strng{authorfullhashraw}{848970b8e44ad12420a8c343cf65eba0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Enterprise Information Systems}
+      \field{title}{AIV: A heuristic algorithm based on iterated local search and variable neighborhood descent for solving the unrelated parallel machine scheduling problem with setup times}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{pages}{376\bibrangedash 383}
+      \range{pages}{8}
+    \endentry
+    \entry{hansen2001variable}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7bb981a79a1c9c28df155eaf022cd6ba}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7379e085a19467a97449f587eb2991c}{%
+           family={Mladenović},
+           familyi={M\bibinitperiod},
+           given={Nenad},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{fullhash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{fullhashraw}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{bibnamehash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{authorbibnamehash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{authornamehash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{authorfullhash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{authorfullhashraw}{a24a32bfc1e56cd2240b83497453aeed}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European journal of operational research}
+      \field{number}{3}
+      \field{title}{Variable neighborhood search: Principles and applications}
+      \field{volume}{130}
+      \field{year}{2001}
+      \field{pages}{449\bibrangedash 467}
+      \range{pages}{19}
+    \endentry
+    \entry{hou2022modelling}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=e70f121c9a3f918589732af98bd7d3fd}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Yushuang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ef97c866791835bae1f842348cf45ac}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Yaping},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b97a8d6f5ba2daeb8f70e931d744a7c4}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Kaizhou},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f5b8b674eea6432492c32e093925682}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2eca8327051fb23aaed3486a493f41e7}{%
+           family={Sadollah},
+           familyi={S\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1f8c1e6db7b3aa5b8797573b510013d7}
+      \strng{fullhash}{be7aa8f693cdfd181d30b09271624800}
+      \strng{fullhashraw}{be7aa8f693cdfd181d30b09271624800}
+      \strng{bibnamehash}{1f8c1e6db7b3aa5b8797573b510013d7}
+      \strng{authorbibnamehash}{1f8c1e6db7b3aa5b8797573b510013d7}
+      \strng{authornamehash}{1f8c1e6db7b3aa5b8797573b510013d7}
+      \strng{authorfullhash}{be7aa8f693cdfd181d30b09271624800}
+      \strng{authorfullhashraw}{be7aa8f693cdfd181d30b09271624800}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Modelling and optimization of integrated distributed flow shop scheduling and distribution problems with time windows}
+      \field{volume}{187}
+      \field{year}{2022}
+      \field{pages}{115827}
+      \range{pages}{1}
+    \endentry
+    \entry{iklassov2024reinforcementlearningsolvingstochastic}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fc00230f1be63b4675aa196c0d9a9dc1}{%
+           family={Iklassov},
+           familyi={I\bibinitperiod},
+           given={Zangir},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b15c47b4031dde4f70a8d9a770e1c5cb}{%
+           family={Sobirov},
+           familyi={S\bibinitperiod},
+           given={Ikboljon},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f60a28d5b1b267419a2bdb823a2a6e97}{%
+           family={Solozabal},
+           familyi={S\bibinitperiod},
+           given={Ruben},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0111eb2e5d937cdff42a82c58eb5a73f}{%
+           family={Takac},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{943e83425cb7e742e837dbdb1fa828db}
+      \strng{fullhash}{0b55f5eda5979d4a65791242e72d4a22}
+      \strng{fullhashraw}{0b55f5eda5979d4a65791242e72d4a22}
+      \strng{bibnamehash}{943e83425cb7e742e837dbdb1fa828db}
+      \strng{authorbibnamehash}{943e83425cb7e742e837dbdb1fa828db}
+      \strng{authornamehash}{943e83425cb7e742e837dbdb1fa828db}
+      \strng{authorfullhash}{0b55f5eda5979d4a65791242e72d4a22}
+      \strng{authorfullhashraw}{0b55f5eda5979d4a65791242e72d4a22}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.AI}
+      \field{eprinttype}{arXiv}
+      \field{title}{Reinforcement Learning for Solving Stochastic Vehicle Routing Problem with Time Windows}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2402.09765
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2402.09765
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2402.09765
+      \endverb
+    \endentry
+    \entry{kingma2014adam}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhashraw}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhashraw}{a09df9f123146b8e2c7f1134c9496932}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.6980}
+      \field{title}{Adam: A method for stochastic optimization}
+      \field{year}{2014}
+    \endentry
+    \entry{kurdi2020memetic}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93e7e083ece325cc6cbf861bf194e50e}{%
+           family={Kurdi},
+           familyi={K\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{fullhash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{fullhashraw}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{bibnamehash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{authorbibnamehash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{authornamehash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{authorfullhash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{authorfullhashraw}{93e7e083ece325cc6cbf861bf194e50e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Soft Computing}
+      \field{title}{A memetic algorithm with novel semi-constructive evolution operators for permutation flowshop scheduling problem}
+      \field{volume}{94}
+      \field{year}{2020}
+      \field{pages}{106458}
+      \range{pages}{1}
+    \endentry
+    \entry{lenstra1981complexity}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6e2e92a3e1619c0eb372733ac57cbf32}{%
+           family={Lenstra},
+           familyi={L\bibinitperiod},
+           given={Jan\bibnamedelima Karel},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2e6ea43d15a5d77c4f61d103f5c84d6}{%
+           family={Kan},
+           familyi={K\bibinitperiod},
+           given={AHG\bibnamedelima Rinnooy},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{57400f5884629c571201105708d404c6}
+      \strng{fullhash}{57400f5884629c571201105708d404c6}
+      \strng{fullhashraw}{57400f5884629c571201105708d404c6}
+      \strng{bibnamehash}{57400f5884629c571201105708d404c6}
+      \strng{authorbibnamehash}{57400f5884629c571201105708d404c6}
+      \strng{authornamehash}{57400f5884629c571201105708d404c6}
+      \strng{authorfullhash}{57400f5884629c571201105708d404c6}
+      \strng{authorfullhashraw}{57400f5884629c571201105708d404c6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Networks}
+      \field{number}{2}
+      \field{title}{Complexity of vehicle routing and scheduling problems}
+      \field{volume}{11}
+      \field{year}{1981}
+      \field{pages}{221\bibrangedash 227}
+      \range{pages}{7}
+    \endentry
+    \entry{lin2014unrelated}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b12f8878923786c814ca7c4d0d659846}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Yang-Kuei},
+           giveni={Y\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7650cfb9d0eb90abadf98736177fa009}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={Feng-Yu},
+           giveni={F\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{fullhash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{fullhashraw}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{bibnamehash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{authorbibnamehash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{authornamehash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{authorfullhash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{authorfullhashraw}{f16fbca63844f8c4274e27bdf27e8acc}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Production Research}
+      \field{number}{4}
+      \field{title}{Unrelated parallel machine scheduling with setup times and ready times}
+      \field{volume}{52}
+      \field{year}{2014}
+      \field{pages}{1200\bibrangedash 1214}
+      \range{pages}{15}
+    \endentry
+    \entry{liu2020coordinated}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1c17a20c4acfa6f32b73321fc505433b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd3fbec67ef61e956846d58e4dcef9cc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wenli},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed011651758f9d0d06ea4862c4902fb8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Kunpeng},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=597ce6f9f18006ffc071e3fbbb24dc91}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Xuxia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{017adced1571e7ceee64961e2eee3f90}
+      \strng{fullhash}{bd362b4bbf4dfc642a2717eebfa24c13}
+      \strng{fullhashraw}{bd362b4bbf4dfc642a2717eebfa24c13}
+      \strng{bibnamehash}{017adced1571e7ceee64961e2eee3f90}
+      \strng{authorbibnamehash}{017adced1571e7ceee64961e2eee3f90}
+      \strng{authornamehash}{017adced1571e7ceee64961e2eee3f90}
+      \strng{authorfullhash}{bd362b4bbf4dfc642a2717eebfa24c13}
+      \strng{authorfullhashraw}{bd362b4bbf4dfc642a2717eebfa24c13}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Heuristics}
+      \field{number}{1}
+      \field{title}{A coordinated production and transportation scheduling problem with minimum sum of order delivery times}
+      \field{volume}{26}
+      \field{year}{2020}
+      \field{pages}{33\bibrangedash 58}
+      \range{pages}{26}
+    \endentry
+    \entry{mao2021effective}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=624f4f7f3cccd45f3c2e0a6aa6071100}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Jia-yang},
+           giveni={J\bibinithyphendelim y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=605a00a8245a4ee19ae1fff062a44f2d}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Quan-ke},
+           giveni={Q\bibinithyphendelim k\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f5224c7c1c06ad7f9419f0797011f06}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={Zhong-hua},
+           giveni={Z\bibinithyphendelim h\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8eab9075a7e8567d259e822a8ff36e6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bb930c1bb479fd185792c197b911a75d}
+      \strng{fullhash}{d60d378e0c81aad5703e82acd4dbc7d6}
+      \strng{fullhashraw}{d60d378e0c81aad5703e82acd4dbc7d6}
+      \strng{bibnamehash}{bb930c1bb479fd185792c197b911a75d}
+      \strng{authorbibnamehash}{bb930c1bb479fd185792c197b911a75d}
+      \strng{authornamehash}{bb930c1bb479fd185792c197b911a75d}
+      \strng{authorfullhash}{d60d378e0c81aad5703e82acd4dbc7d6}
+      \strng{authorfullhashraw}{d60d378e0c81aad5703e82acd4dbc7d6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{An effective multi-start iterated greedy algorithm to minimize makespan for the distributed permutation flowshop scheduling problem with preventive maintenance}
+      \field{volume}{169}
+      \field{year}{2021}
+      \field{pages}{114495}
+      \range{pages}{1}
+    \endentry
+    \entry{martins2021combining}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=8605d51ca08da236617b30aa61b4b19e}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Leandro\bibnamedelimb do\bibnamedelima C},
+           giveni={L\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf2a06442b8bdb08f1ab24f132f1bd76}{%
+           family={Gonzalez-Neira},
+           familyi={G\bibinithyphendelim N\bibinitperiod},
+           given={Eliana\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcdec5af76edc77dbc2a3d3546518290}{%
+           family={Hatami},
+           familyi={H\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e619d495aa64ae99b3cc27016d26c405}{%
+           family={Juan},
+           familyi={J\bibinitperiod},
+           given={Angel\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46ae63a950c54092389a3a204f17d726}{%
+           family={Montoya-Torres},
+           familyi={M\bibinithyphendelim T\bibinitperiod},
+           given={Jairo\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7d760a7a04ee31b4008f24b57b565b6c}
+      \strng{fullhash}{db123e22d031aa03d01fa4ff735ea391}
+      \strng{fullhashraw}{db123e22d031aa03d01fa4ff735ea391}
+      \strng{bibnamehash}{7d760a7a04ee31b4008f24b57b565b6c}
+      \strng{authorbibnamehash}{7d760a7a04ee31b4008f24b57b565b6c}
+      \strng{authornamehash}{7d760a7a04ee31b4008f24b57b565b6c}
+      \strng{authorfullhash}{db123e22d031aa03d01fa4ff735ea391}
+      \strng{authorfullhashraw}{db123e22d031aa03d01fa4ff735ea391}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{title}{Combining production and distribution in supply chains: The hybrid flow-shop vehicle routing problem}
+      \field{volume}{159}
+      \field{year}{2021}
+      \field{pages}{107486}
+      \range{pages}{1}
+    \endentry
+    \entry{MOHAMMADI2020347}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=47a52e3b76edb16bce62aa8c6bad8b69}{%
+           family={Mohammadi},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fd796c1bbb2ba12069ae7c702f7dd6e}{%
+           family={Al-e-Hashem},
+           familyi={A\bibinithyphendelim e\bibinithyphendelim H\bibinitperiod},
+           given={S.M.J.\bibnamedelimi Mirzapour},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd10bd7cd6072fe0f8f1bbc6d8324a3c}{%
+           family={Rekik},
+           familyi={R\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{fullhash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{fullhashraw}{33ec16f18047c0fa32050d31abb45330}
+      \strng{bibnamehash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{authorbibnamehash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{authornamehash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{authorfullhash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{authorfullhashraw}{33ec16f18047c0fa32050d31abb45330}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0925-5273}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{title}{An integrated production scheduling and delivery route planning with multi-purpose machines: A case study from a furniture manufacturing company}
+      \field{volume}{219}
+      \field{year}{2020}
+      \field{pages}{347\bibrangedash 359}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ijpe.2019.05.017
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925527319301987
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925527319301987
+      \endverb
+      \keyw{Supply chain scheduling,Multi-objective optimization,Integrated production-distribution,ε-constraint method,Hybrid particle swarm optimization algorithm}
+    \endentry
+    \entry{monden2011toyota}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=64803f0b9cdffa612cfdaff51eeb57de}{%
+           family={Monden},
+           familyi={M\bibinitperiod},
+           given={Yasuhiro},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL}%
+      }
+      \list{publisher}{1}{%
+        {CRc Press}%
+      }
+      \strng{namehash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{fullhash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{fullhashraw}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{bibnamehash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{authorbibnamehash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{authornamehash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{authorfullhash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{authorfullhashraw}{64803f0b9cdffa612cfdaff51eeb57de}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Toyota production system: an integrated approach to just-in-time}
+      \field{year}{2011}
+    \endentry
+    \entry{nagano2022solution}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5f11611414491caff1e2f2b1d98efb2c}{%
+           family={Nagano},
+           familyi={N\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddc55ca2ebf5f0717d1cd70955b8d62c}{%
+           family={Tomazella},
+           familyi={T\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0b1d36b92ac8014f764d3cd7f8df7e0}{%
+           family={Tavares-Neto},
+           familyi={T\bibinithyphendelim N\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5d27af02f12e4a2c42f559ef0eb0436}{%
+           family={Abreu},
+           familyi={A\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Growing Science}%
+      }
+      \strng{namehash}{1d85e8fcace059be0c200ca9ab02f41d}
+      \strng{fullhash}{ee065c550b4df7f9e947604dcb6d74fb}
+      \strng{fullhashraw}{ee065c550b4df7f9e947604dcb6d74fb}
+      \strng{bibnamehash}{1d85e8fcace059be0c200ca9ab02f41d}
+      \strng{authorbibnamehash}{1d85e8fcace059be0c200ca9ab02f41d}
+      \strng{authornamehash}{1d85e8fcace059be0c200ca9ab02f41d}
+      \strng{authorfullhash}{ee065c550b4df7f9e947604dcb6d74fb}
+      \strng{authorfullhashraw}{ee065c550b4df7f9e947604dcb6d74fb}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Project Management}
+      \field{number}{3}
+      \field{title}{Solution methods for the integrated permutation flowshop and vehicle routing problem}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{pages}{155\bibrangedash 166}
+      \range{pages}{12}
+    \endentry
+    \entry{nahhas2022deep}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5ea9f58b0dc0b6be0d7a54ddf35ab85b}{%
+           family={Nahhas},
+           familyi={N\bibinitperiod},
+           given={Abdulrahman},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f592fdda56bd2d3627f1f7e94c6906d8}{%
+           family={Kharitonov},
+           familyi={K\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27ac7284cc03c6015b2094805d330e0e}{%
+           family={Turowski},
+           familyi={T\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{fullhash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{fullhashraw}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{bibnamehash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{authorbibnamehash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{authornamehash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{authorfullhash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{authorfullhashraw}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Reinforcement Learning Techniques for Solving Hybrid Flow Shop Scheduling Problems: Proximal Policy Optimization (PPO) and Asynchronous Advantage Actor-Critic (A3C)}
+      \field{year}{2022}
+    \endentry
+    \entry{nawaz1983heuristic}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f321e496a7638e806d87d58268f5f466}{%
+           family={Nawaz},
+           familyi={N\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c13b34fb3365b189fcf76c8c7f8b132}{%
+           family={Enscore\bibnamedelima Jr},
+           familyi={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={E\bibnamedelima Emory},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=754555d7efc77c317c01be1937b15772}{%
+           family={Ham},
+           familyi={H\bibinitperiod},
+           given={Inyong},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{fullhash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{fullhashraw}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{bibnamehash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{authorbibnamehash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{authornamehash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{authorfullhash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{authorfullhashraw}{135889c33f85067f5b3ccf9585a35b0a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Omega}
+      \field{number}{1}
+      \field{title}{A heuristic algorithm for the m-machine, n-job flow-shop sequencing problem}
+      \field{volume}{11}
+      \field{year}{1983}
+      \field{pages}{91\bibrangedash 95}
+      \range{pages}{5}
+    \endentry
+    \entry{nazari2018reinforcement}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=609f8f941fe503ac72e04baf3a783505}{%
+           family={Nazari},
+           familyi={N\bibinitperiod},
+           given={Mohammadreza},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d4f9a90f1a4ec7a4d93633c6447bac0}{%
+           family={Oroojlooy},
+           familyi={O\bibinitperiod},
+           given={Afshin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27ebe67d75544381d6139a6d62936653}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e0a20d78e7928d560f124df1c9749fe}{%
+           family={Takác},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c5f7c9c93902d5d62e6a49571e96204}
+      \strng{fullhash}{f3d48c3966a4072c739ba6be5b39d819}
+      \strng{fullhashraw}{f3d48c3966a4072c739ba6be5b39d819}
+      \strng{bibnamehash}{3c5f7c9c93902d5d62e6a49571e96204}
+      \strng{authorbibnamehash}{3c5f7c9c93902d5d62e6a49571e96204}
+      \strng{authornamehash}{3c5f7c9c93902d5d62e6a49571e96204}
+      \strng{authorfullhash}{f3d48c3966a4072c739ba6be5b39d819}
+      \strng{authorfullhashraw}{f3d48c3966a4072c739ba6be5b39d819}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Reinforcement learning for solving the vehicle routing problem}
+      \field{volume}{31}
+      \field{year}{2018}
+    \endentry
+    \entry{pan2019effective}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=edecd7ab25dac6baa0785b4fe084860a}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Quan-Ke},
+           giveni={Q\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8eab9075a7e8567d259e822a8ff36e6}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de94cdd2b4ff3e0eb435107f54862f4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9b9b279fc5525af9b92bad1c9ceef43}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0a9543f69ced040e04c519479b7356b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xin-Yu},
+           giveni={X\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{71c52846c33cdb3499821bcbdc5a0a92}
+      \strng{fullhash}{28d79ca801941c7bb584a722012cd2bd}
+      \strng{fullhashraw}{28d79ca801941c7bb584a722012cd2bd}
+      \strng{bibnamehash}{71c52846c33cdb3499821bcbdc5a0a92}
+      \strng{authorbibnamehash}{71c52846c33cdb3499821bcbdc5a0a92}
+      \strng{authornamehash}{71c52846c33cdb3499821bcbdc5a0a92}
+      \strng{authorfullhash}{28d79ca801941c7bb584a722012cd2bd}
+      \strng{authorfullhashraw}{28d79ca801941c7bb584a722012cd2bd}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Effective heuristics and metaheuristics to minimize total flowtime for the distributed permutation flowshop problem}
+      \field{volume}{124}
+      \field{year}{2019}
+      \field{pages}{309\bibrangedash 324}
+      \range{pages}{16}
+    \endentry
+    \entry{peng2020deep}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=883ca506b36387ef49f12b3a0d8dbacf}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=a0e18b998995a828b0eff7ba2b9584d9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiahai},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=1fd5b9720e6d2ea38e9dc4d3afcd656d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zizhen},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{fullhash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{fullhashraw}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{bibnamehash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{authorbibnamehash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{authornamehash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{authorfullhash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{authorfullhashraw}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Artificial Intelligence Algorithms and Applications: 11th International Symposium, ISICA 2019, Guangzhou, China, November 16--17, 2019, Revised Selected Papers 11}
+      \field{title}{A deep reinforcement learning algorithm using dynamic attention model for vehicle routing problems}
+      \field{year}{2020}
+      \field{pages}{636\bibrangedash 650}
+      \range{pages}{15}
+    \endentry
+    \entry{penna2013iterated}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=80f65c8ec8662821748f7ed9483220b7}{%
+           family={Penna},
+           familyi={P\bibinitperiod},
+           given={Puca\bibnamedelimb Huachi\bibnamedelima Vaz},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=010571c164ca89ae5a13d1d2878d0afa}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11068c836bcbfc1170e412fcc70fb3c6}{%
+           family={Ochi},
+           familyi={O\bibinitperiod},
+           given={Luiz\bibnamedelima Satoru},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e66d51181a532494553e80014b34a840}
+      \strng{fullhash}{e66d51181a532494553e80014b34a840}
+      \strng{fullhashraw}{e66d51181a532494553e80014b34a840}
+      \strng{bibnamehash}{e66d51181a532494553e80014b34a840}
+      \strng{authorbibnamehash}{e66d51181a532494553e80014b34a840}
+      \strng{authornamehash}{e66d51181a532494553e80014b34a840}
+      \strng{authorfullhash}{e66d51181a532494553e80014b34a840}
+      \strng{authorfullhashraw}{e66d51181a532494553e80014b34a840}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Heuristics}
+      \field{number}{2}
+      \field{title}{An iterated local search heuristic for the heterogeneous fleet vehicle routing problem}
+      \field{volume}{19}
+      \field{year}{2013}
+      \field{pages}{201\bibrangedash 232}
+      \range{pages}{32}
+    \endentry
+    \entry{rl-zoo3}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=646dfae388f2fca3d68ff9214acd722c}{%
+           family={Raffin},
+           familyi={R\bibinitperiod},
+           given={Antonin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{fullhash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{fullhashraw}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{bibnamehash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{authorbibnamehash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{authornamehash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{authorfullhash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{authorfullhashraw}{646dfae388f2fca3d68ff9214acd722c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/DLR-RM/rl-baselines3-zoo}}
+      \field{journaltitle}{GitHub repository}
+      \field{title}{RL Baselines3 Zoo}
+      \field{year}{2020}
+    \endentry
+    \entry{stable-baselines3}{article}{}{}
+      \name{author}{6}{ul=1}{%
+        {{un=0,uniquepart=base,hash=646dfae388f2fca3d68ff9214acd722c}{%
+           family={Raffin},
+           familyi={R\bibinitperiod},
+           given={Antonin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=165a914db6ae4e223ac87e4baef87090}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Ashley},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f443af3aea10cb9b968ba9d4c0dcbd0d}{%
+           family={Gleave},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c6bdcb44a478971ad9b3b007535f034}{%
+           family={Kanervisto},
+           familyi={K\bibinitperiod},
+           given={Anssi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b76527a76a4bb1c475b635a35021d0ef}{%
+           family={Ernestus},
+           familyi={E\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfc1b2bcb8937cfd9453ed45243e18f2}{%
+           family={Dormann},
+           familyi={D\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5044a4768c7fc20f25fb680bb11f4aaf}
+      \strng{fullhash}{e3c43789f8de334374c8e95d9d514552}
+      \strng{fullhashraw}{e3c43789f8de334374c8e95d9d514552}
+      \strng{bibnamehash}{5044a4768c7fc20f25fb680bb11f4aaf}
+      \strng{authorbibnamehash}{5044a4768c7fc20f25fb680bb11f4aaf}
+      \strng{authornamehash}{5044a4768c7fc20f25fb680bb11f4aaf}
+      \strng{authorfullhash}{e3c43789f8de334374c8e95d9d514552}
+      \strng{authorfullhashraw}{e3c43789f8de334374c8e95d9d514552}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{268}
+      \field{title}{Stable-Baselines3: Reliable Reinforcement Learning Implementations}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v22/20-1364.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v22/20-1364.html
+      \endverb
+    \endentry
+    \entry{schulman2017proximal}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=3e09bd2a25d237ebdaed560a07c0451e}{%
+           family={Schulman},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=674ede0b9cd02a2bf5fc662972efb9f0}{%
+           family={Wolski},
+           familyi={W\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4164e43d8cf919f5e3f8d80f5ea23f36}{%
+           family={Dhariwal},
+           familyi={D\bibinitperiod},
+           given={Prafulla},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be38507da6ab98e7ac01ac2c6b7e13eb}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{fullhash}{a6c6ed5a5aeb74e536f16291276ae392}
+      \strng{fullhashraw}{a6c6ed5a5aeb74e536f16291276ae392}
+      \strng{bibnamehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{authorbibnamehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{authornamehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{authorfullhash}{a6c6ed5a5aeb74e536f16291276ae392}
+      \strng{authorfullhashraw}{a6c6ed5a5aeb74e536f16291276ae392}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1707.06347}
+      \field{title}{Proximal policy optimization algorithms}
+      \field{year}{2017}
+    \endentry
+    \entry{solomon1987algorithms}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c509b0ca1c5ce1ab460732fcf604559}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={Marius\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Informs}%
+      }
+      \strng{namehash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{fullhash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{fullhashraw}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{bibnamehash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{authorbibnamehash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{authornamehash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{authorfullhash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{authorfullhashraw}{7c509b0ca1c5ce1ab460732fcf604559}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations research}
+      \field{number}{2}
+      \field{title}{Algorithms for the vehicle routing and scheduling problems with time window constraints}
+      \field{volume}{35}
+      \field{year}{1987}
+      \field{pages}{254\bibrangedash 265}
+      \range{pages}{12}
+    \endentry
+    \entry{subramanian2013hybrid}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=010571c164ca89ae5a13d1d2878d0afa}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9293b2d5823d46588ac54246dd5b2eb2}{%
+           family={Uchoa},
+           familyi={U\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11068c836bcbfc1170e412fcc70fb3c6}{%
+           family={Ochi},
+           familyi={O\bibinitperiod},
+           given={Luiz\bibnamedelima Satoru},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5a793208e379478aabedff7462fb96da}
+      \strng{fullhash}{5a793208e379478aabedff7462fb96da}
+      \strng{fullhashraw}{5a793208e379478aabedff7462fb96da}
+      \strng{bibnamehash}{5a793208e379478aabedff7462fb96da}
+      \strng{authorbibnamehash}{5a793208e379478aabedff7462fb96da}
+      \strng{authornamehash}{5a793208e379478aabedff7462fb96da}
+      \strng{authorfullhash}{5a793208e379478aabedff7462fb96da}
+      \strng{authorfullhashraw}{5a793208e379478aabedff7462fb96da}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{number}{10}
+      \field{title}{A hybrid algorithm for a class of vehicle routing problems}
+      \field{volume}{40}
+      \field{year}{2013}
+      \field{pages}{2519\bibrangedash 2531}
+      \range{pages}{13}
+    \endentry
+    \entry{sugimori1977toyota}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a6cf58228e5c10bcec51ec00cc1a9970}{%
+           family={Sugimori},
+           familyi={S\bibinitperiod},
+           given={Yutaka},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3a5e87891a2a264c02ecad84b577486}{%
+           family={Kusunoki},
+           familyi={K\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69eb0b84e1365f660db7066e4705dcbb}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Fujio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1df0cfec57f134877834f3692c621b8}{%
+           family={UCHIKAWA},
+           familyi={U\bibinitperiod},
+           given={SJTIJOPR},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{0af8f6d74453c7eed473cc8d26cb6a88}
+      \strng{fullhash}{549f0c05735516dc375451afebfe5982}
+      \strng{fullhashraw}{549f0c05735516dc375451afebfe5982}
+      \strng{bibnamehash}{0af8f6d74453c7eed473cc8d26cb6a88}
+      \strng{authorbibnamehash}{0af8f6d74453c7eed473cc8d26cb6a88}
+      \strng{authornamehash}{0af8f6d74453c7eed473cc8d26cb6a88}
+      \strng{authorfullhash}{549f0c05735516dc375451afebfe5982}
+      \strng{authorfullhashraw}{549f0c05735516dc375451afebfe5982}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The international journal of production research}
+      \field{number}{6}
+      \field{title}{Toyota production system and kanban system materialization of just-in-time and respect-for-human system}
+      \field{volume}{15}
+      \field{year}{1977}
+      \field{pages}{553\bibrangedash 564}
+      \range{pages}{12}
+    \endentry
+    \entry{ta2015heuristic}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=63589df51de18fc3c17895fcbb4261f4}{%
+           family={Ta},
+           familyi={T\bibinitperiod},
+           given={Quang\bibnamedelima Chieu},
+           giveni={Q\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c113763f444eda7f15fa8ccfe85f2b1}{%
+           family={Billaut},
+           familyi={B\bibinitperiod},
+           given={Jean-Charles},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df52f886bb35f2d8f55240c0bb8b430c}{%
+           family={Bouquard},
+           familyi={B\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{fullhash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{fullhashraw}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{bibnamehash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{authorbibnamehash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{authornamehash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{authorfullhash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{authorfullhashraw}{b781b986d2b57f9811cca9d670d9c96c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 International conference on industrial engineering and systems management (IESM)}
+      \field{title}{Heuristic algorithms to minimize the total tardiness in a flow shop production and outbound distribution scheduling problem}
+      \field{year}{2015}
+      \field{pages}{128\bibrangedash 134}
+      \range{pages}{7}
+    \endentry
+    \entry{tamannaei2019mathematical}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=986417a1fafbd7996fc161113074c328}{%
+           family={Tamannaei},
+           familyi={T\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8a0f7a12999b121a165b9ca7d150e16}{%
+           family={Rasti-Barzoki},
+           familyi={R\bibinithyphendelim B\bibinitperiod},
+           given={Morteza},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{fullhash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{fullhashraw}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{bibnamehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{authorbibnamehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{authornamehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{authorfullhash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{authorfullhashraw}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{title}{Mathematical programming and solution approaches for minimizing tardiness and transportation costs in the supply chain scheduling problem}
+      \field{volume}{127}
+      \field{year}{2019}
+      \field{pages}{643\bibrangedash 656}
+      \range{pages}{14}
+    \endentry
+    \entry{ullrich2013integrated}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=2e780a197b69bb2734ad6c5dd31906d2}{%
+           family={Ullrich},
+           familyi={U\bibinitperiod},
+           given={Christian\bibnamedelima A},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{fullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{fullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{bibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorbibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authornamehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorfullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorfullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{1}
+      \field{title}{Integrated machine scheduling and vehicle routing with time windows}
+      \field{volume}{227}
+      \field{year}{2013}
+      \field{pages}{152\bibrangedash 165}
+      \range{pages}{14}
+    \endentry
+    \entry{ULLRICH2013152}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=2e780a197b69bb2734ad6c5dd31906d2}{%
+           family={Ullrich},
+           familyi={U\bibinitperiod},
+           given={Christian\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{fullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{fullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{bibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorbibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authornamehash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorfullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorfullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
+      \field{extraname}{2}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{1}
+      \field{title}{Integrated machine scheduling and vehicle routing with time windows}
+      \field{volume}{227}
+      \field{year}{2013}
+      \field{pages}{152\bibrangedash 165}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ejor.2012.11.049
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221712009010
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221712009010
+      \endverb
+      \keyw{Supply Chain Scheduling,Parallel machines,Vehicle routing,Time windows,Total tardiness,Genetic algorithm}
+    \endentry
+    \entry{vasconcelos2021algoritmo}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c478da1f751bbbd837f7670e9b5a61bc}{%
+           family={VASCONCELOS},
+           familyi={V\bibinitperiod},
+           given={AM},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=26eebb255b9043be919b56f6c066912d}{%
+           family={SOUZA},
+           familyi={S\bibinitperiod},
+           given={MJF},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a338db3882114c9c89b9b8a06f901346}{%
+           family={SOUZA},
+           familyi={S\bibinitperiod},
+           given={SR\bibnamedelima DE},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {SciELO Brasil}%
+      }
+      \strng{namehash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{fullhash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{fullhashraw}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{bibnamehash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{authorbibnamehash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{authornamehash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{authorfullhash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{authorfullhashraw}{7a273753165d4ad4a49c8a23e2c5a200}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Computational and Applied Mathematics}
+      \field{number}{3}
+      \field{title}{Algoritmo GVNS Híbrido Aplicado ao Problema das p-Medianas Capacitado}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{453\bibrangedash 473}
+      \range{pages}{21}
+    \endentry
+    \entry{VIDAL2020401}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f8b1fe2b57f8a82a140583738588869a}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Thibaut},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d6e9fe0f2d8b8a132ebe0ace7645d51}{%
+           family={Laporte},
+           familyi={L\bibinitperiod},
+           given={Gilbert},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1276cad76b7c1bf40b2b08b00586b7a0}{%
+           family={Matl},
+           familyi={M\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{fullhash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{fullhashraw}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{bibnamehash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authorbibnamehash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authornamehash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authorfullhash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authorfullhashraw}{ed84fff1d17f359a12ae1e35f6118132}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{2}
+      \field{title}{A concise guide to existing and emerging vehicle routing problem variants}
+      \field{volume}{286}
+      \field{year}{2020}
+      \field{pages}{401\bibrangedash 416}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ejor.2019.10.010
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221719308422
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221719308422
+      \endverb
+      \keyw{Transportation,Combinatorial optimization,Vehicle routing problem,Challenges and perspectives}
+    \endentry
+    \entry{wang2020variable}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=9539f8ac7aea1165c72ac3da53ebccc7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shijin},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=98d3ffd77ad477bb7e097e37d0298931}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ruochen},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbf2eb37453cc594793dac25f234a537}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=121006644dad4c2e6dfdbbdfe09305e5}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jianbo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{7889317db3d6001249aa686a74d3bc11}
+      \strng{fullhash}{948c3101478b1cdb0f34f7027b15cd69}
+      \strng{fullhashraw}{948c3101478b1cdb0f34f7027b15cd69}
+      \strng{bibnamehash}{7889317db3d6001249aa686a74d3bc11}
+      \strng{authorbibnamehash}{7889317db3d6001249aa686a74d3bc11}
+      \strng{authornamehash}{7889317db3d6001249aa686a74d3bc11}
+      \strng{authorfullhash}{948c3101478b1cdb0f34f7027b15cd69}
+      \strng{authorfullhashraw}{948c3101478b1cdb0f34f7027b15cd69}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Soft Computing}
+      \field{number}{12}
+      \field{title}{Variable neighborhood search-based methods for integrated hybrid flow shop scheduling with distribution}
+      \field{volume}{24}
+      \field{year}{2020}
+      \field{pages}{8917\bibrangedash 8936}
+      \range{pages}{20}
+    \endentry
+    \entry{WangLi2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=bbe869383a7d3458b82c516a21e4482c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=ef065b28c31984323fd6d3483d29aafd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{fullhash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{fullhashraw}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{bibnamehash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{authorbibnamehash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{authornamehash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{authorfullhash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{authorfullhashraw}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A.}
+      \field{title}{Detecting communities by the core-vertex and intimate degree in complex networks}
+      \field{volume}{392}
+      \field{year}{2013}
+      \field{pages}{2555\bibrangedash 2563}
+      \range{pages}{9}
+    \endentry
+    \entry{YAGMUR2024121586}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8549d9100708e4cf44895107535ff377}{%
+           family={Yağmur},
+           familyi={Y\bibinitperiod},
+           given={Ece},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6766e59c917d76d4518f01ca683465c3}{%
+           family={Kesen},
+           familyi={K\bibinitperiod},
+           given={Saadettin\bibnamedelima Erhan},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{fullhash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{fullhashraw}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{bibnamehash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{authorbibnamehash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{authornamehash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{authorfullhash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{authorfullhashraw}{08ea746899a6e2728b3529e9fc64e974}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Integrated production scheduling and vehicle routing problem with energy efficient strategies: Mathematical formulation and metaheuristic algorithms}
+      \field{volume}{237}
+      \field{year}{2024}
+      \field{pages}{121586}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.eswa.2023.121586
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417423020882
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417423020882
+      \endverb
+      \keyw{Parallel machine scheduling,Machine speed mode,Vehicle routing,Earliness,Tardiness,Mathematical model}
+    \endentry
+    \entry{yildiz2023variable}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ae9cf95ae5ae16034bf7598d07fd0494}{%
+           family={Yildiz},
+           familyi={Y\bibinitperiod},
+           given={Seyda\bibnamedelima Topaloglu},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=164446ee5993842686767a31d610ff6c}{%
+           family={Ozcan},
+           familyi={O\bibinitperiod},
+           given={Sel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bd88f2f700732fc56ae1f1b92cdaab8}{%
+           family={Cevik},
+           familyi={C\bibinitperiod},
+           given={Neslihan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{fullhash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{fullhashraw}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{bibnamehash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{authorbibnamehash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{authornamehash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{authorfullhash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{authorfullhashraw}{02c6540be89048caeaa398e33b11f8ac}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Engineering Research}
+      \field{title}{Variable neighborhood search-based algorithms for the parallel machine capacitated lot-sizing and scheduling problem}
+      \field{year}{2023}
+      \field{pages}{100145}
+      \range{pages}{1}
+    \endentry
+    \entry{zar1999biostatistical}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=efbb4246e8c471287a8116b3680cb18c}{%
+           family={Zar},
+           familyi={Z\bibinitperiod},
+           given={Jerrold\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{fullhash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{fullhashraw}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{bibnamehash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{authorbibnamehash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{authornamehash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{authorfullhash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{authorfullhashraw}{efbb4246e8c471287a8116b3680cb18c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Jersey, USA}
+      \field{title}{Biostatistical analysis. 4th}
+      \field{year}{1999}
+      \field{pages}{929}
+      \range{pages}{1}
+    \endentry
+    \entry{zhang2020enhanced}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=4f3bb1d3c7fa2a05241e353723deaf63}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=de9a120c50cfc4c6d948b3088414b189}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiang-Tao},
+           giveni={X\bibinithyphendelim T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=dc14296ffc04ca1f70306306ae78c956}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Ming-Hao},
+           giveni={M\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Inderscience Publishers (IEL)}%
+      }
+      \strng{namehash}{459ef31bad1459c972bb228d192f5926}
+      \strng{fullhash}{459ef31bad1459c972bb228d192f5926}
+      \strng{fullhashraw}{459ef31bad1459c972bb228d192f5926}
+      \strng{bibnamehash}{459ef31bad1459c972bb228d192f5926}
+      \strng{authorbibnamehash}{459ef31bad1459c972bb228d192f5926}
+      \strng{authornamehash}{459ef31bad1459c972bb228d192f5926}
+      \strng{authorfullhash}{459ef31bad1459c972bb228d192f5926}
+      \strng{authorfullhashraw}{459ef31bad1459c972bb228d192f5926}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Bio-Inspired Computation}
+      \field{number}{2}
+      \field{title}{An enhanced genetic algorithm for the distributed assembly permutation flowshop scheduling problem}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{113\bibrangedash 124}
+      \range{pages}{12}
+    \endentry
+    \entry{zhu2020deep}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6c2542160103b0fbba4e6bb8b13ec1cf}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Jialin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=27495732005ab1aac95d71bd44b44824}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Huangang},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{fullhash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{fullhashraw}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{bibnamehash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{authorbibnamehash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{authornamehash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{authorfullhash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{authorfullhashraw}{69fded7c8bbae658d1d2fe41784d083d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE 9th Data Driven Control and Learning Systems Conference (DDCLS)}
+      \field{title}{A deep reinforcement learning approach to the flexible flowshop scheduling problem with makespan minimization}
+      \field{year}{2020}
+      \field{pages}{1220\bibrangedash 1225}
+      \range{pages}{6}
+    \endentry
+    \entry{zou2018coordinated}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=597ce6f9f18006ffc071e3fbbb24dc91}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Xuxia},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c17a20c4acfa6f32b73321fc505433b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed011651758f9d0d06ea4862c4902fb8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Kunpeng},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd3fbec67ef61e956846d58e4dcef9cc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wenli},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
+      \strng{fullhash}{a2b5368b0c51ec997ddf3c1b26521bd0}
+      \strng{fullhashraw}{a2b5368b0c51ec997ddf3c1b26521bd0}
+      \strng{bibnamehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
+      \strng{authorbibnamehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
+      \strng{authornamehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
+      \strng{authorfullhash}{a2b5368b0c51ec997ddf3c1b26521bd0}
+      \strng{authorfullhashraw}{a2b5368b0c51ec997ddf3c1b26521bd0}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Production Research}
+      \field{number}{15}
+      \field{title}{A coordinated algorithm for integrated production scheduling and vehicle routing problem}
+      \field{volume}{56}
+      \field{year}{2018}
+      \field{pages}{5005\bibrangedash 5024}
+      \range{pages}{20}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,1141 @@
+% Emerald Publishing - JAMR FINAL
+% by Oleksandr Melnyk
+% Ver 0.0.4
+% Based on: https://www.emeraldgrouppublishing.com/journal/ci#author-guidelines
+
+
+\documentclass{article}
+
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amssymb}
+\usepackage{siunitx}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[right]{lineno}
+\usepackage{csquotes}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{url}
+\usepackage{titlesec}
+%\usepackage[compatibility=false]{caption}
+\usepackage{authblk}
+\usepackage{xcolor} % Load the xcolor package for color options
+\renewcommand{\thetable}{\Roman{table}}
+
+
+\usepackage{eqndefns-left} % For checking the display equation width and equation environment definitions %
+\RequirePackage{tgtermes}
+\RequirePackage{newtxtext}
+\RequirePackage{newtxmath}
+\RequirePackage{bm}
+\RequirePackage{endnotes}
+
+%\OneAndAHalfSpacedXI
+%\OneAndAHalfSpacedXII % Current default line spacing
+%%\DoubleSpacedXI
+%%\DoubleSpacedXII
+
+%% ---------- PACKAGE MATHEUS ------
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage{mathrsfs}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{listings}%
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{scalefnt}
+\usepackage{booktabs}
+\usepackage{booktabs}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage{url}
+\usepackage{setspace}
+
+
+%% ---------- PACKAGE MATHEUS ------
+
+
+
+% Define a new format for \subsection
+\titleformat{\subsection}
+  {\mdseries\itshape\large} % Medium series, italic shape, and large font size
+  {\thesubsection}{1em}{} % Numbering, spacing, and the section title itself
+
+
+% Emerald Harvard Citation Style
+
+\usepackage[english]{babel}
+\usepackage[style=authoryear,backend=biber,natbib=true,maxcitenames=2,uniquelist=false]{biblatex}
+\addbibresource{sample.bib} % your .bib file
+
+% Customizing biblatex for Harvard style
+% Customizing biblatex for Harvard style
+\DeclareNameAlias{sortname}{family-given}
+\DeclareNameAlias{default}{family-given}
+
+\renewbibmacro{in:}{}
+\DeclareFieldFormat[article]{title}{\mkbibquote{#1}\addcomma}
+\DeclareFieldFormat[book]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[bookinbook]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[inbook]{title}{\mkbibquote{#1}\addcomma}
+\DeclareFieldFormat[incollection]{title}{\mkbibquote{#1}\addcomma}
+\DeclareFieldFormat[inproceedings]{title}{\mkbibquote{#1}\addcomma}
+\DeclareFieldFormat[manual]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[misc]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[thesis]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[unpublished]{title}{\mkbibquote{#1}\addcomma}
+\DeclareFieldFormat[patent]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[report]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[online]{title}{\mkbibquote{#1}\addcomma}
+\DeclareFieldFormat[software]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[booklet]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[periodical]{title}{\mkbibemph{#1}\addcomma}
+\DeclareFieldFormat[standard]{title}{\mkbibemph{#1}\addcomma}
+
+\DeclareFieldFormat[article]{journaltitle}{\iffieldundef{shortjournal}{\mkbibemph{#1}\addcomma}{\mkbibemph{\printfield{shortjournal}}\addcomma}}
+\DeclareFieldFormat{volume}{\bibstring{volume}~#1}
+\DeclareFieldFormat{number}{\bibstring{number}~#1}
+
+% Definitions for "Vol." and "No."
+\DefineBibliographyStrings{english}{
+  volume = {Vol.},
+  number = {No.}
+}
+
+\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+  \setunit*{\addspace}%
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}}
+
+\renewbibmacro*{journal+issuetitle}{%
+  \usebibmacro{journal}%
+  \setunit*{\addcomma\space}%
+  \usebibmacro{volume+number+eid}%
+  \setunit{\addcomma\space}%
+  \usebibmacro{issue+date}}
+
+\renewbibmacro*{publisher+location+date}{%
+  \printlist{publisher}%
+  \iflistundef{location}
+    {\setunit*{\addcomma\space}}
+    {\setunit*{\addcolon\space}}%
+  \printlist{location}%
+  \setunit*{\addcomma\space}%
+  \usebibmacro{date}}
+
+\renewcommand*{\bibpagespunct}{\addcomma\space}
+
+% Customizing page field format to prevent duplication
+% \DeclareFieldFormat{pages}{%
+%   \mkfirstpage[{\mkpageprefix[page]{#1}}]{#1}}
+
+% Customizing citations for Harvard style
+\DeclareCiteCommand{\cite}[\mkbibparens]
+  {\usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{cite}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\renewbibmacro*{cite:labelyear+extrayear}{%
+  \iffieldundef{labelyear}
+    {}
+    {\printtext[bibhyperref]{%
+       \printfield{labelyear}%
+       \printfield{extrayear}}}}
+
+\renewbibmacro*{cite:labeldate+extradate}{%
+  \iffieldundef{labelyear}
+    {}
+    {\printtext[bibhyperref]{%
+       \printfield{labelyear}%
+       \printfield{extradate}}}}
+
+\AtEveryBibitem{
+  \clearfield{month}
+  \clearfield{day}
+  \ifentrytype{book}{
+    \clearlist{location}
+  }{}
+}
+
+% Formatting "et al." in italics followed by a comma
+\DefineBibliographyStrings{english}{
+  andothers = {\textit{et al.},}
+}
+
+\DeclareFieldFormat[article]{volume}{\bibstring{jourvol}\addnbspace #1}
+\DeclareFieldFormat[article]{number}{\bibstring{number}\addnbspace #1}
+\DeclareFieldFormat[article]{volume}{Vol. #1}
+\DeclareFieldFormat[article]{number}{No. #1}
+% Customizing DOI field format to lowercase "doi"
+\DeclareFieldFormat{doi}{\bibstring{doi}\addcolon\space\url{#1}}
+
+% Customizing URL field format to "available at:"
+\DeclareFieldFormat{url}{\bibstring{available at}\addcolon\space\url{#1}}
+\DeclareFieldFormat{urldate}{\mkbibparens{accessed \addspace#1}}
+
+% Customizing urldate to match the required format
+\DeclareFieldFormat{urldate}{%
+  \mkbibparens{accessed\space%
+    \thefield{urlday}\addspace%
+    \mkbibmonth{\thefield{urlmonth}}\addspace%
+    \thefield{urlyear}}}
+
+
+% Configure cleveref
+\usepackage{cleveref}
+\crefformat{figure}{#2Figure~#1#3}
+\Crefformat{figure}{#2Figure~#1#3}
+\crefformat{table}{#2Table~#1#3}
+\Crefformat{table}{#2Table~#1#3}
+\crefformat{section}{#2Section~#1#3}
+\Crefformat{section}{#2Section~#1#3}
+
+\begin{document}
+\title{AI-Enhanced Integration of Production Planning and Vehicle Routing in Logistics Operations: A Hybrid Metaheuristic Framework}
+\maketitle
+
+\begin{abstract}
+\textbf{Purpose} - Integrating production planning on unrelated parallel machines with the vehicle routing problem in modern logistics operations presents significant challenges. This study addressed this integration to optimize operational efficiency and meet customer demands.
+
+\textbf{Design/Methodology/Approach} - 
+
+%This study relies on a comprehensive approach comprising three methods: a Mixed Integer Linear Programming Model (MILPM), a Constructive Heuristic, and a Neighborhood Search Heuristic. In addition, a novel framework incorporating machine learning predicts the most effective heuristic for each instance. Furthermore, we introduce a pioneering RVND metaheuristic and a Hybrid Metaheuristic (PPO-VND), merging Variable Neighborhood Descent (VND) with Reinforcement Learning Algorithm, Proximal Policy Optimization (PPO).
+
+This study presents a comprehensive solution framework that combines exact and heuristic methods. First, we formulate a Mixed Integer (MIP) Programming model and develop two tailored heuristics—a constructive heuristic and a neighborhood search heuristic—to generate high-quality solutions. Next, we propose a machine learning–based selection mechanism that predicts, for each problem instance, which heuristic will perform best. Finally, we introduce two novel metaheuristics: a randomized variable neighborhood descent (RVND) algorithm and a hybrid framework (PPO-VND) that integrates variable neighborhood descent (VND) with the Proximal Policy Optimization (PPO) reinforcement learning algorithm. Together, these contributions offer a robust, adaptive toolkit for solving complex instances across diverse settings.
+
+\textbf{Findings} - Comparative tests demonstrate the superiority of our proposed methods over existing approaches, confirming their effectiveness in addressing the critical challenges posed by integrated production planning and vehicle routing in logistics operations.
+
+\textbf{Originality/Value} - Our work highlights the key role of Artificial Intelligence (AI) in logistics optimization, promoting adaptability and resilience in dynamic operational environments.These innovations significantly improve solution quality and computational efficiency.
+
+%add 6 keywords
+\textbf{Keywords:} Integrated Production Planning Problem; Parallel Machine Scheduling; Vehicle Routing Problem; Hybrid Metaheuristic; Unsupervised Learning; Reinforcement Learning
+\end{abstract}
+\linenumbers
+
+%\section*{Template Overview}
+%\textcolor{blue}{This \LaTeX template is designed to incorporate the specific Harvard citation style defined by Emerald Publishing, along with section styles and other adjustments required for submission in Construction Innovation journal.
+%Users should adapt the styling to align with the guidelines of the journal to which they are submitting their article. Make sure to remove the authors' names and acknowledgements if you are submitting an anonymous file for double-blind peer review.}
+
+\section{Introduction}
+\label{sec:introduction}
+
+In recent years, global supply chains have faced unprecedented disruptions, highlighting the vulnerability of logistics networks to external shocks such as pandemics, geopolitical conflicts, and fluctuations in demand. These challenges have underscored the urgent need for more resilient, adaptive, and integrated production and distribution systems, capable of maintaining high service levels under uncertainty.
+
+Traditionally, production planning and distribution routing have been treated as separate optimization problems, often leading to suboptimal solutions that fail to capture the synergies of joint decision-making. However, with the advent of Industry 4.0 and the increasing digitalization of industrial processes, the boundaries between production and logistics are becoming increasingly blurred. Integrating these domains is now recognized as a key lever for achieving operational excellence, cost savings, and enhanced customer satisfaction in highly competitive markets.
+
+Despite significant advances, existing approaches frequently rely on simplified models or heuristic methods that may not scale well or deliver the level of responsiveness required by decentralized, real-time logistics environments. Moreover, while metaheuristics have demonstrated success in tackling large-scale combinatorial problems, the potential of Artificial Intelligence—particularly machine learning and reinforcement learning—for orchestrating adaptive and intelligent logistics operations remains largely untapped.
+
+Our study delves into the intricacies of decentralized production systems, where the seamless integration of production planning and distribution is paramount. Unlike conventional methodologies primarily focused on cost reduction and resource optimization, our research shines a spotlight on enhancing customer service levels. By prioritizing the minimization of total weighted delay in product delivery to customers, our study aligns with the evolving demands of contemporary logistics operations. Leveraging insights from JIT principles and AI-driven optimization, we navigate the complexities of Industry 4.0, fostering synchronized supply chains and driving operational efficiency. Through a holistic approach that emphasizes service quality and responsiveness, our research contributes to the ongoing discourse on optimizing logistics operations within the dynamic landscape of Industry 4.0.
+
+The potential contributions of this article are significant. First, we introduce a Mixed Integer Linear Programming (MILP) model that solves the integrated problem of production planning on unrelated parallel machines and the routing of capable vehicles. Furthermore, we present an initial solution algorithm and eight neighborhood search heuristics (NSH). The study also presents an innovative framework based on machine learning that can predict the most effective NSH heuristic to solve each instance. Furthermore, a hybrid metaheuristic combines the heuristic Variable Neighborhood Descent (VND) with the reinforcement learning algorithm Proximal Policy Optimization (PPO), significantly improving solution quality and computational efficiency. Finally, detailed comparisons demonstrate the superiority of the proposed AI approaches over the others presented, with the framework standing out better than NSH and the PPO-VND standing out in instances of greater complexity. These contributions demonstrate the relevance and innovation of optimizing logistics operations.
+
+This paper is organized as follows: Section \ref{sec:LiteratureReview} presents a literature review, Sections \ref{sec:ProblemDefinition} and \ref{sec:Mixed_Integer_Linear_Programming} present the research problem and describe the mathematical model, respectively. Section \ref{sec:algorithm}  presents the Constitutive Heuristics, the Neighborhood Search Heuristics, the framework, the Proximal Policy Optimization, the metaheuristic Random Variable Neighborhood Search (RVND), and the hybrid metaheuristic PPO-VND. In Section \ref{sec:ComputationalExperiments}, we present the computational experiments conducted for this research. Finally, Section \ref{sec:Conclusions} concludes the study.
+
+\section{Literature Review}
+\label{sec:LiteratureReview}
+
+Integrated production and distribution planning problems, extensively studied and exemplified by researchers such as \cite{chen2004integrated}; \citep{chen2010integrated} and practical applications showcased by \cite{ullrich2013integrated}, \cite{YAGMUR2024121586}, \cite{MOHAMMADI2020347}, \cite{boudia2008fast}, and \cite{tamannaei2019mathematical}, are at the forefront of addressing contemporary logistics complexities. In the context of Industry 4.0, where the Just in Time (JIT) system emerges as a solution to the challenges of operating without stock, seamless connectivity throughout the entire supply chain is imperative. The main idea of the JIT system is to create only what is necessary when it is necessary and with the appropriate resources. This approach helps minimize excess inventory and lowers storage costs. However, its mastery hinges upon the interconnectedness, alignment, and readiness of the entire supply chain to fulfill demands promptly and efficiently, underscoring the pivotal role of Artificial Intelligence (AI) in optimizing logistics operations within the Industry 4.0 framework.
+
+The principles of Just in Time (JIT) production, exemplified by Toyota’s pioneering adoption and subsequent success in the automotive industry \cite{ghinato1995sistema}; \cite{monden2011toyota}; \cite{sugimori1977toyota}, underscore the tangible benefits of streamlined operations within manufacturing and assembly industries. As JIT systems minimize inventories, waste, and idle time while enhancing efficiency and operational effectiveness, they align seamlessly with the challenges of contemporary logistics highlighted in the preceding paragraph. In the era of Industry 4.0, where decentralized production systems demand interconnectedness and agility, JIT principles resonate deeply, emphasizing the need for synchronized supply chains and optimized processes. This symbiotic relationship between JIT methodologies and the logistics landscape underscores the vital role of Artificial Intelligence (AI) in orchestrating seamless operations, driving efficiency, and ensuring the timely delivery of goods and services amidst evolving complexities.
+
+
+\begin{table}
+\centering 
+\caption{Overview of articles related to integrating production planning with the vehicle routing problem and similar to our work. The table includes columns specifying the machine configuration, type and number of vehicles in VRP, authors’ names, and checkmarks indicating whether the article contains one or more mathematical models, heuristics, metaheuristics, and artificial intelligence.\label{tabela:trabalhos}}
+ 
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|ll|l|l|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Machine Configuration}}                                              & \multicolumn{2}{c|}{Vehicle Routing Problem}                     & \multicolumn{1}{c|}{\multirow{2}{*}{Author(s)}}                                                                                                                                                            & \multicolumn{1}{c|}{\multirow{2}{*}{Math Model}} & \multicolumn{1}{c|}{\multirow{2}{*}{Heuristic}} & \multicolumn{1}{c|}{\multirow{2}{*}{Metaheuristic}} & \multicolumn{1}{c|}{\multirow{2}{*}{IA}} \\ %\cline{2-3}
+\multicolumn{1}{|c|}{}                                                                                    & \multicolumn{1}{c}{Type}           & \multicolumn{1}{c|}{Number} & \multicolumn{1}{c|}{}                                                                                                                                                                                      & \multicolumn{1}{c|}{}                            & \multicolumn{1}{c|}{}                           & \multicolumn{1}{c|}{}                               & \multicolumn{1}{c|}{}                    \\ \hline
+Flexible flowshop                                                                                         & \multicolumn{2}{l|}{Scheduling problem only}                     & Zhu et al. \cite{zhu2020deep}                                                                                                                                                             & yes                                              & yes                                             & yes                                                 & yes                                      \\ \hline
+Hybrid Flow Shop                                                                                          & \multicolumn{2}{l|}{Scheduling problem only}                     & Nahhas et al. \cite{nahhas2022deep}                                                                                                                                                       & no                                               & no                                              & no                                                  & yes                                      \\ \hline
+Vehicle Routing Problem only                                                                                                & \multicolumn{1}{l|}{Homogeneous}   & Single                     & 
+\begin{tabular}[c]{@{}l@{}}Peng et al. (\cite{peng2020deep}) \\ Nazari et al. (\cite{nazari2018reinforcement})\end{tabular}   
+                                                                                                                                                     & no                                              & no                                              & no                                                 & yes                                       \\ \hline
+
+
+Flow shop                                                                                                 & \multicolumn{1}{l|}{Homogeneous}   & Limited                     & Hou et al. (\cite{hou2022modelling})                                                                                                                                                      & yes                                              & no                                              & yes                                                 & no                                       \\ \hline
+Flow shop                                                                                                 & \multicolumn{1}{l|}{Homogeneous}   & Single                      & Ta et al. \cite{ta2015heuristic}                                                                                                                                                          & yes                                              & yes                                             & no                                                  & no                                       \\ \hline
+Permutation flow-shop                                                                                     & \multicolumn{1}{l|}{Homogeneous}   & Single                      & Naganoa et al. (\cite{nagano2022solution})                                                                                                                                                & yes                                              & no                                              & yes                                                 & no                                       \\ \hline
+Hybrid flow-shop                                                                                          & \multicolumn{1}{l|}{Homogeneous}   & Single                      & \begin{tabular}[c]{@{}l@{}}Martins et al. (\cite{martins2021combining}), \\ Wang et al. (\cite{wang2020variable})\end{tabular}                                           & yes                                              & no                                              & yes                                                 & no                                       \\ \hline
+Flexible job-shop                                                                                         & \multicolumn{1}{l|}{Heterogeneous} & Limited                     & Mohammadi et al. \cite{MOHAMMADI2020347}                                                                                                                                                  & yes                                              & no                                              & yes                                                 & no                                       \\ \hline
+Single machine                                                                                            & \multicolumn{1}{l|}{Homogeneous}   & Limited                     & \begin{tabular}[c]{@{}l@{}}Tamannaei et al. \cite{tamannaei2019mathematical}, \\ Liu et al. \cite{liu2020coordinated}\end{tabular}                                       & yes                                              & yes                                             & yes                                                 & no                                       \\ \hline
+Single machine                                                                                            & \multicolumn{1}{l|}{Heterogeneous} & Limited                     & \begin{tabular}[c]{@{}l@{}}Felix et al. \cite{FelixArroyo}, \\ Arroyo et al. \cite{Arroyo_felix}, \\ Zou et al. \cite{zou2018coordinated}\end{tabular} & yes                                              & yes                                             & yes                                                 & no                                       \\ \hline
+Identical parrallel machines                                                                              & \multicolumn{1}{l|}{Heterogeneous} & Limited                     & Yagmur et al. \cite{YAGMUR2024121586}                                                                                                                                                     & yes                                              & no                                              & yes                                                 & no                                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}Parallel machines with machine-\\ dependent ready times\end{tabular}           & \multicolumn{1}{l|}{Heterogeneous} & Limited                     & Ullrich et al. \cite{ULLRICH2013152}                                                                                                                                                      & yes                                              & no                                              & yes                                                 & no                                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}Unrelated parallel machines \\ with machine-dependent ready times\end{tabular} & \multicolumn{1}{l|}{Heterogeneous} & Limited                     & Araujo et al. \cite{de2022heuristics}                                                                                                                                                     & no                                               & yes                                             & no                                                  & yes                                      \\ \hline
+\begin{tabular}[c]{@{}l@{}}Unrelated parallel machines \\ with machine-dependent ready times\end{tabular} & \multicolumn{1}{l|}{Heterogeneous} & Limited                     & Our Approach                                                                                                                                                                                               & yes                                              & yes                                             & yes                                                 & yes                                      \\ \hline
+\end{tabular}}}
+{}
+\text{(Source: Authors own work)}
+\end{table}
+
+We provide an overview featuring articles related to integrating production planning with the vehicle routing problem in Table I. Drawing on the insights from various authors who have explored integrated production and distribution planning systems, our study delves into the challenges posed by decentralized production systems. \citep{nagano2022solution} contribute to this discourse by investigating an integrated production and distribution problem within a flow shop system and capable vehicle routing. Their objective, to sequence orders and minimize the makespan, underscores the importance of streamlined operations and efficient resource utilization. In tandem with these endeavors, our research emphasizes optimizing customer service levels. By integrating insights from such studies with JIT methodologies and AI-driven optimization techniques, we strive to address the complexities of Industry 4.0, fostering agile and responsive supply chains.
+
+Aligned with previous research endeavors, \citep{martins2021combining} investigated an analogous integrated problem, focusing on a hybrid flow-shop configuration for production. Their study highlights makespan optimization using a mixed integer linear programming model and a biased random variable neighborhood descent (BR-VND) algorithm. Such insights contribute to the ongoing discourse on integrated production and distribution planning systems, paving the way for enhanced operational efficiency and resource utilization within contemporary logistics frameworks.
+
+Expanding on previous investigations, such as those conducted by \citep{martins2021combining}, and in line with the research by \citep{hou2022modelling} addressing an integrated problem within a distributed flow shop and multi-depot vehicle routing environment, Hou et al. present an enhanced brainstorming optimization (EBSO) algorithm to minimize total weighted advances and delays, comparing its results with various other algorithms, including the discrete artificial bee colony (DABC) algorithm \cite{duan2018effective}, iterative greedy algorithm (IG) \cite{mao2021effective}, genetic algorithm (GA) \cite{zhang2020enhanced}, memetic algorithm (MA) \cite{kurdi2020memetic}, and scatter search algorithm (SS) \cite{pan2019effective}. These approaches collectively contribute to advancing operational efficiency and optimization within contemporary logistics paradigms.
+
+In addition to the previously mentioned studies, other researchers have explored integrated production and distribution problems under various configurations. For instance, \citep{ullrich2013integrated} examined the integration of machine scheduling and vehicle routing with time windows, highlighting the inherent complexity of coordinating shop floor operations with outbound logistics. This study underscores the importance of aligning production sequences with delivery constraints to achieve overall efficiency.
+
+Building on this, \cite{WangLi2013} addressed a related problem that integrates production planning with vehicle routing involving multiple trips, time windows, and uncertain travel times. Their work emphasizes the necessity of accounting for uncertainty and proposes robust optimization models to handle variability in logistical parameters, which is especially relevant in real-world operational settings.
+
+Another critical and emerging line of research involves the incorporation of learning mechanisms into metaheuristics. \citep{iklassov2024reinforcementlearningsolvingstochastic}, for example, introduced a reinforcement learning framework for solving the stochastic vehicle routing problem with time windows. Their results reveal the significant potential of AI-driven algorithms to adapt to dynamic environments and learn efficient routing policies over time—directly inspiring the reinforcement learning component (PPO) employed in our hybrid metaheuristic.
+
+\citep{wang2020variable} addressed a three-stage hybrid flow shop scheduling problem incorporating product distribution. Their study involves Stage 1 utilizing a system of identical parallel machines with sequence-dependent setup times, Stage 2 employing dedicated machines, and Stage 3 focusing on the multitrip traveling salesman problem with capable vehicles, all aimed at minimizing the maximum delivery completion time. To tackle this challenge, Wang et al. proposed a mixed integer linear programming model alongside methods based on variable neighborhood search (VNS), a four-layer constructive heuristic method (C HVNS), and a hybrid heuristic method (CONSVNS) that combines the VNS and C HVNS methods. These strategies contribute to optimizing operational efficiency and logistics within complex production and distribution environments.
+
+Our proposed approach leverages several advanced techniques to address the intricate challenges of integrating production planning on unrelated parallel machines with the vehicle routing problem. Firstly, we introduce a robust Mixed Integer Linear Programming Model (MILPM) to provide a solid mathematical foundation for optimization. Additionally, we deploy a Constructive Heuristic and Neighborhood Search Heuristics to explore solution spaces efficiently. To enhance adaptability and efficiency further, we introduce a novel framework integrating machine learning, enabling predictive analysis to determine the most effective Neighborhood Search Heuristics for a given instance based on its unique characteristics. Moreover, we present an innovative RVND metaheuristic alongside a Hybrid Metaheuristic (PPO-VND), which integrates Variable Neighborhood Descent (VND) with a Reinforcement Learning Algorithm, Proximal Policy Optimization (PPO). These advancements offer tangible gains in solution quality and computational efficiency and highlight the significant advantages of incorporating Artificial Intelligence (AI) into logistics optimization, fostering adaptability and resilience in dynamic operational environments.
+
+The Randomized Variable Neighborhood Descent (RVND) algorithm is a variant of the classical Variable Neighborhood Descent (VND), widely used in combinatorial optimization problems due to its ability to escape local optima. While the traditional VND explores neighborhoods in a fixed, deterministic order, RVND introduces randomness by selecting neighborhoods at random in each iteration \cite{vasconcelos2021algoritmo}. This mechanism allows for more effective diversification of the search, avoiding repetitive patterns and increasing the chances of reaching higher-quality solutions. Furthermore, when no improvement is found after exploring a neighborhood, it is temporarily discarded, allowing for dynamic and adaptive exploration of the solution space. This strategy has been successfully applied in various contexts, such as the vehicle routing problem with time windows, showing promising results in both solution quality and computational time \cite{VIDAL2020401}. Due to its efficiency and flexibility, RVND has been widely adopted in hybrid metaheuristics, especially for integrated problems like production scheduling and vehicle routing, where combinatorial complexity demands robust intensification and diversification strategies.
+
+These studies collectively highlight the field’s evolution from deterministic, sequential methods to integrated, AI-enhanced, and learning-capable frameworks. In this context, our proposal contributes not only by addressing a novel configuration (unrelated parallel machines with integrated vehicle routing) but also by embedding intelligence into the search process itself. Through the use of predictive models to guide heuristic selection and reinforcement learning to adapt the local search dynamics, we offer a methodology that aligns with the demands of Industry 4.0—flexibility, scalability, and resilience in the face of complex, dynamic operational environments.
+
+
+\section{Problem Definition}
+\label{sec:ProblemDefinition}
+This work addresses the integration of production planning on unrelated parallel machines with setup and ready times and the vehicle routing problem (VRP). This combined problem arises in real-world contexts where optimizing both production and distribution is critical for efficiency. It involves two interconnected stages: (i) assigning a set of jobs to parallel machines, and (ii) routing vehicles to deliver the finished products to customers. The integration of these stages introduces additional complexity, as decisions in one stage affect the other.
+
+The problem is NP-hard, since it generalizes two known NP-hard problems: the unrelated parallel machine scheduling problem with setup and ready times, as demonstrated by \citet{lin2014unrelated}, and the vehicle routing problem, as established by \citet{lenstra1981complexity}. Therefore, the integrated version naturally inherits this computational complexity.
+
+Formally, a set of jobs $I = {1, 2, ..., n}$ must be scheduled on $m$ unrelated parallel machines $M = {1, 2, ..., m}$ without preemption. Each job $j \in I$ is characterized by a machine-dependent processing time $p\_{ij}$ on machine $i$, a due date $d\_j$, a tardiness weight $w\_j$, and a size $h\_j$, representing the space it occupies in a delivery vehicle. Additionally, transitioning from job $j$ to job $k$ on machine $i$ requires a setup time $s\_{ijk}$, which is generally asymmetric (i.e., $s\_{ijk} \neq s\_{ikj}$) \citep{de2022heuristics}.After processing, jobs are grouped into batches and delivered to customers using a fleet of $l$ vehicles $L = {1, 2, ..., l}$. The routing is modeled on a graph $G(V, A)$, where $V = {0, 1, ..., n}$ is the set of nodes (with node 0 representing the depot), and $A = {(j,k) \mid 0 \leq j,k \leq n, j \neq k}$ is the set of arcs, each with an associated travel time $t\_{jk}$. Each job corresponds to a customer node, and each vehicle $v \in L$ has a capacity $q\_v$ that must not be exceeded. The model assumes that each vehicle is used once and each customer is visited only once. The objective is to determine both the optimal job scheduling on machines and the vehicle delivery routes so as to minimize the total weighted tardiness (TWT) of all jobs \citep{de2022heuristics}.
+
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth,scale=0.95]{Figure 1.pdf} % Ajuste conforme necessário
+    \caption{The scheduling of jobs and delivery routes. (Source: Authors' own work)}
+    \label{figura:planejamentoRotas}
+\end{figure}
+
+Table \ref{tab:InfoInstancia} presents the parameters of an example instance with three machines ($m = 3$), six jobs ($n = 6$), and four vehicles ($v = 4$). The setup times between jobs are detailed in Table \ref{tab:InfoInstanciasetup}. Figure \ref{figura:planejamentoRotas} illustrates a solution for this instance, highlighting the completion times, delivery times, and vehicle routes for each job. In this specific instance, the completion and delivery for each job are respectively, Job $I_1$ 21 and 44, job $I_2$ 45 and 62, Job $I_3$ 39 and 59, Job $I_4$ 14 and 36, Job $I_5$ 8 and 58, Job $I_6$ 23 and 61.
+
+
+\begin{table}
+\centering
+
+\caption{ Parameters for an example involving three machines, six jobs, and four vehicles.\label{tab:InfoInstancia}} 
+{ 
+\centering
+\begin{tabular}{|ccccccccccccccc|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Jobs}} & \multicolumn{3}{c|}{Processing Time} & \multicolumn{3}{c|}{Job Information} & \multicolumn{8}{c|}{Distances} \\ \cline{2-15} 
+\multicolumn{1}{|c|}{} & $M_1$ & $M_2$ & \multicolumn{1}{c|}{$M_3$} & $h_j$ & $d_j$ & \multicolumn{1}{c|}{$w_j$} & \multicolumn{1}{c|}{Jobs} & $I_0$ & $I_1$  & $I_2$ & $I_3$ & $I_4$  & $I_5$  & $I_6$ \\ \hline
+\multicolumn{1}{|c|}{$I_0$} & 0 & 0 & \multicolumn{1}{c|}{0} & 0 & 0 & \multicolumn{1}{c|}{0} & \multicolumn{1}{c|}{$I_0$} & 0 & 19  & 17 & 20 & 22  & 22  & 16 \\
+\multicolumn{1}{|c|}{$I_1$} & 36 & 1 & \multicolumn{1}{c|}{43} & 24 & 47 & \multicolumn{1}{c|}{10} & \multicolumn{1}{c|}{$I_1$} & 19 & 0  & 18 & 34 & 41  & 36  & 17 \\
+\multicolumn{1}{|c|}{$I_2$} & 46 & 20 & \multicolumn{1}{c|}{32} & 27 & 62 & \multicolumn{1}{c|}{9} & \multicolumn{1}{c|}{$I_2$} & 17 & 18  & 0  & 18 & 33  & 39  & 29 \\
+\multicolumn{1}{|c|}{$I_3$} & 39 & 24 & \multicolumn{1}{c|}{37} & 24 & 55 & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{$I_3$} & 20 & 34  & 18 & 0  & 21  & 38  & 36 \\
+\multicolumn{1}{|c|}{$I_4$} & 41 & 14 & \multicolumn{1}{c|}{32} & 20 & 62 & \multicolumn{1}{c|}{2} & \multicolumn{1}{c|}{$I_4$} & 22 & 41  & 33 & 21 & 0  & 22  & 33 \\
+\multicolumn{1}{|c|}{$I_5$} & 7 & 5 & \multicolumn{1}{c|}{8} & 5 & 62 & \multicolumn{1}{c|}{9} & \multicolumn{1}{c|}{$I_5$} & 22 & 36  & 39 & 38 & 22  & 0  & 19 \\
+\multicolumn{1}{|c|}{$I_6$} & 31 & 45 & \multicolumn{1}{c|}{9} & 19 & 61 & \multicolumn{1}{c|}{16} & \multicolumn{1}{c|}{$I_6$} & 16 & 17  & 29 & 36 & 33  & 19  & 0  \\ \hline
+\multicolumn{15}{|c|}{Vehicle information}   \\ \hline
+\multicolumn{3}{|c|}{Vehicle}  & \multicolumn{3}{c}{$V_1$} & \multicolumn{3}{c}{$V_2$}  & \multicolumn{3}{c}{$V_3$} & \multicolumn{3}{c|}{$V_4$} \\ \hline
+\multicolumn{3}{|c|}{$q_v$} & \multicolumn{3}{c}{58} & \multicolumn{3}{c}{65}  & \multicolumn{3}{c}{41} & \multicolumn{3}{c|}{72} \\ \hline
+\end{tabular}
+}{}
+\text{(Source: Authors own work)}
+\end{table}
+
+
+\begin{table}
+\centering % Este comando centraliza a tabela.
+
+\caption{ Setup time an example involving three machines, six jobs, and four vehicles.\label{tab:InfoInstanciasetup}}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|ccccccc|c|ccccccc|c|ccccccc|}
+\hline
+& \multicolumn{7}{|c|}{Setup Time $M_1$}                   &      & \multicolumn{7}{|c|}{Setup Time $M_2$} &                   & \multicolumn{7}{|c|}{Setup Time $M_3$}            \\ \hline 
+Jobs & $I_0$ & $I_1$ & $I_2$ & $I_3$ & $I_4$ & $I_5$ & $I_6$ & Jobs & $I_0$ & $I_1$ & $I_2$ & $I_3$ & $I_4$ & $I_5$ & $I_6$ & Jobs & $I_0$ & $I_1$ & $I_2$ & $I_3$ & $I_4$ & $I_5$ & $I_6$ \\ \hline
+$I_0$ & 0    & 0    & 0    & 0    & 0    & 0    & 0    & $I_0$ & 0    & 0    & 0    & 0    & 0    & 0    & 0    & $I_0$ & 0    & 0    & 0    & 0    & 0    & 0    & 0 \\
+$I_1$ & 0    & 0    & 1    & 4    & 5    & 2    & 4    & $I_1$ & 0    & 0    & 4    & 1    & 4    & 5    & 2    & $I_1$ & 0    & 0    & 4    & 6    & 2    & 3    & 6    \\
+$I_2$ & 0    & 5    & 0    & 3    & 6    & 4    & 6    & $I_2$ & 0    & 4    & 0    & 3    & 4    & 1    & 4    & $I_2$ & 0    & 4    & 0    & 8    & 4    & 3    & 2    \\
+$I_3$ & 0    & 2    & 3    & 0    & 3    & 1    & 3    & $I_3$ & 0    & 6    & 3    & 0    & 7    & 4    & 4    & $I_3$ & 0    & 7    & 6    & 0    & 6    & 7    & 3    \\
+$I_4$ & 0    & 4    & 2    & 3    & 0    & 4    & 1    & $I_4$ & 0    & 6    & 2    & 5    & 0    & 3    & 6    & $I_4$ & 0    & 2    & 3    & 4    & 0    & 1    & 5    \\
+$I_5$ & 0    & 1    & 2    & 4    & 6    & 0    & 2    & $I_5$ & 0    & 3    & 1    & 4    & 3    & 0    & 5    & $I_5$ & 0    & 1    & 4    & 5    & 1    & 0    & 6    \\
+$I_6$ & 0    & 3    & 1    & 2    & 5    & 3    & 0    & $I_6$ & 0    & 2    & 4    & 3    & 5    & 3    & 0    & $I_6$ & 0    & 5    & 3    & 6    & 3    & 4    & 0   \\ \hline
+\end{tabular}}
+{}
+\text{(Source: Authors own work)}
+\end{table}
+
+
+In this example, the vehicle routes and schedules are defined as Vehicle $V_1$ starts at time 14 and delivers jobs $I_4$ and $I_5$, following the route: ${I_0 \rightarrow I_4 \rightarrow I_5 \rightarrow I_0}$, where $I_0$ represents the depot,  Vehicle $V_2$ starts at time 25 and is responsible for jobs $I_1$ and $I_6$, with the route: ${I_0 \rightarrow I_1 \rightarrow I_6 \rightarrow I_0}$, Vehicle $V_3$ begins its route at time 45, delivering only job $I_2$ via: ${I_0 \rightarrow I_2 \rightarrow I_0}$, Vehicle $V_4$ starts at time 39 and handles the delivery of job $I_3$, following the route: ${I_0 \rightarrow I_3 \rightarrow I_0}$. Among all jobs, only job $I_3$ was delivered late—by four time units. Given that the tardiness penalty is three units per time unit, the total weighted tardiness (TWT) for this solution is twelve (12).
+
+\section{Mixed Integer Linear Programming Model}
+\label{sec:Mixed_Integer_Linear_Programming}
+This section introduces a Mixed Integer Linear Programming (MILP) model formulated to address the proposed research problem. The parameters and decision variables used in the model are summarized in Table \ref{tab:modelo}.
+
+\begin{table}
+\centering % Este comando centraliza a tabela.
+\caption{ Parameters and the decision variables for a Mixed Integer Linear Programming (MILP) model \label{tab:modelo}}
+{
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{|ll|}
+\hline
+\multicolumn{2}{|c|}{Indices} \\ \hline
+$i$ & Machine. \\
+$j,k$ & Jobs. \\
+$v$ & Vehicle. \\
+$O$ & Origin (Deposit). \\ \hline
+\multicolumn{2}{|c|}{Sets} \\ \hline
+${M=\{1,2,…,m\}}$ & Set containing $m$ machines. \\
+${I=\{1,2,…,n\}}$ & Set containing $n$ jobs. \\
+${N=I \cup \{O\}}$ & Set containing jobs and a fictitious job from the source. \\
+${L=\{1,2,…,l\}}$ & Set containing $l$ vehicles. \\ \hline
+\multicolumn{2}{|c|}{Parameters} \\ \hline
+$p_{ij}$ & Processing time for job $j$ on machine $i$. \\
+$s_{ijk}$ & Setup time for job $k$ after job $j$ on machine $i$. \\
+$t_{jk}$ & Travel time between location $j$ and location $k$. \\
+$w_j$ & Delay penalty for job $j$. \\
+$d_j$ & Delivery date for job $j$. \\
+$h_j$ & Customer demand $j$ (job size $j$). \\
+$q_v$ & Vehicle capacity $v$. \\ \hline
+\multicolumn{2}{|c|}{Decision variables} \\ \hline
+\multirow{2}{*}{$Z_{vjk}$} & $1$ - If the vehicle $v$ is used to travel between points $j$ and $k$. \\
+                           & $0$ - Otherwise. \\
+\multirow{2}{*}{$X_{ijk}$} & $1$ - If job $j$ precedes job $k$ on machine $i$, \\
+                           & $0$ - Otherwise. \\
+\multirow{2}{*}{$Y_{ij}$}  & $1$ - If job $j$ is processed on machine $i$, \\
+                           & $0$ - Otherwise. \\
+\multirow{2}{*}{$U_v$}     & $1$ - If the vehicle $v$ is used to make deliveries. \\
+                           & $0$ - Otherwise. \\
+$C_j$ & Completion time of job $j$. \\
+$S_v$ & Vehicle trip start time $v$. \\
+$T_j$ & Delivery delay for job $j$. \\
+$D_j$ & Delivery time for job $j$. \\ \hline                                           
+\end{tabular}%}
+}{}
+\text{(Source: Authors own work)}
+\end{table}
+
+The model incorporates the following additional parameters:
+
+\begin{itemize}
+    \item $MG$ is a sufficiently large constant:
+    $MG = \sum\limits_{i \in M}\sum\limits_{j \in N}\sum\limits_{k \in N} (t_{jk} + p_{jk} + s_{ijk})$
+    This value is used to ensure logical consistency in time-related constraints.
+    
+    \item ${N = I \cup {O}}$ represents the extended set of jobs, including a dummy job $O$ that models the starting point (origin) of processing on each machine.
+\end{itemize}
+
+The complete mathematical model is presented below:
+
+\begin{equation}
+    \label{eq:objetivo}
+    \min   \text{ TWT} = \sum\limits_{j \in I} w_{j}T_{j}     \\
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao1}
+   \sum\limits_{v \in L} \sum\limits_{k \in N, k \neq j } Z_{vjk} = 1, \quad  \forall j \in I 
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao2}
+  \sum\limits_{j \in N} \sum\limits_{k \in N, k \neq j } Z_{vjk} h_j \le q_v U_v,  \quad \forall v \in L 
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao4}
+   \sum\limits_{k \in N}    Z_{v0k}  =  U_v, \quad   \forall v \in L 
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao5}
+	\sum\limits_{j \in N}  Z_{vjh} = \sum\limits_{k \in N}  Z_{vhk}   \forall h \in N, \quad \forall v \in L 
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao6}
+    \sum\limits_{k \in I} X_{i0k}   \leq  1,       \quad \forall i \in M
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao7}
+	\sum\limits_{i \in M} Y_{ij}   =  1, \quad \forall j \in I
+\end{equation}
+
+\begin{equation}
+\label{eq:resticao8}
+    Y_{ij} =  \sum\limits_{k \in N, k \neq j} X_{ijk}, \quad \forall i \in M,  \forall j \in I
+\end{equation}
+
+\begin{equation}
+ \label{eq:resticao9}
+    Y_{ik} =  \sum\limits_{j \in N, k \neq j} X_{ijk}, \quad \forall i \in M,  \forall k \in I
+\end{equation}
+
+\begin{align}
+\label{eq:resticao10}
+    C_k - C_j + MG(1 - X_{ijk}) \geq s_{ijk} + p_{ik},\notag\\
+    \quad \forall j \in N,  \forall k \in I, j \neq k, \forall i \in M 
+\end{align}
+
+\begin{align}
+\label{eq:resticao12}
+    S_v \geq C_k - MG(1 - \sum\limits_{j\in N, j\neq k} Z_{vjk}), \notag\\
+    \quad  \forall v \in L, \forall k \in N
+\end{align}
+
+\begin{align}
+\label{eq:resticao13}
+    D_k - S_v \geq t_{0k} - MG(1 - Z_{v0k}), \forall v \in L,  \notag\\
+    \qquad \forall k \in N 
+\end{align}
+
+\begin{align}
+\label{eq:resticao14}
+    D_k - D_j \geq t_{jk} - MG(1 - \sum\limits_{v\in L} Z_{vjk}), \notag\\  
+    \quad \forall j \in I, \forall k \in N,  j \neq k 
+\end{align}
+
+\begin{equation}
+\label{eq:resticao15}
+    T_j \geq D_{j} - d_j ,  \quad \forall j \in I 
+\end{equation}
+
+
+
+%\end{fleqn}
+
+The objective function, defined in Equation (\ref{eq:objetivo}), aims to minimize the total weighted tardiness of all jobs. The constraints serve specific roles in structuring the solution. Equation (\ref{eq:resticao1}) ensures that each customer is served exactly once and by a single vehicle, while Equation (\ref{eq:resticao2}) enforces the vehicle capacity limits, considering that $h\_0 = 0$ for the dummy job. Equations (\ref{eq:resticao4}) and (\ref{eq:resticao5}) guarantee that any vehicle used must start and return to the depot. Constraint (\ref{eq:resticao6}) ensures that only one job is scheduled immediately after the dummy job $I\_0$ on each machine, and constraint (\ref{eq:resticao7}) ensures that each job is assigned to exactly one machine.
+
+Equations (\ref{eq:resticao8}) and (\ref{eq:resticao9}) require that each job has exactly one predecessor and one successor in the production sequence. Constraint (\ref{eq:resticao10}) defines the completion time for each job, using the base case $C_0 = 0$. Constraint (\ref{eq:resticao12}) sets the starting time for each vehicle's delivery route. Equations (\ref{eq:resticao13}) and (\ref{eq:resticao14}) calculate the arrival times at customer locations. Finally, constraint (\ref{eq:resticao15}) determines job delays based on their respective due dates.
+
+
+\section{Proposed Algorithms}
+\label{sec:algorithm}
+In this study, we propose two solution-decoding algorithms and a constructive algorithm, complemented by a set of neighborhood search heuristics. To enhance problem-solving efficiency, we develop a machine learning-based framework capable of selecting the most appropriate neighborhood search heuristic for a given problem instance, based on its specific characteristics.
+
+Additionally, we introduce the Proximal Policy Optimization (PPO) algorithm within a Reinforcement Learning context. Building on this, we present the PPO-VND Hybrid Metaheuristic, which integrates the Variable Neighborhood Descent (VND) method with the PPO algorithm. This hybrid approach leverages the adaptive learning capabilities of PPO to guide the neighborhood search process dynamically. The following section provides a detailed explanation of these algorithms and their integration within the proposed solution framework.
+
+
+\subsection{Decoding Algorithms}
+
+Although the problem comprises two interdependent components—parallel machine scheduling and vehicle routing—the solution is represented as a pair, $sol = {s, r}$, where $s$ refers to the job schedule on machines and $r$ to the delivery routes. The construction of a solution relies on two job lists: $L1$ and $L2$. The list $L1$ determines the order in which jobs are assigned to machines using the NEH (Nawaz-Enscore-Ham) decoding algorithm. Upon completion of the NEH decoding, the job scheduling component $s$ is defined. In parallel, the list $L2$ guides the insertion order of jobs into vehicle routes via the PIFH (Push Forward Insertion Heuristic) decoding algorithm, producing the routing component $r$. Thus, the decoding algorithms collectively yield a complete solution to the problem, denoted as $sol = {s, r}$. The decoding process is illustrated in Figure \ref{figura:decoding}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth,scale=0.65]{Figure 2.pdf}
+    \caption{The solution decoding process. (Source: Author's own work)}
+    \label{figura:decoding}
+\end{figure}
+
+The NEH heuristic, originally proposed by \cite{nawaz1983heuristic}, is a greedy algorithm widely used in scheduling problems. The NEH decoding algorithm applies this heuristic by sequentially inserting jobs from the $L1$ list onto machines. Each job is placed in the position that minimizes its completion time. Once all jobs are scheduled, the machine assignment $s$ is finalized. The NEH decoding procedure is detailed in Algorithm \ref{alg:neh}.
+
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\caption{NEH decoding algorithm.\label{alg:neh}}
+\Function{NEH}{$L1$}
+   \State ${s \leftarrow \emptyset }$ \Comment{ The job scheduling}
+    \For{\texttt{$i = 1$} \textbf{to} \texttt{$n$}}
+        \State Inserts job $L1[i]$ in the best position in the sequencing ${s}$
+    \EndFor
+   \State return ${s}$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+Solomon's PIFH heuristic~\citep{solomon1987algorithms} is an efficient algorithm for constructing routes. It uses a greedy approach to sequentially insert jobs into routes. The PIFH decoding algorithm places jobs into routes based on the $L2$ list. In each iteration, a job is inserted in a way that minimizes the total weighted tardiness ($wt$). After inserting all jobs in the routes, the vehicle routes $r$ are finally defined. The PIFH decoding algorithm is presented in Algorithm \ref{alg:PIFH}.
+
+\begin{algorithm}[H]
+\begin{algorithmic}[1]
+\caption{ PIFH decoding algorithm. \label{alg:PIFH}}
+\Function{PIFH}{ $L2 , s$ }
+    \State ${r \leftarrow \emptyset }$ \Comment{Vehicle routes}
+     \For{\texttt{$i = 1$} \textbf{to} \texttt{$n$}}
+        \State Inserts job $L2[i]$ in the best position in the route's ${r}$
+    \EndFor
+   \State return ${r}$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Initial Solution} %  Revisado Grammarly 05/05
+\label{subsec:InitialSolution}
+
+To construct a solution for the problem ($sol = {s, r}$), the process begins with the definition of the job list $L1$. This list is formed by sorting the jobs in descending order based on the sum of their average processing and setup times. Once $L1$ is defined, the NEH decoding algorithm is applied to determine the job sequencing on machines, resulting in the schedule component $s$. Following the generation of $s$, the job list $L2$ is created using the Earliest Due Date (EDD) rule. This list is sorted in ascending order of the difference between each job’s due date and its completion time ($d_j - C_j$), prioritizing jobs that are closer to or beyond their due dates. Once the $L2$ list is established, the PIFH decoding algorithm is applied to construct the delivery routes, completing the routing component $r$. Figure \ref{figura:solucaoInicial} illustrates the overall process of initial solution construction, while Algorithm \ref{alg:inicial_solution} formally describes the procedure for generating the initial solution to the problem.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.65\textwidth,scale=0.95]{Figure 3.pdf}
+    \caption{Initial solution construction process. (Source: Authors' own work)}
+    \label{figura:solucaoInicial}
+\end{figure}
+
+
+\begin{algorithm}[H]
+\caption{Initial Solution. \label{alg:inicial_solution}}
+\begin{algorithmic}[1]
+\Function{Initial Solution}{ }
+    \State Create job list $L1$
+    \State $s \leftarrow NEH(L1)$
+    \State Create job list $L2$ from scheduling of jobs on the machine's $s$
+    \State $r \leftarrow PIFH(L2, s)$
+    \State $solution \leftarrow \{s, r\}$
+    \State return ${solution}$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Neighborhood Search Heuristics } %  Revisado Grammarly 05/05
+\label{subsec:NeighborhoodSearchHeuristics }
+
+Initially, we developed two distinct algorithms for list manipulation: the Swap Algorithm (Algorithm \ref{alg:swap}) and the Insertion Algorithm (Algorithm \ref{alg:Insertion}). The Swap Algorithm operates by exchanging the positions of two elements within a given list to generate a modified list. In contrast, the Insertion Algorithm functions by removing an element from the list and subsequently reinserting it into an alternative position, thereby creating a new list configuration.
+
+\begin{algorithm}[H]
+\caption{Swap Algorithm.\label{alg:swap}}
+\begin{algorithmic}[1]
+\Function{Swap}{ $list, i, j$ }
+    \State $aux \leftarrow list[i]$
+    \State $list[i] \leftarrow list[j]$
+    \State $list[j] \leftarrow aux$
+    \State return $list$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{Insertion Algorithm.\label{alg:Insertion}}
+\begin{algorithmic}[1]
+\Function{Insertion}{ $list, i, j$ }
+    \State $aux \leftarrow list[i]$
+    \State $list$.remove($aux$)
+    \State $list$.insert($j, aux$)
+    \State return $list$
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+To further improve solution quality, we developed the Neighborhood Search Heuristics (NSH), detailed in Algorithm \ref{alg:NSH}. The NSH iteratively explores potential improvements by applying either swap or insertion movements within the job lists ($L1$ or $L2$). Each generated solution is evaluated, and the algorithm ultimately returns the best solution discovered throughout its execution. The NSH takes two job lists ($L1$ and $L2$) and a set of parameters as input, which dictate its behavior. The movement parameter specifies whether the algorithm will utilize exchange or insertion movements. The list parameter determines which job list ($L1$ or $L2$) these movements will be applied to. Lastly, the restart parameter controls whether the search should restart if a superior solution is identified during the algorithm's execution. These parameters allow for the definition of eight distinct Neighborhood Search Heuristics, with the specific variations and parameter values outlined in Table \ref{table:NSH_parametro}.
+
+\begin{table}
+\caption{ Name of Neighborhood Search Heuristics and Parameters.\label{table:NSH_parametro}}
+\centering
+
+{
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{Name} & \multicolumn{3}{|c|}{Parameters}      \\ \cline{2-4} 
+                      & Movements          & List & Restart \\ \hline
+NSH 1 & Swap        & L2   & False   \\ \hline
+NSH 2 & Swap        & L2   & True    \\ \hline
+NSH 3 & Insertion   & L2   & False   \\ \hline
+NSH 4 & Insertion   & L2   & True    \\ \hline
+NSH 5 & Swap        & L1   & False   \\ \hline
+NSH 6 & Swap        & L1   & True    \\ \hline
+NSH 7 & Insertion   & L1   & False   \\ \hline
+NSH 8 & Insertion   & L1   & True   \\ \hline
+\end{tabular}}
+{}
+
+\text{(Source: Authors own work)}
+\end{table}
+
+The NSH algorithm (Algorithm \ref{alg:NSH}) starts by constructing an initial solution from the provided $L1$ and $L2$ job lists. The list and movements parameters then dictate which list and movement type the algorithm will use. If an exchange or insertion is applied to the $L1$ job list, the NEH decoding algorithm generates a new job sequence on the machines, denoted as $s'$. This $s'$ is then used to create a new $L2'$ job list. Subsequently, the PIFH algorithm utilizes $L2'$ to define the job delivery routes ($r'$). These new $s'$ and $r'$ ultimately form a new solution.
+
+Conversely, if the exchange or insertion is applied to the $L2$ job list, the initial job sequence on the machines ($s$) remains unchanged, and the PIFH algorithm defines the delivery routes ($r'$). In this scenario, $s$ and $r'$ combine to form a new solution. Each newly generated solution is then compared to the current best solution. If the new solution is superior, it replaces the current best. Finally, the restart parameter dictates whether the search should be reset. Upon completion, the algorithm returns the overall best solution identified during its execution.
+
+
+\begin{algorithm}[htbp]
+\caption{Neighborhood Search Heuristics.\label{alg:NSH}}
+\scalebox{0.65}{
+\begin{minipage}{1.2\textwidth}
+\begin{algorithmic}[1]
+\Function{NSH}{ $L1, L2, movements, list, restart $ }
+    \State The decoders determine the $solution = \{s,r\}$ from jobs lists $L1$ and $L2$.
+    \State $best\_L1 \leftarrow L1$
+    \State $best\_L2 \leftarrow L2$
+    %determina a lista a ser utilizada
+    \If{$list = '1'$} \Comment{Value '1' indicates that the algorithm uses the L1 Job List.}
+        \State $L \leftarrow L1$
+    \Else
+        \State $L \leftarrow L2$
+    \EndIf
+    \State $i \leftarrow 0$
+    %inicia os movimentos de troca ou inserção.
+    \While{$i \leq len(L)$  }
+        \State $Best\_FO = $F($solution$)
+        \State ${j \leftarrow i + 1}$
+        \While{$j \leq len(L)$ }
+            %Define qual será o movimento, swap ou insertion
+            \If{$movements = SWAP$}
+                \State $L' \leftarrow swap(L, i, j)$
+            \Else
+                \State $L' \leftarrow insertion(L, i, j)$
+            \EndIf
+             %determina a lista a ser utilizada
+            \If{$list = '1'$} \Comment{Value '1' indicates that L1 Job List is used.}
+                %cria o sequenciamento
+                \State $s' \leftarrow $ NEH $(L')$
+                %cria uma nova L2
+                \State Create job list $L2'$ from scheduling of jobs on the machines $s'$
+                %cria a rota
+                \State $r' \leftarrow $ PIFH $(s', L2')$
+                %cria a solução
+                \State $solution' \leftarrow \{s',r'\}$                
+            \Else
+                %cria a rota
+                \State $r' \leftarrow $ PIFH $(s, L')$
+                %cria a solução
+                \State $solution' \leftarrow \{s,r'\}$ 
+            \EndIf
+            %Testa para ver se a nova solução é melhor que a solução best
+            \If{ F$(solution') < $F$(solution)$}
+                \State $solution \leftarrow solution'$
+                \If{$list = 'L1'$}
+                    \State $Best\_L1 \leftarrow L$ 
+                    \State $Best\_L2 \leftarrow L2'$ 
+                \Else
+                    \State $Best\_L1 \leftarrow L1$ 
+                    \State $Best\_L2 \leftarrow L$
+                \EndIf
+            \EndIf
+            \State $j += 1$          
+        \EndWhile
+        \State $i += 1$
+        %Testa para ver se tem restart ou não
+        \If{$restart = $TRUE AND $i = len(L)$ AND $Best\_FO \neq $F($solution$)}
+            \State $L1 \leftarrow Best\_L1$ 
+            \State $L2 \leftarrow Best\_L2$
+            \State $i \leftarrow 0$ 
+        \EndIf
+    \EndWhile
+    \State return ${solution} , Best\_L1 , Best\_L2 $
+\EndFunction
+\end{algorithmic}
+\end{minipage}}
+\end{algorithm}
+
+\subsection{Framework}
+\label{subsec:Framework}
+Effectively addressing combinatorial optimization problems often necessitates identifying the algorithm that consistently yields the most favorable outcomes across diverse instances. Traditional approaches, while successful for specific problem instances, may exhibit inconsistent performance when faced with varied inputs. To overcome this limitation, we propose a novel framework that integrates machine learning (ML) to dynamically select the most effective heuristic for a given problem instance. The proposed framework is visually represented in Figure \ref{figura:framework}.
+
+Our methodology commences with the application of a clustering algorithm to group instances exhibiting similar characteristics. In this work, we employ the k-means algorithm, which has partitioned the instances into 15 distinct categories. Following this clustering, each of the eight Neighborhood Search Heuristics (NSH) was executed on every instance within the training set. For each instance, the heuristic that produced the superior solution was subsequently designated as the representative heuristic for its respective cluster.
+
+Upon analyzing the underlying patterns and rules within the training data, a machine learning model is developed. This model's objective is to predict the optimal heuristic for solving a new problem instance based on its intrinsic characteristics. The model incorporates various instance-specific factors: the number of jobs ($n$), the number of machines ($m$), the average processing time as defined by Equation \ref{eq:average_processing_time}, the average setup time as defined by Equation \ref{eq:average_setup_time}, the average travel time as defined by Equation \ref{eq:average_travel}, the average demand as defined by Equation \ref{eq:average_demand}, and the average vehicle capacity as defined by Equation \ref{eq:average_vehicle_capacity}. Utilizing these inputs, the ML model predicts the most suitable NSH for a given instance. The training objective for the machine learning model is to learn a function $h(x): x \rightarrow Y$ that accurately maps instance characteristics ($x$) to the corresponding optimal heuristic ($Y$). Post-training, the model yields a predictor $h(x)$ that, based on the characteristics of a given instance, identifies the most effective NSH for that specific problem instance \citep{de2022heuristics}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.65\textwidth,scale=0.85]{Figure 4.JPG}
+    \caption{The framework scheme. Source: \citet{de2022heuristics}.}
+    \label{figura:framework}
+\end{figure}
+
+\begin{equation}
+    \label{eq:average_processing_time}
+    \overline{p} = \frac{\sum\limits_{i \in M, j \in I } p_{ij}}{ m * n }
+\end{equation}
+
+\begin{equation}
+    \label{eq:average_setup_time}
+    \overline{s} =  \frac{\sum\limits_{i \in M, j \in I,  k \in I,  j \neq k } s_{ijk}}{ (m * n^2) - (m * n) }
+\end{equation}
+
+\begin{equation}
+    \label{eq:average_travel}
+    \overline{t} = \frac{\sum\limits_{ j \in N,  k \in N,  j \neq k } t_{jk}}{ (n + 1)^2 - (n + 1) }
+\end{equation}
+
+\begin{equation}
+    \label{eq:average_demand}
+    \overline{h}  = \frac{\sum\limits_{ j \in I} h_{j}}{ n }
+\end{equation}
+
+\begin{equation}
+    \label{eq:average_vehicle_capacity}
+    \overline{q} = \frac{\sum\limits_{ v \in L} q_{v}}{ l }
+\end{equation}
+
+The core of our predictive framework is a Multilayer Perceptron (MLP) neural network. This MLP is composed of sequential linear layers, with each layer computing its output as a linear combination of its inputs. For training, we employed the Adam algorithm \citep{kingma2014adam}, a first-order, gradient-based optimization method particularly effective for stochastic objective functions due to its adaptive estimation of lower-order moments. Network performance was evaluated using Mean Squared Error (MSE), which measures the discrepancy between the target output and the network's predicted output \citep{de2022heuristics}. While training the neural network required approximately four hours, once trained, the model can recommend the optimal algorithm for any given instance in a remarkable 0.1 seconds.
+
+
+\subsection{The Proximal Policy Optimization} 
+\label{subsec:PPO}
+Sequential decision-making problems are commonly addressed through Reinforcement Learning (RL), wherein an agent interacts with a stochastic environment to learn an optimal mapping from states to actions, thereby maximizing cumulative rewards. Such RL problems can be formally modeled as a Markov Decision Process (MDP), defined as a tuple $\{S, A, p, r(s, a)\}$. In this formulation, $S$ denotes the set of states, $A$ represents the set of actions, and $p$ is the transition function, which specifies the conditional probabilities of state changes (ranging from 0 to 1). Furthermore, the reward function $r(s, a)$ assigns a numerical value to each state-action pair. The primary objective of the agent within this process is to discover an optimal policy that associates each state with a corresponding optimal action, ultimately maximizing the sum of rewards accumulated over time \citep{alves2020deep}.
+
+The Proximal Policy Optimization (PPO) algorithm, introduced by \cite{schulman2017proximal}, is an on-policy method rooted in the Policy Gradients (PG) concept, designed to optimize agent policies. PPO leverages a Deep Neural Network (DNN) to map states to actions, enabling Deep Reinforcement Learning (DRL) agents to directly learn the optimal policy while maximizing the cumulative reward within the environment. This distinguishes PPO from alternative methods that first learn a value function and then derive the policy.
+
+In actor-critic methods, which are a class of PG algorithms, both the policy (learned by the actor) and the value function (learned by the critic) are approximated. The critic evaluates the current policy's performance, and minimizing variation during training significantly accelerates the learning process. PPO strikes a balance between implementation complexity, parameterization, and sample efficiency. Its core objective is to constrain the magnitude of policy updates, ensuring that subsequent policies remain sufficiently similar to the current one. This constraint is critical because overly extensive updates can introduce substantial variance into the learning process, potentially leading to suboptimal performance \citep{alves2020deep}. For our implementation, we utilize the PPO algorithm as provided by the stable-baselines3 library in Python \citep{stable-baselines3}. The pseudocode for the PPO algorithm is presented in Algorithm \ref{alg:PPO}.
+
+\begin{algorithm}[H]
+\caption{Proximal Policy Optimization\label{alg:PPO}}
+\begin{algorithmic}[1]
+    \State Initialize $\Theta$ and $\Phi$ \Comment{policy and value-function parameters, respectively}
+    \For{\texttt{$i = 0,1,2,...$}}
+        \For{\texttt{$actor = 1,2,...,N_{actors}$}}
+            \State Run policy $\pi(\Theta)$ for $T$ steps and collect the trajectories.
+            \State Calculate advantage estimates $\hat{A}_1, ..., \hat{A}_T$ based on value-function $V_\Phi$.
+        \EndFor
+        \State Form a \textit{batch}, of size $NT$ , with collected trajectories and advantages.
+        \For{\texttt{$epoch = 1,2,...,K$}}
+            \State Shuffle \textit{batch} and split into \textit{minibatches}
+            \ForAll {\textit{minibatches}}
+                \State Update $\Theta$ wrt objective function via stochastic gradient.
+                \State Update $\Phi$ wrt mean-squared error of value-function $V_{\Phi}$.
+            \EndFor
+        \EndFor
+    \EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\subsubsection{State, Action, and Reward Function} %  Revisado Grammarly 05/05
+In our Reinforcement Learning (RL) framework, the state comprehensively captures the current environment the agent interacts with. This state is represented as a feature vector that describes the environment at a specific moment, encompassing the number of machines ($m$), the number of jobs ($n$), the list of each job's completion times (${C_j, \forall j \in N}$), the list of each job's delivery dates (${D_j, \forall j \in N}$), and the list of each job's tardiness penalties (${w_{j}T_{j}, \forall j \in N}$).
+
+The action signifies the agent's decision at a given state, representing the next neighborhood to be explored by the local search. The model's output is an optimal solution policy derived from job lists $L1$ and $L2$, following the agent's chosen action.
+
+The reward function is derived directly from the objective function, calculated using Equation (\ref{eq:Reward}). This calculation considers both a lower bound ($LB$) and an upper bound ($UB$). The $LB$ is determined using Equations (\ref{eq:LB}). To compute the $UB$, we make several assumptions: that jobs are distributed identically across machines and vehicles, that job $j$ is the last to be executed on a machine and delivered on a route, and that all jobs have the longest possible processing, setup, and travel times.
+
+\begin{equation}
+\label{eq:Reward}
+    \text{Reward Function} = -1* \frac{(\sum\limits_{j \in I} w_{j}T_{j}) - LB)}{(UB - LB)}*100
+\end{equation}
+
+\begin{align}
+\label{eq:LB}
+   LB = \sum\limits_{j \in I} w_{j} * Max((Min(p_{ij} \forall i \in M) \notag\\
+   \quad + t_{0j} - d_j), 0)
+\end{align}
+
+
+
+\subsubsection{The Environment Model} %  Revisado Grammarly 05/05
+An agent's interaction with its environment necessitates a robust environmental model that accurately represents the problem. In this context, our environment models the integrated production and distribution planning problem. The model's input consists of two job lists, $L1$ and $L2$, which are used to construct the problem's solution, denoted as $solution = \{s, r\}$. The model's output is the objective function value of this solution. The agent's overarching goal is to discover a policy that maximizes cumulative rewards over time, thereby yielding superior solutions within the integrated problem. It was essential to create a distinct environmental model for each group of instances characterized by $n$ values of 10, 15, and 30, as the environmental model is intrinsically tied to the number of jobs.
+
+The NEH heuristic sequentially inserts jobs from the $L1$ list into the solution. In each iteration of the algorithm, a job $j \in L1$ is strategically inserted into the machine sequencing to minimize the machine's completion time. This process ultimately defines the final sequencing of machines ($s$). Subsequently, the PIFH heuristic sequentially inserts jobs from the $L2$ job list with the objective of minimizing the job's weighted delay ($wt$). Upon completion of this algorithm, the vehicle routes ($r$) are definitively established. The complete Environment Model is detailed in Algorithm \ref{alg:Environment_Model}.
+
+
+\begin{algorithm}[H]
+\caption{Environment Model\label{alg:Environment_Model}}
+\begin{algorithmic}[1]
+     \State $solution = \text{New solution} \{s, r\}$.
+     \State Sort the job sequence as $L1$ in descending order of the sum of average processing and setup times.
+     \State $s \leftarrow $NEH$(L1)$
+     \State Create job list $L2$ from scheduling of jobs on the machines $s$ (EDD rule)
+     \State $r \leftarrow$ PIFH $(L2, s)$
+    \State Create $solution$ with $s$ and $r$
+    \State Return  $f(solution)$
+\end{algorithmic}
+\end{algorithm}
+
+
+
+
+\subsection{PPO - VND } % %  Revisado Grammarly 05/05
+\label{subsec:PPO-VND }
+
+The Variable Neighborhood Descent (VND) algorithm \citep{hansen2001variable} is a deterministic local search method that systematically explores a predefined set of $k$ neighborhood structures, ${V = V_1, V_2, ..., V_k}$, until a locally optimal solution $S$ is reached. We introduce a hybrid metaheuristic, the PPO-VND, presented in Algorithm \ref{alg:PPO-VND}, which integrates Proximal Policy Optimization (PPO) to dynamically select and define the Neighborhood Search Heuristics (NSH) at each iteration. The PPO-VND scheme is further illustrated in Figure \ref{figura:PPO-VND}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.65\textwidth,scale=0.65]{Figure 5.pdf}
+    \caption{The PPO-VND scheme. (Source: Authors' own work)}
+    \label{figura:PPO-VND}
+\end{figure}
+
+The algorithm commences with an initial solution. In each subsequent iteration, the PPO component selects a specific NSH. Upon executing the chosen NSH, a local optimal solution is returned. The state is then updated, and action masking is applied. If the newly found solution is superior to the current best solution, it is updated accordingly; otherwise, the solution is perturbed. This iterative process continues until either the number of iterations equals the number of jobs in the instance ($n$) or the obtained solution matches the established Lower Bound (LB).
+
+Solution perturbation is crucial in this context as it prevents the PPO-VND from becoming trapped in local optima, thereby enabling a more extensive exploration of the search space. This perturbation involves randomly exchanging and inserting movements within 30\% of the jobs in either $L1$ or $L2$ (the list being chosen randomly). Specifically, 30\% of the jobs are randomly removed and reinserted to create new lists. Subsequently, the NEH and PIFH algorithms utilize these perturbed $L1$ and $L2$ job lists to define a new solution, which is then employed in the subsequent steps of the PPO-VND algorithm. The 30\% disturbance parameter was determined through a meticulous calibration process and systematic analysis using the Optuna library \citep{optuna_2019}. This specific value has been shown to offer an optimal balance between exploration and exploitation, facilitating consistent improvements in solution quality without compromising computational efficiency.
+
+
+\begin{algorithm}[h]
+\caption{PPO - VND\label{alg:PPO-VND}}
+\begin{algorithmic}[1]
+    \State $solution \leftarrow INITIAL SOLUTION()$
+    \State $best\_solution \gets solution$ 
+    \State state $\leftarrow$ initial state condition 
+    \State $it \leftarrow 0$ 
+    \While{\texttt{$it < n$  or $f(solution) != LB$}}
+        \State $u \leftarrow $ PPO.predict($state$) \Comment{PPO chooses a NSH for current state.}
+        \State $solution \leftarrow $ NSH $u$ ($solution$) 
+        \State state $\leftarrow$ update
+        \If{ $F(solution) < F(best\_solution)$}
+            \State $best\_solution \gets solution$
+        \Else
+            \State perturbation of the current $solution$
+        \EndIf
+        \State $it \gets it + 1$
+    \EndWhile
+    \State return $best\_solution$
+\end{algorithmic}
+\end{algorithm}
+
+\section{Computational Experiments} %  Revisado Grammarly 05/05
+\label{sec:ComputationalExperiments}
+
+This section outlines the experimental procedures and presents the results used to evaluate the performance of the proposed methods. The Mixed-Integer Linear Programming (MILP) model was implemented in C++ and solved using the CPLEX solver. All other solution methods were developed in Python 3. Computational experiments were performed on a machine equipped with an Intel Core i7-4790K (4.0 GHz) processor and 32 GB of RAM, with all algorithms executed using a single processing thread to ensure consistency and comparability.
+
+For the computational experiments, we utilized the 540 problem instances proposed by \cite{de2022heuristics}. Each instance is characterized by two primary parameters: the number of jobs ($n$), taking values from the set $\{10, 15, 30\}$, and the number of machines ($m$), selected from $\{2, 4, 8\}$. For instance, "N\_10\_M\_2" denotes an instance with 10 jobs and 2 machines.
+
+The PPO agent was trained for 500,000 episodes using 36 randomly selected instances of varying sizes and complexities. The hyperparameters for the PPO agent were meticulously tuned using the RL Baselines3 Zoo library \citep{rl-zoo3}.
+
+The performance of our proposed PPO-VND hybrid metaheuristic is benchmarked against the Random Variable Neighborhood Search (RVND) metaheuristic. RVND is a stochastic local search algorithm \citep{hansen2001variable} widely applied in various optimization domains, including production planning \citep{haddad2014aiv, yildiz2023variable} and vehicle routing problems \citep{subramanian2013hybrid, penna2013iterated}. Furthermore, RVND has been successfully employed in solving integrated production and distribution planning problems \citep{Arroyo_felix}. The operational mechanism of RVND is similar to that of PPO-VND; the key distinction lies in RVND's random selection of Neighborhood Search Heuristics, as opposed to PPO-VND's learned selection.
+
+The source code for all algorithms presented in this paper is publicly available at  \url{https://github.com/matheusinhofreitas}. The processing time for the MILP model was set to a fixed duration of 600 seconds.
+
+To quantitatively assess the quality of the obtained solutions, we employed the relative percentage deviation (GAP) from the best-known solution achieved among all methods. The GAP is formally defined by Equation \ref{eq:GAP}.
+
+\begin{equation}
+    \label{eq:GAP}
+    GAP = 100\times\frac{(F_{method} - F_{best})}{F_{method}}
+\end{equation} 
+
+Where $F_{best}$ represents the minimum TWT (total weighted tardiness of jobs delays) value obtained among all compared methods, and $F_{method}$ is the TWT obtained with a specific method.
+
+
+\subsection{Computational Results} %
+\label{subsec:ComputationalResults}
+
+%Initially, we compare the MILP model with PPO-VND, RVND, Framework, and the eight combinations of Neighborhood Search Heuristics (NSH 1, NSH 2, NSH 3, NSH 4, NSH 5, NSH 6, NSH 7, and NSH 8). For each instance, the PPO-VND and RVND algorithms were run five times; as the other methods are deterministic, they were only executed once. 
+
+This section presents a thorough and comprehensive computational analysis, clearly demonstrating the significant advancements achieved by our proposed methodologies compared to existing approaches. The evaluated methods include the proposed Mixed-Integer Linear Programming (MILP) model, the PPO-VND metaheuristic, the RVND metaheuristic, the machine-learning-driven Framework, and the eight Neighborhood Search Heuristics (NSH). Given the inherent stochastic nature of PPO-VND and RVND, each of these algorithms underwent five independent executions per instance, ensuring robustness and reliability of the reported results.
+
+Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illustrate a consistent increase in the average reward during PPO training, signifying the effective learning process of the Deep Reinforcement Learning (DRL) agents in addressing the chosen problem. Specifically, the orange graph in Figure \ref{fig:grafico10} represents the learning curve for instances with $n=10$ jobs. Figure \ref{fig:grafico10} demonstrates that the PPO algorithm achieves faster learning for smaller instances, with the reward stabilizing from approximately the first 100 thousand episodes onward. The blue and green graphs (Figures \ref{fig:grafico15} and \ref{fig:grafico30}, respectively) depict the learning curves for instances with $n=15$ and $n=30$ jobs. For these larger instances, it is evident that PPO exhibits greater difficulty in learning, requiring a higher number of episodes to stabilize the rewards. This indicates that the complexity of the instances directly correlates with the training time required for the PPO. Despite this increased training complexity, Table \ref{tab:Resultados} clearly shows the superior performance of PPO-VND when compared to other methods. Regarding training duration, PPO required approximately 16 hours for instances with $n=10$, around 74 hours for $n=15$, and approximately 45 days for $n=30$. It is important to note that the PPO model's training time was not factored into our performance comparisons, as training is a one-time process.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{Figure 6.pdf}
+        \caption{$n = 10$}
+        \label{fig:grafico10}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{Figure 7.pdf}
+        \caption{$n = 15$}
+        \label{fig:grafico15}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\textwidth}
+        \includegraphics[width=\textwidth]{Figure 8.pdf}
+        \caption{$n = 30$}
+        \label{fig:grafico30}
+    \end{subfigure}
+    \caption{Evolution of the episode reward during PPO training for different instance sizes. (Source: Authors' own work)}
+    \label{fig:ppo_rewards_all}
+\end{figure}
+
+%We performed an Analysis of Variance (ANOVA) ~\citep{zar1999biostatistical} for a significance level $5\%$. The ANOVA resulted in a p-value of $0.00$, indicating statistically significant differences between the experiments. Figure \ref{figura:boxplot} shows the boxplot for the GAPs obtained using all methods. 
+
+We rigorously confirmed the statistical significance of the performance disparities among algorithms using Analysis of Variance (ANOVA) \citep{zar1999biostatistical}. The resulting p-value was below 0.01, indicating highly significant differences. Figure \ref{figura:boxplot} visually highlights these performance discrepancies by clearly illustrating the distributions of GAPs across all methods. This visualization effectively emphasizes PPO-VND's consistently superior performance, especially in more challenging scenarios.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth,scale=0.75]{Figure 9.pdf}
+    \caption{Boxplot of GAPs (\%) for all methods. (Source: Authors' own work)}
+    \label{figura:boxplot}
+\end{figure}
+
+Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborhood Search Heuristics. Meanwhile, Table \ref{tab:Resultados} displays the average GAPs for the other algorithms discussed in this work. Each row in these tables presents the average GAPs across 60 instances, categorized by the number of jobs and machines. The smallest average GAPs are highlighted in bold. The final row of each table summarizes the average GAPs for the entire set of instances.
+
+\begin{table}
+\centering % Este comando centraliza a tabela.
+ \caption{Result for the Neighborhood Search Heuristics 
+ \label{tab:ResultadosNSH}}
+ {
+ \centering % Este comando centraliza a tabela.
+% \resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|cccccccc|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Instances}} & \multicolumn{8}{c|}{Average GAP}\\ %\cline{2-9} 
+\multicolumn{1}{|c|}{}& NSH 1 & NSH 2 & NSH 3 & NSH 4 & NSH 5 & NSH 6& NSH 7 & NSH 8 \\ \hline
+N\_10\_M\_2& 83\%  & 81\%  & 85\%  & 83\%  & 78\%  & \textbf{49\%} & 79\%  & 66\%  \\
+N\_10\_M\_4& 73\%  & 69\%  & 76\%  & 73\%  & 65\%  & \textbf{49\%} & 69\%  & 56\%  \\
+N\_10\_M\_8& 46\%  & 41\%  & 54\%  & 47\%  & 41\%  & \textbf{29\%} & 44\%  & 34\%  \\
+N\_15\_M\_2& 88\%  & 85\%  & 89\%  & 87\%  & 81\%  & \textbf{38\%} & 85\%  & 60\%  \\
+N\_15\_M\_4& 71\%  & 64\%  & 75\%  & 69\%  & 65\%  & \textbf{40\%} & 69\%  & 50\%  \\
+N\_15\_M\_8& 52\%  & 39\%  & 58\%  & 48\%  & 47\%  & \textbf{30\%} & 54\%  & 36\%  \\
+N\_30\_M\_2& 90\%  & 87\%  & 91\%  & 90\%  & 89\%  & \textbf{33\%} & 90\%  & 74\%  \\
+N\_30\_M\_4& 75\%  & 64\%  & 77\%  & 72\%  & 70\%  & \textbf{33\%} & 72\%  & 56\%  \\
+N\_30\_M\_8& 60\%  & 44\%  & 63\%  & 57\%  & 54\%  & \textbf{30\%} & 58\%  & 43\%  \\ \hline
+Average    & 71\%  & 64\%  & 74\%  & 70\%  & 65\%  & \textbf{37\%} & 69\%  & 53\%  \\ \hline
+\end{tabular}}
+%}
+{}
+\text{(Source: Authors own work)}
+\end{table}
+
+\begin{table}
+
+\caption{Result average GAP for the presented methods.\label{tab:Resultados}}
+\centering % Este comando centraliza a tabela
+% \resizebox{\textwidth}{!}{%
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|ccccc|cc|cc|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{Instances}} & \multicolumn{5}{c|}{Average GAP}& \multicolumn{2}{c|}{Best GAP} & \multicolumn{2}{c|}{Worse GAP} \\
+\multicolumn{1}{|c|}{}   & MILP& PPO-VND & RVND& Framework & NSH 6 & PPO-VND& RVND& PPO-VND& RVND\\ \hline
+N\_10\_M\_2  & \textbf{7\%}  & 41\%& 59\%& 49\%& 49\%  & 34\%   & 45\%& 46\%   & 70\%\\
+N\_10\_M\_4  & \textbf{5\%}  & 43\%& 45\%& 49\%& 49\%  & 36\%   & 32\%& 49\%   & 57\%\\
+N\_10\_M\_8  & \textbf{3\%}  & 22\%& 21\%& 29\%& 29\%  & 16\%   & 10\%& 27\%   & 33\%\\
+N\_15\_M\_2  & 38\%& \textbf{34\%} & 65\%& 36\%& 38\%  & 22\%   & 51\%& 40\%   & 75\%\\
+N\_15\_M\_4  & \textbf{21\%} & 24\%& 36\%& 39\%& 40\%  & 14\%   & 17\%& 32\%   & 51\%\\
+N\_15\_M\_8  & 37\%& 26\%& \textbf{20\%} & 28\%& 30\%  & 13\%   & 5\%& 37\%   & 33\%\\
+N\_30\_M\_2  & 79\%& \textbf{26\%} & 69\%& 31\%& 33\%  & 4\%    & 56\%& 43\%   & 77\%\\
+N\_30\_M\_4  & 80\%& \textbf{24\%} & 34\%& 32\%& 33\%  & 10\%   & 15\%& 35\%   & 47\%\\
+N\_30\_M\_8  & 90\%& \textbf{19\%} & 22\%& 30\%& 30\%  & 7\%    & 9\%& 26\%   & 31\%\\ \hline
+Average& 40\%& \textbf{29\%} & 41\%& 36\%& 37\%  & \textbf{17\%}& 27\%& \textbf{37\%}& 53\%\\ \hline
+\end{tabular}
+%}
+}{}
+\text{(Source: Authors own work)}
+\end{table}
+
+As shown in Table \ref{tab:ResultadosNSH}, NSH 6 consistently delivered the best average performance among all Neighborhood Search Heuristics, achieving an average GAP of 37\%. NSH 6's effectiveness stems from its strategy of applying switching movements to the $L1$ job list and restarting the search process whenever a better solution is discovered. When we compare only the NSH variants, NSH 6 found the best solutions for 386 instances, representing 71\% of the total. NSH 8 followed with 139 instances (26\%), while NSH 2 achieved the best results for 89 instances (16\%). The remaining heuristics, NSH 5, NSH 4, NSH 7, NSH 1, and NSH 3, found the best values for a smaller percentage of instances: 47 (9\%), 41 (8\%), 37 (7\%), 32 (6\%), and 26 (5\%) instances, respectively.
+
+Table \ref{tab:Resultados} presents the GAPs achieved by the PPO-VND and RVND algorithms, showcasing their performance across instances of increasing complexity. For smaller instances (e.g., $n=10$), the Mixed-Integer Linear Programming (MILP) model initially demonstrates superior average GAPs. However, as the instance complexity escalates due to an increased job count, MILP's effectiveness noticeably diminishes. In contrast, algorithms that leverage machine learning, such as PPO-VND and our overarching Framework, exhibit improved performance as instance sizes expand.
+
+Furthermore, MILP did outperform other methods in specific smaller instance groups, achieving better GAPs in four distinct categories. Specifically, MILP attained an average GAP of 7\% for N\_10\_M\_2 instances, 5\% for N\_10\_M\_4, 3\% for N\_10\_M\_8, and 21\% for N\_15\_M\_4. Moreover, MILP successfully identified optimal solutions for 34 instances, which accounts for 6\% of all instances tested.
+
+%In contrast, the hybrid algorithm PPO-VND also showcased its prowess, securing the best average GAP for four groups of instances. Its adaptability was particularly evident in more complex instances, where it achieved the best GAPs for the groups n\_15\_m\_2 (34\%), n\_30\_m\_2 (26\%), n\_30\_m\_4 (24\%), and n\_30\_m\_8 (19\%). This adaptability sparks interest in its potential to handle complex optimization scenarios.
+
+Conversely, the PPO-VND algorithm showcased exceptional scalability and adaptability, clearly differentiating itself as a superior choice for more demanding scenarios. It achieved outstanding GAP results, including 34\% for instances n\_15\_m\_2, 26\% for n\_30\_m\_2, 24\% for n\_30\_m\_4, and an impressive 19\% for the largest and most complex scenarios (n\_30\_m\_8). PPO-VND’s superior adaptability is not merely theoretical; it is practically demonstrated, illustrating its ability to efficiently tackle large-scale optimization challenges.
+
+Analyzing the data presented in Tables \ref{tab:ResultadosNSH} and \ref{tab:Resultados}, it is evident that both NSH 6 and the Framework consistently outperform the RVND meta-heuristic across four distinct instance groups. This observation underscores the significant advantage of selecting a proficient neighborhood structure over random selection, which is characteristic of RVND. Consequently, these findings highlight the pivotal role of intelligent neighborhood selection in the efficacy of these methodologies and their potential to surpass conventional approaches.
+
+Interestingly, while NSH 6 emerged as the most effective individual Neighborhood Search Heuristic across all datasets, the Framework's performance rivaled or even surpassed NSH 6 in some cases. This provides compelling evidence that employing an algorithm that leverages machine learning to dynamically determine the best heuristic for a specific instance is highly efficient. The Framework's success rate in this experiment was 72\%; in other words, for 391 instances (out of a total of 540), the Framework accurately selected the optimal NSH. The results achieved by the Framework were commendable, and in certain instances, they even surpassed those of the RVND meta-heuristic.
+
+Table \ref{tab:tempo} presents the algorithm execution times across various problem instances, unveiling discernible performance trends. The MILP consistently exhibits lengthier execution times compared to other algorithms, implying its elevated computational complexity. In contrast, PPO-VND and RVND demonstrated commendable scalability with moderate execution times, even as instance complexity increased substantially. Notably, the Framework particularly distinguished itself through negligible runtime increases, underscoring its potential for efficient application in real-world contexts.
+
+
+\begin{table}
+\centering % Este comando centraliza a tabela.
+\caption{Algorithm execution time in seconds.\label{tab:tempo}}
+ {
+ \resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|cccccccccccc|}
+\hline
+Instance    & MILP   & PPO-VND & RVND   & Framework & NSH 1 & NSH 2 & NSH 3 & NSH 4  & NSH 5 & NSH 6 & NSH 7 & NSH 8 \\ \hline
+N\_10\_M\_2 & 564.70 & 1.46    & 1.53   & 0.57      & 0.16  & 0.27  & 0.30  & 0.72   & 0.15  & 0.29  & 0.28  & 0.72  \\
+N\_10\_M\_4 & 547.06 & 1.21    & 1.85   & 0.44      & 0.19  & 0.30  & 0.37  & 0.84   & 0.18  & 0.35  & 0.34  & 0.87  \\
+N\_10\_M\_8 & 528.21 & 2.02    & 2.38   & 0.56      & 0.26  & 0.39  & 0.51  & 1.03   & 0.26  & 0.45  & 0.48  & 1.23  \\
+N\_15\_M\_2 & 593.68 & 7.40    & 11.61  & 0.90      & 0.71  & 1.06  & 1.38  & 3.91   & 0.70  & 1.24  & 1.28  & 3.56  \\
+N\_15\_M\_4 & 599.71 & 10.12   & 13.76  & 1.04      & 0.83  & 1.38  & 1.62  & 4.83   & 0.82  & 1.56  & 1.53  & 4.51  \\
+N\_15\_M\_8 & 598.07 & 17.61   & 17.68  & 1.54      & 1.13  & 1.83  & 2.23  & 5.06   & 1.13  & 2.05  & 2.09  & 6.23  \\
+N\_30\_M\_2 & 600.57 & 146.83  & 300.57 & 12.96     & 10.62 & 16.55 & 20.61 & 82.44  & 10.54 & 18.23 & 19.85 & 63.48 \\
+N\_30\_M\_4 & 600.68 & 167.22  & 354.30 & 15.78     & 12.29 & 19.96 & 24.20 & 100.94 & 12.38 & 21.55 & 23.28 & 69.80 \\
+N\_30\_M\_8 & 601.20 & 269.30  & 469.47 & 19.75     & 16.20 & 24.62 & 32.17 & 113.66 & 17.78 & 27.54 & 30.66 & 88.10 \\ \hline
+Averange    & 581.54 & 69.24   & 130.35 & 5.95      & 4.71  & 7.37  & 9.27  & 34.83  & 4.88  & 8.14  & 8.87  & 26.50 \\ \hline
+\end{tabular}}
+}
+{}
+\text{(Source: Authors own work)}
+\end{table}
+
+
+A holistic evaluation, considering overall GAP outcomes, decisively positions PPO-VND as the top-performing methodology, boasting an exceptional average GAP of 29\%. The framework follows, achieving a GAP of 36\%. NSH 6 ranks third with a GAP of 37\%. The remaining algorithms are classified as follows: MILP (40\%), RVND (41\%), NSH 8 (53\%), NSH 2 (64\%), NSH 5 (65\%), NSH 7 (69\%), NSH 4 (70\%), NSH 1 (71\%), and finally, NSH 3 (74\%).
+
+
+To evaluate the percentage of improvement caused by the heuristic relative to the initial solution, the Relative Percentage Improvement (RPI) was calculated. The RPI metric is defined by the equation \ref{eq:RPI}:
+
+\begin{equation}
+    \label{eq:RPI}
+    RPI(\%) = 100\times\frac{(F_{s.i.} - F_{method})}{F_{s.i.}}
+\end{equation} 
+
+Where $F_{s.i.}$ is the TWT of the initial solution provided by the constructive heuristic, and $F_{method}$ the TWT obtained with a specific method.
+
+Table \ref{tab:ResultadosRPI} presents the RPI(\%) values for all evaluated methods. The results show that the evaluated methods, PPO-VND, RVND, and Framework, achieved significant improvements compared to the initial solution. The PPO-VND method found the best solutions for the groups N\_10\_M\_2 (80\%), N\_10\_M\_4 (70\%), N\_15\_M\_2 (85\%), N\_15\_M\_4 (71\%), N\_30\_M\_2 (89\%), N\_30\_M\_4 (73\%), and N\_30\_M\_8 (60\%), followed by RVND, which found the best values for the groups N\_15\_M\_8 (59\%) and N\_15\_M\_8 (62\%). Overall, PPO-VND had the highest average RPI (71\%), followed by RVND with 69\%, Framework with 67\%, and NSH. The results of PPO-VND highlight its consistent ability to significantly improve initial solutions, especially in more complex instances.
+
+
+\begin{table}
+\centering
+\caption{Result average RPI for the presented methods\label{tab:ResultadosRPI}}
+ 
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|ccccccccccc|}
+\hline
+ \multirow{2}{*}{Instance} & \multicolumn{11}{|c|}{Relative Percentage Improvement (RPI)}                                                \\ \cline{2-12}
+                          & PPO-VND           & RVND          & Framework & NSH 1 & NSH 2 & NSH 3 & NSH 4 & NSH 5 & NSH 6 & NSH 7 & NSH 8 \\ \hline
+N\_10\_M\_2               & \textbf{80\%} & 74\%          & 76\%      & 31\%  & 36\%  & 21\%  & 30\%  & 53\%  & 76\%  & 48\%  & 67\%  \\
+N\_10\_M\_4               & \textbf{70\%} & 69\%          & 63\%      & 35\%  & 42\%  & 25\%  & 35\%  & 51\%  & 65\%  & 43\%  & 58\%  \\
+N\_10\_M\_8               & 57\%          & \textbf{59\%} & 51\%      & 40\%  & 45\%  & 28\%  & 37\%  & 45\%  & 53\%  & 40\%  & 49\%  \\
+N\_15\_M\_2               & \textbf{85\%} & 78\%          & 83\%      & 27\%  & 38\%  & 18\%  & 29\%  & 55\%  & 84\%  & 46\%  & 75\%  \\
+N\_15\_M\_4               & \textbf{71\%} & 68\%          & 65\%      & 27\%  & 39\%  & 17\%  & 29\%  & 43\%  & 65\%  & 33\%  & 57\%  \\
+N\_15\_M\_8               & 59\%          & \textbf{62\%} & 56\%      & 36\%  & 49\%  & 26\%  & 38\%  & 43\%  & 56\%  & 35\%  & 51\%  \\
+N\_30\_M\_2               & \textbf{89\%} & 80\%          & 87\%      & 17\%  & 36\%  & 8\%   & 22\%  & 32\%  & 87\%  & 26\%  & 70\%  \\
+N\_30\_M\_4               & \textbf{73\%} & 70\%          & 68\%      & 17\%  & 40\%  & 9\%   & 23\%  & 35\%  & 68\%  & 29\%  & 53\%  \\
+N\_30\_M\_8               & \textbf{60\%} & 59\%          & 54\%      & 20\%  & 43\%  & 13\%  & 25\%  & 31\%  & 54\%  & 24\%  & 44\%  \\ \hline
+Average                       & \textbf{71\%} & 69\%          & 67\%      & 28\%  & 41\%  & 18\%  & 30\%  & 43\%  & 67\%  & 36\%  & 58\% \\ \hline
+\end{tabular}}
+{}
+\text{(Source: Authors own work)}
+\end{table}
+
+In conclusion, these computational results robustly confirm the remarkable effectiveness, adaptability, and scalability of PPO-VND and the Framework. The innovations presented herein significantly advance the state-of-the-art, establishing these methods as powerful tools for solving complex, integrated scheduling and routing challenges in logistics.
+
+\section{Conclusion}
+\label{sec:Conclusions}
+
+This study proposes a suite of innovative methodologies designed to address integrated production scheduling and distribution problems. The contributions include a Mixed-Integer Linear Programming (MILP) model, a hybrid heuristic known as PPO-VND, eight distinct neighborhood search heuristics, and a machine learning-based framework for selecting the most suitable Neighborhood Search Heuristic (NSH) for a given problem instance. Central to this approach is the use of the Proximal Policy Optimization (PPO) algorithm from Reinforcement Learning (RL), which dynamically predicts the most effective NSH for each PPO-VND iteration. This integration offers an adaptive and data-driven solution strategy.
+
+Computational experiments demonstrate that PPO-VND significantly outperforms traditional mathematical programming models and other heuristic algorithms in terms of both computational efficiency and solution quality. It is important to note that the training time for the PPO algorithm and the heuristic selection framework is excluded from the reported execution times, as training is performed only once. The results further reveal that while the MILP model performs well on small instances with limited search spaces, its scalability is limited. As instance complexity increases, MILP’s performance deteriorates, making it less suitable for real-world applications characterized by complex and large-scale parameters. In contrast, PPO-VND consistently delivers superior performance in larger instances, particularly when the number of jobs increases to 15 and 30. This highlights the robustness, adaptability, and scalability of PPO-VND in solving complex production and distribution problems.
+
+The proposed methodologies offer significant advantages for industrial environments, particularly in addressing complex production and distribution planning problems. The PPO-VND hybrid metaheuristic, with its exceptional scalability and adaptability, is well-suited to tackle the large-scale optimization challenges frequently encountered in real-world industrial settings. Unlike traditional methods that may falter with increasing instance complexity, PPO-VND demonstrates robust performance, even in highly demanding scenarios, as evidenced by its superior GAP results for larger problem sizes. This capability ensures that businesses can consistently achieve highly optimized solutions for their integrated planning needs, leading to more efficient resource utilization, reduced operational costs, and improved overall productivity. The emphasis on intelligent neighborhood selection, powered by machine learning, moves beyond rigid, pre-defined heuristics, allowing for more dynamic and effective problem-solving tailored to specific industrial instances.
+
+Furthermore, the integration of machine learning into the decision-making process, as demonstrated by the Framework, offers a significant paradigm shift. By intelligently pinpointing the most effective heuristic for a particular problem instance based on its characteristics, the framework can streamline the optimization process. This eliminates the need for manual trial-and-error in selecting algorithms, saving valuable time and resources. While the initial training of the machine learning model might require some computational effort, its ability to recommend an optimal algorithm in approximately 0.1 seconds post-training highlights its immense potential for efficient application in dynamic industrial contexts. This rapid decision-making capability, coupled with the consistently strong performance across various instance types, translates directly into quicker responses to changing demands, enhanced operational agility, and a competitive edge in fast-paced industrial landscapes.
+
+\hfill
+
+\textit{Disclosure statement:} \\No potential conflict of interest is reported by the authors
+
+
+%\THEEndNotes
+%\begingroup \parindent 0pt \parskip 0.0ex \def\enotesize{\normalsize} \theendnotes \endgroup
+
+% Appendix here
+% Options are (1) APPENDIX (with or without general title) or
+%             (2) APPENDICES (if it has more than one unrelated sections)
+% Outcomment the appropriate case if necessary
+%
+% \begin{APPENDIX}{<Title of the Appendix>}
+% \end{APPENDIX}
+%
+%   or
+%
+% \begin{APPENDICES}
+% \section{<Title of Section A>}
+% \section{<Title of Section B>}
+% etc
+% \end{APPENDICES}
+
+% Acknowledgments here
+%\ACKNOWLEDGMENT{We would like to express our sincere gratitude to [acknowledge individuals, organizations, or institutions] for their invaluable contributions to this research. We are also grateful to [mention any additional acknowledgements, such as technical assistance, data providers, or colleagues] for their support and assistance throughout the course of this work.}
+
+
+
+%\bibliographystyle{informs2014} % outcomment this and next line in Case 1
+\printbibliography
+
+
+%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%
