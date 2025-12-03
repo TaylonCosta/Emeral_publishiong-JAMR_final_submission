@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.11" bltxversion="3.21" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.8" bltxversion="3.17" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -37,11 +37,6 @@
     <bcf:option type="singlevalued">
       <bcf:key>alphaothers</bcf:key>
       <bcf:value>+</bcf:value>
-    </bcf:option>
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
@@ -140,10 +135,6 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>nosortothers</bcf:key>
-      <bcf:value>0</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
-      <bcf:key>pluralothers</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -281,11 +272,6 @@
   </bcf:options>
   <!-- online -->
   <bcf:options component="biblatex" type="online">
-    <bcf:option type="multivalued">
-      <bcf:key>extradatecontext</bcf:key>
-      <bcf:value order="1">labelname</bcf:value>
-      <bcf:value order="2">labeltitle</bcf:value>
-    </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
       <bcf:value>0</bcf:value>
@@ -386,11 +372,11 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skipbiblist</bcf:key>
+      <bcf:key>skiplab</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>skiplab</bcf:key>
+      <bcf:key>skipbiblist</bcf:key>
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
@@ -502,11 +488,9 @@
     <bcf:option datatype="xml">inheritance</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">uniquenametemplate</bcf:option>
-    <bcf:option datatype="xml">namehashtemplate</bcf:option>
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -514,7 +498,6 @@
     <bcf:option datatype="string">alphaothers</bcf:option>
     <bcf:option datatype="string">sortalphaothers</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
-    <bcf:option datatype="string">citepagerange</bcf:option>
     <bcf:option datatype="string">texencoding</bcf:option>
     <bcf:option datatype="string">bibencoding</bcf:option>
     <bcf:option datatype="string">sortingtemplatename</bcf:option>
@@ -560,7 +543,6 @@
     <bcf:option datatype="string">datelabel</bcf:option>
     <bcf:option datatype="string">backrefstyle</bcf:option>
     <bcf:option datatype="string">arxiv</bcf:option>
-    <bcf:option datatype="string">mergedate</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -617,7 +599,6 @@
     <bcf:option datatype="boolean">labeltitle</bcf:option>
     <bcf:option datatype="boolean">labeltitleyear</bcf:option>
     <bcf:option datatype="boolean">labeldateparts</bcf:option>
-    <bcf:option datatype="boolean">pluralothers</bcf:option>
     <bcf:option datatype="boolean">nohashothers</bcf:option>
     <bcf:option datatype="boolean">nosortothers</bcf:option>
     <bcf:option datatype="boolean">noroman</bcf:option>
@@ -645,6 +626,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">mergedate</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -675,7 +657,6 @@
     <bcf:option datatype="string">loccittracker</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="string">mergedate</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -727,12 +708,12 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">mergedate</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">sortexclusion</bcf:option>
     <bcf:option datatype="xml">sortinclusion</bcf:option>
-    <bcf:option datatype="xml">extradatecontext</bcf:option>
     <bcf:option datatype="xml">labelnamespec</bcf:option>
     <bcf:option datatype="xml">labeltitlespec</bcf:option>
     <bcf:option datatype="xml">labeldatespec</bcf:option>
@@ -751,10 +732,9 @@
   </bcf:optionscope>
   <bcf:optionscope type="ENTRY">
     <bcf:option datatype="string">noinherit</bcf:option>
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
     <bcf:option datatype="string" backendout="1">indexing</bcf:option>
@@ -765,7 +745,6 @@
     <bcf:option datatype="string" backendout="1">loccittracker</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
-    <bcf:option datatype="string" backendout="1">mergedate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">giveninits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">prefixinits</bcf:option>
@@ -816,6 +795,7 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">mergedate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -831,10 +811,9 @@
     <bcf:option datatype="integer" backendout="1">minalphanames</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
@@ -848,10 +827,9 @@
     <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAME">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
@@ -1065,15 +1043,8 @@
     <bcf:namepart order="2" base="1">family</bcf:namepart>
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
-  <!-- NAME HASH TEMPLATES -->
-  <bcf:namehashtemplate name="global">
-    <bcf:namepart order="1" hashscope="full">family</bcf:namepart>
-    <bcf:namepart order="2" hashscope="full">given</bcf:namepart>
-    <bcf:namepart order="3" hashscope="full">prefix</bcf:namepart>
-    <bcf:namepart order="4" hashscope="full">suffix</bcf:namepart>
-  </bcf:namehashtemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
-  <bcf:sortingnamekeytemplate name="global" visibility="sort">
+  <bcf:sortingnamekeytemplate name="global">
     <bcf:keypart order="1">
       <bcf:part type="namepart" order="1" use="1">prefix</bcf:part>
       <bcf:part type="namepart" order="2">family</bcf:part>
@@ -2374,75 +2345,125 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">sample.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">chen2004integrated</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">chen2010integrated</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">ullrich2013integrated</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">YAGMUR2024121586</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">MOHAMMADI2020347</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">boudia2008fast</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">tamannaei2019mathematical</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">ghinato1995sistema</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">monden2011toyota</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">sugimori1977toyota</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">zhu2020deep</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">nahhas2022deep</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">peng2020deep</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">nazari2018reinforcement</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">hou2022modelling</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">ta2015heuristic</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">nagano2022solution</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">martins2021combining</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">wang2020variable</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">MOHAMMADI2020347</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">tamannaei2019mathematical</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">liu2020coordinated</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">FelixArroyo</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Arroyo_felix</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">zou2018coordinated</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">YAGMUR2024121586</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">ULLRICH2013152</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">nagano2022solution</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">martins2021combining</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">martins2021combining</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">hou2022modelling</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">duan2018effective</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">mao2021effective</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">zhang2020enhanced</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">kurdi2020memetic</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">pan2019effective</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">ullrich2013integrated</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">WangLi2013</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">iklassov2024reinforcementlearningsolvingstochastic</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">wang2020variable</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">vasconcelos2021algoritmo</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">VIDAL2020401</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">lin2014unrelated</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">lenstra1981complexity</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">nawaz1983heuristic</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">solomon1987algorithms</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">kingma2014adam</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">alves2020deep</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">schulman2017proximal</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">alves2020deep</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">stable-baselines3</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">hansen2001variable</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">optuna_2019</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">rl-zoo3</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">hansen2001variable</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">haddad2014aiv</bcf:citekey>
-    <bcf:citekey order="64" intorder="2">yildiz2023variable</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">subramanian2013hybrid</bcf:citekey>
-    <bcf:citekey order="65" intorder="2">penna2013iterated</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">Arroyo_felix</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">zar1999biostatistical</bcf:citekey>
+    <bcf:citekey order="1">chen2004integrated</bcf:citekey>
+    <bcf:citekey order="2">chen2010integrated</bcf:citekey>
+    <bcf:citekey order="3">ullrich2013integrated</bcf:citekey>
+    <bcf:citekey order="4">YAGMUR2024121586</bcf:citekey>
+    <bcf:citekey order="5">MOHAMMADI2020347</bcf:citekey>
+    <bcf:citekey order="6">boudia2008fast</bcf:citekey>
+    <bcf:citekey order="7">tamannaei2019mathematical</bcf:citekey>
+    <bcf:citekey order="8">ghinato1995sistema</bcf:citekey>
+    <bcf:citekey order="9">monden2011toyota</bcf:citekey>
+    <bcf:citekey order="10">sugimori1977toyota</bcf:citekey>
+    <bcf:citekey order="11">zhu2020deep</bcf:citekey>
+    <bcf:citekey order="12">nahhas2022deep</bcf:citekey>
+    <bcf:citekey order="13">peng2020deep</bcf:citekey>
+    <bcf:citekey order="14">nazari2018reinforcement</bcf:citekey>
+    <bcf:citekey order="15">hou2022modelling</bcf:citekey>
+    <bcf:citekey order="16">ta2015heuristic</bcf:citekey>
+    <bcf:citekey order="17">nagano2022solution</bcf:citekey>
+    <bcf:citekey order="18">martins2021combining</bcf:citekey>
+    <bcf:citekey order="19">wang2020variable</bcf:citekey>
+    <bcf:citekey order="20">MOHAMMADI2020347</bcf:citekey>
+    <bcf:citekey order="21">tamannaei2019mathematical</bcf:citekey>
+    <bcf:citekey order="22">liu2020coordinated</bcf:citekey>
+    <bcf:citekey order="23">FelixArroyo</bcf:citekey>
+    <bcf:citekey order="24">Arroyo_felix</bcf:citekey>
+    <bcf:citekey order="25">zou2018coordinated</bcf:citekey>
+    <bcf:citekey order="26">YAGMUR2024121586</bcf:citekey>
+    <bcf:citekey order="27">ULLRICH2013152</bcf:citekey>
+    <bcf:citekey order="28">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="29">nagano2022solution</bcf:citekey>
+    <bcf:citekey order="30">martins2021combining</bcf:citekey>
+    <bcf:citekey order="31">martins2021combining</bcf:citekey>
+    <bcf:citekey order="32">hou2022modelling</bcf:citekey>
+    <bcf:citekey order="33">duan2018effective</bcf:citekey>
+    <bcf:citekey order="34">mao2021effective</bcf:citekey>
+    <bcf:citekey order="35">zhang2020enhanced</bcf:citekey>
+    <bcf:citekey order="36">kurdi2020memetic</bcf:citekey>
+    <bcf:citekey order="37">pan2019effective</bcf:citekey>
+    <bcf:citekey order="38">ullrich2013integrated</bcf:citekey>
+    <bcf:citekey order="39">WangLi2013</bcf:citekey>
+    <bcf:citekey order="40">iklassov2024reinforcementlearningsolvingstochastic</bcf:citekey>
+    <bcf:citekey order="41">wang2020variable</bcf:citekey>
+    <bcf:citekey order="42">vasconcelos2021algoritmo</bcf:citekey>
+    <bcf:citekey order="43">VIDAL2020401</bcf:citekey>
+    <bcf:citekey order="44">lin2014unrelated</bcf:citekey>
+    <bcf:citekey order="45">lenstra1981complexity</bcf:citekey>
+    <bcf:citekey order="46">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="47">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="48">nawaz1983heuristic</bcf:citekey>
+    <bcf:citekey order="49">solomon1987algorithms</bcf:citekey>
+    <bcf:citekey order="50">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="51">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="52">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="53">kingma2014adam</bcf:citekey>
+    <bcf:citekey order="54">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="55">alves2020deep</bcf:citekey>
+    <bcf:citekey order="56">schulman2017proximal</bcf:citekey>
+    <bcf:citekey order="57">alves2020deep</bcf:citekey>
+    <bcf:citekey order="58">stable-baselines3</bcf:citekey>
+    <bcf:citekey order="59">hansen2001variable</bcf:citekey>
+    <bcf:citekey order="60">optuna_2019</bcf:citekey>
+    <bcf:citekey order="61">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="62">rl-zoo3</bcf:citekey>
+    <bcf:citekey order="63">hansen2001variable</bcf:citekey>
+    <bcf:citekey order="64">haddad2014aiv</bcf:citekey>
+    <bcf:citekey order="64">yildiz2023variable</bcf:citekey>
+    <bcf:citekey order="65">subramanian2013hybrid</bcf:citekey>
+    <bcf:citekey order="65">penna2013iterated</bcf:citekey>
+    <bcf:citekey order="66">Arroyo_felix</bcf:citekey>
+    <bcf:citekey order="67">zar1999biostatistical</bcf:citekey>
+    <bcf:citekey order="68">chen2004integrated</bcf:citekey>
+    <bcf:citekey order="69">chen2010integrated</bcf:citekey>
+    <bcf:citekey order="70">ullrich2013integrated</bcf:citekey>
+    <bcf:citekey order="71">YAGMUR2024121586</bcf:citekey>
+    <bcf:citekey order="72">MOHAMMADI2020347</bcf:citekey>
+    <bcf:citekey order="73">boudia2008fast</bcf:citekey>
+    <bcf:citekey order="74">tamannaei2019mathematical</bcf:citekey>
+    <bcf:citekey order="75">ghinato1995sistema</bcf:citekey>
+    <bcf:citekey order="76">monden2011toyota</bcf:citekey>
+    <bcf:citekey order="77">sugimori1977toyota</bcf:citekey>
+    <bcf:citekey order="78">zhu2020deep</bcf:citekey>
+    <bcf:citekey order="79">nahhas2022deep</bcf:citekey>
+    <bcf:citekey order="80">peng2020deep</bcf:citekey>
+    <bcf:citekey order="81">nazari2018reinforcement</bcf:citekey>
+    <bcf:citekey order="82">hou2022modelling</bcf:citekey>
+    <bcf:citekey order="83">ta2015heuristic</bcf:citekey>
+    <bcf:citekey order="84">nagano2022solution</bcf:citekey>
+    <bcf:citekey order="85">martins2021combining</bcf:citekey>
+    <bcf:citekey order="86">wang2020variable</bcf:citekey>
+    <bcf:citekey order="87">liu2020coordinated</bcf:citekey>
+    <bcf:citekey order="88">FelixArroyo</bcf:citekey>
+    <bcf:citekey order="89">Arroyo_felix</bcf:citekey>
+    <bcf:citekey order="90">zou2018coordinated</bcf:citekey>
+    <bcf:citekey order="91">ULLRICH2013152</bcf:citekey>
+    <bcf:citekey order="92">de2022heuristics</bcf:citekey>
+    <bcf:citekey order="93">duan2018effective</bcf:citekey>
+    <bcf:citekey order="94">mao2021effective</bcf:citekey>
+    <bcf:citekey order="95">zhang2020enhanced</bcf:citekey>
+    <bcf:citekey order="96">kurdi2020memetic</bcf:citekey>
+    <bcf:citekey order="97">pan2019effective</bcf:citekey>
+    <bcf:citekey order="98">WangLi2013</bcf:citekey>
+    <bcf:citekey order="99">iklassov2024reinforcementlearningsolvingstochastic</bcf:citekey>
+    <bcf:citekey order="100">vasconcelos2021algoritmo</bcf:citekey>
+    <bcf:citekey order="101">VIDAL2020401</bcf:citekey>
+    <bcf:citekey order="102">lin2014unrelated</bcf:citekey>
+    <bcf:citekey order="103">lenstra1981complexity</bcf:citekey>
+    <bcf:citekey order="104">nawaz1983heuristic</bcf:citekey>
+    <bcf:citekey order="105">solomon1987algorithms</bcf:citekey>
+    <bcf:citekey order="106">kingma2014adam</bcf:citekey>
+    <bcf:citekey order="107">alves2020deep</bcf:citekey>
+    <bcf:citekey order="108">schulman2017proximal</bcf:citekey>
+    <bcf:citekey order="109">stable-baselines3</bcf:citekey>
+    <bcf:citekey order="110">hansen2001variable</bcf:citekey>
+    <bcf:citekey order="111">optuna_2019</bcf:citekey>
+    <bcf:citekey order="112">rl-zoo3</bcf:citekey>
+    <bcf:citekey order="113">haddad2014aiv</bcf:citekey>
+    <bcf:citekey order="114">yildiz2023variable</bcf:citekey>
+    <bcf:citekey order="115">subramanian2013hybrid</bcf:citekey>
+    <bcf:citekey order="116">penna2013iterated</bcf:citekey>
+    <bcf:citekey order="117">zar1999biostatistical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
@@ -2475,13 +2496,12 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nyt/global//global/global/global"
+                name="nyt/global//global/global"
                 type="entry"
                 sortingtemplatename="nyt"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
+                labelalphanametemplatename="global">
   </bcf:datalist>
 </bcf:controlfile>

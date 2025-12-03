@@ -330,7 +330,7 @@ Formally, a set of jobs $I = {1, 2, ..., n}$ must be scheduled on $m$ unrelated 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth,scale=0.95]{Figure 1.pdf} % Ajuste conforme necessário
-    \caption{The scheduling of jobs and delivery routes. (Source: Authors' own work)}
+    \caption{\textbf{Gantt chart illustrating the integrated production and distribution schedule}. The timeline is vertically partitioned into two operational stages: Production Scheduling involving parallel machines and Delivery Routes utilizing a vehicle fleet. The visualizationemonstrates the synchronization constraints, where the departure time of each vehicleis strictly determined by the completion time of the last manufactured job assigned to that route. (Source: Authors' own work)}
     \label{figura:planejamentoRotas}
 \end{figure}
 
@@ -543,7 +543,7 @@ Although the problem comprises two interdependent components—parallel machine 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.6\textwidth,scale=0.65]{Figure 2.pdf}
-    \caption{The solution decoding process. (Source: Author's own work)}
+    \caption{\textbf{Flowchart of the two-stage solution decoding process}. The mechanism transforms the list-based representation into a complete solution $\{s,r\}$. In the first stage, the NEH Decoding Algorithm utilizes the job list $L1$ to construct the machine schedule, denoted as $s$. In the second stage, the PIFH Decoding Algorithm takes both the generated schedule s and $L2$ to determine the vehicle routing assignments, denoted as $r$. (Source: Author's own work)}
     \label{figura:decoding}
 \end{figure}
 
@@ -585,7 +585,7 @@ To construct a solution for the problem ($sol = {s, r}$), the process begins wit
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth,scale=0.95]{Figure 3.pdf}
-    \caption{Initial solution construction process. (Source: Authors' own work)}
+    \caption{\textbf{Flowchart of the initial solution construction process}. The sequential decoding procedure builds the solution structure $sol=\{s,r\}$. The NEH Decoding Algorithm first processes the initial job list $L1$ to produce a preliminary machine schedule $s$. Then, the PIFH Decoding Algorithm uses $s$ to generate the secondary job list $L2$ and resource assignments $r$, yielding a valid starting solution for the optimization phase. (Source: Authors' own work)}
     \label{figura:solucaoInicial}
 \end{figure}
 
@@ -745,7 +745,7 @@ Upon analyzing the underlying patterns and rules within the training data, a mac
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth,scale=0.85]{Figure 4.JPG}
-    \caption{The framework scheme. Source: \citet{de2022heuristics}.}
+    \caption{\textbf{Schematic overview of the proposed learning framework}. The pipeline progresses from offline data analysis to online execution: instance data is analyzed and classified to build a representative training set, which trains the central learning algorithm. The resulting decision model $h(x)$ maps instance features to the most suitable local search method, enabling automated heuristic selection based on problem characteristics.. Source: \citet{de2022heuristics}.}
     \label{figura:framework}
 \end{figure}
 
@@ -856,7 +856,7 @@ The Variable Neighborhood Descent (VND) algorithm \citep{hansen2001variable} is 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth,scale=0.65]{Figure 5.pdf}
-    \caption{The PPO-VND scheme. (Source: Authors' own work)}
+    \caption{\textbf{Operational flowchart of the proposed PPO-VND framework}. Diagram depicting the hybrid metaheuristic architecture in which the PPO agent serves as the high-level controller, selecting a NSH at each iteration using action masking to ensure valid choices. (Source: Authors' own work)}
     \label{figura:PPO-VND}
 \end{figure}
 
@@ -938,7 +938,7 @@ Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illust
         \caption{$n = 30$}
         \label{fig:grafico30}
     \end{subfigure}
-    \caption{Evolution of the episode reward during PPO training for different instance sizes. (Source: Authors' own work)}
+    \caption{\textbf{Training evolution of the PPO agent for instance sizes (n = 10, 15, 30)}. Episode rewards are shown over 500,000 training steps, with solid curves indicating the smoothed learning trend and translucent lines depicting raw variability. Across all instance sizes, the agent shows consistent learning, with a rapid initial reward increase followed by stabilization as the policy converges.(Source: Authors' own work)}
     \label{fig:ppo_rewards_all}
 \end{figure}
 
@@ -949,7 +949,7 @@ We rigorously confirmed the statistical significance of the performance disparit
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth,scale=0.75]{Figure 9.pdf}
-    \caption{Boxplot of GAPs (\%) for all methods. (Source: Authors' own work)}
+    \caption{\textbf{Comparative boxplots of optimality gaps (\%) across all methods}. The proposed Framework shows a competitive performance profile, with median and variability similar to the MILP and RVND baselines. PPO-VND attains the lowest median gap but exhibits notable instability due to high outliers, whereas most constructive heuristics (NSH 1-8) present higher medians and larger variances.}
     \label{figura:boxplot}
 \end{figure}
 
@@ -957,8 +957,7 @@ Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborho
 
 \begin{table}
 \centering % Este comando centraliza a tabela.
- \caption{Result for the Neighborhood Search Heuristics 
- \label{tab:ResultadosNSH}}
+ \caption{\textbf{Performance comparison of NSH based on average optimality gap (\%)}. The results demonstrate the superior efficiency of NSH 6 compared with simlar NSH's. \label{tab:ResultadosNSH}}
  {
  \centering % Este comando centraliza a tabela.
 % \resizebox{\textwidth}{!}{%
@@ -984,7 +983,7 @@ Average    & 71\%  & 64\%  & 74\%  & 70\%  & 65\%  & \textbf{37\%} & 69\%  & 53\
 
 \begin{table}
 
-\caption{Result average GAP for the presented methods.\label{tab:Resultados}}
+\caption{\textbf{Comparative analysis of optimality gaps across varying instance dimensions}. Average, Best, and Worst solution gaps for the exact method (MILP) versus heuristic approaches.\label{tab:Resultados}}
 \centering % Este comando centraliza a tabela
 % \resizebox{\textwidth}{!}{%
 \resizebox{\textwidth}{!}{
@@ -1027,7 +1026,7 @@ Table \ref{tab:tempo} presents the algorithm execution times across various prob
 
 \begin{table}
 \centering % Este comando centraliza a tabela.
-\caption{Algorithm execution time in seconds.\label{tab:tempo}}
+\caption{\textbf{Comparison of average computational processing time (in seconds)}. The data highlights the runtime disparity between exact and heuristic approaches.\label{tab:tempo}}
  {
  \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|cccccccccccc|}
@@ -1067,14 +1066,14 @@ Table \ref{tab:ResultadosRPI} presents the RPI(\%) values for all evaluated meth
 
 \begin{table}
 \centering
-\caption{Result average RPI for the presented methods\label{tab:ResultadosRPI}}
+\caption{Assessment of solution quality based on Relative Percentage Improvement (RPI). Quantification of the improvement of each method relative to the initial solution. \label{tab:ResultadosRPI}}
  
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|ccccccccccc|}
 \hline
  \multirow{2}{*}{Instance} & \multicolumn{11}{|c|}{Relative Percentage Improvement (RPI)}                                                \\ \cline{2-12}
-                          & PPO-VND           & RVND          & Framework & NSH 1 & NSH 2 & NSH 3 & NSH 4 & NSH 5 & NSH 6 & NSH 7 & NSH 8 \\ \hline
+& PPO-VND           & RVND          & Framework & NSH 1 & NSH 2 & NSH 3 & NSH 4 & NSH 5 & NSH 6 & NSH 7 & NSH 8 \\ \hline
 N\_10\_M\_2               & \textbf{80\%} & 74\%          & 76\%      & 31\%  & 36\%  & 21\%  & 30\%  & 53\%  & 76\%  & 48\%  & 67\%  \\
 N\_10\_M\_4               & \textbf{70\%} & 69\%          & 63\%      & 35\%  & 42\%  & 25\%  & 35\%  & 51\%  & 65\%  & 43\%  & 58\%  \\
 N\_10\_M\_8               & 57\%          & \textbf{59\%} & 51\%      & 40\%  & 45\%  & 28\%  & 37\%  & 45\%  & 53\%  & 40\%  & 49\%  \\
