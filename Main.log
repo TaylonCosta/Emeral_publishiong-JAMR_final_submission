@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  31 OCT 2025 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.30)  3 DEC 2025 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,6 +393,8 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (./eqndefns-left.sty (c:/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2025/09/09 version 6.8.0 text color boxes
  (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -2069,46 +2071,46 @@ Package pdftex.def Info: Figure 9.pdf  used on input line 951.
 [20]
 
 Package biblatex Warning: Bibliography string 'available at' undefined
-(biblatex)                at entry 'iklassov2024reinforcementlearningsolvingstochastic' on input line 1136.
+(biblatex)                at entry 'iklassov2024reinforcementlearningsolvingstochastic' on input line 1138.
 
 
 Package biblatex Warning: Bibliography string 'doi' undefined
-(biblatex)                at entry 'MOHAMMADI2020347' on input line 1136.
+(biblatex)                at entry 'MOHAMMADI2020347' on input line 1138.
 
 
 Package biblatex Warning: Bibliography string 'available at' undefined
-(biblatex)                at entry 'MOHAMMADI2020347' on input line 1136.
-
-
-Package biblatex Warning: Bibliography string 'available at' undefined
-(biblatex)                at entry 'stable-baselines3' on input line 1136.
+(biblatex)                at entry 'MOHAMMADI2020347' on input line 1138.
 
 
 
 [21]
 
-Package biblatex Warning: Bibliography string 'doi' undefined
-(biblatex)                at entry 'ULLRICH2013152' on input line 1136.
-
-
 Package biblatex Warning: Bibliography string 'available at' undefined
-(biblatex)                at entry 'ULLRICH2013152' on input line 1136.
+(biblatex)                at entry 'stable-baselines3' on input line 1138.
 
 
 Package biblatex Warning: Bibliography string 'doi' undefined
-(biblatex)                at entry 'VIDAL2020401' on input line 1136.
+(biblatex)                at entry 'ULLRICH2013152' on input line 1138.
 
 
 Package biblatex Warning: Bibliography string 'available at' undefined
-(biblatex)                at entry 'VIDAL2020401' on input line 1136.
+(biblatex)                at entry 'ULLRICH2013152' on input line 1138.
 
 
 Package biblatex Warning: Bibliography string 'doi' undefined
-(biblatex)                at entry 'YAGMUR2024121586' on input line 1136.
+(biblatex)                at entry 'VIDAL2020401' on input line 1138.
 
 
 Package biblatex Warning: Bibliography string 'available at' undefined
-(biblatex)                at entry 'YAGMUR2024121586' on input line 1136.
+(biblatex)                at entry 'VIDAL2020401' on input line 1138.
+
+
+Package biblatex Warning: Bibliography string 'doi' undefined
+(biblatex)                at entry 'YAGMUR2024121586' on input line 1138.
+
+
+Package biblatex Warning: Bibliography string 'available at' undefined
+(biblatex)                at entry 'YAGMUR2024121586' on input line 1138.
 
 
 
@@ -2129,15 +2131,15 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50208 strings out of 467747
- 1025117 string characters out of 5431120
- 1853437 words of memory out of 5000000
- 77947 multiletter control sequences out of 15000+600000
+ 50287 strings out of 467747
+ 1026504 string characters out of 5431120
+ 1857119 words of memory out of 5000000
+ 78023 multiletter control sequences out of 15000+600000
  689473 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,16n,131p,1580b,2357s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,16n,131p,1580b,2361s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/txfonts/txtt.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on Main.pdf (22 pages, 3440555 bytes).
+Output written on Main.pdf (22 pages, 3441274 bytes).
 PDF statistics:
  889 PDF objects out of 1000 (max. 8388607)
  624 compressed objects within 7 object streams

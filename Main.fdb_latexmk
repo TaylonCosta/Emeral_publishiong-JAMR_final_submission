@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Main"] 0 "Main.bcf" "Main.bbl" "Main" 1761917856.04832 -1
-  "Main.bcf" 1761917855 113636 e0735c44c4fa2952d0218b8d937c5826 "pdflatex"
-  "sample.bib" 1761871644 40334 2751f32e8ab0df7ae94380d67a09fd03 ""
+["biber Main"] 1764865040.08101 "Main.bcf" "Main.bbl" "Main" 1764865045.87226 0
+  "Main.bcf" 1764769868 113636 e0735c44c4fa2952d0218b8d937c5826 "pdflatex"
+  "sample.bib" 1764865038 49262 ceee39a968d1a4beab86ae386eb7a689 ""
   (generated)
   "Main.bbl"
   "Main.blg"
   (rewritten before read)
-["pdflatex"] 1761917851.44263 "c:/Users/Taylon/latex/Emeral_publishiong-JAMR_final_submission/Main.tex" "Main.pdf" "Main" 1761917856.04887 0
+["pdflatex"] 1764769865.38377 "c:/Users/Taylon/latex/Emeral_publishiong-JAMR_final_submission/Main.tex" "Main.pdf" "Main" 1764865045.8724 0
   "Figure 1.pdf" 1761871644 2793014 03638c18610bbf579eb4e67b250277ad ""
   "Figure 2.pdf" 1761871644 89166 ccba69ac8e4905625849b6cc7d68d6da ""
   "Figure 3.pdf" 1761871644 73531 fa20d200a22ea88ca3ba3543b222ed61 ""
@@ -16,12 +16,12 @@
   "Figure 7.pdf" 1761871644 16560 319cdaadb693b73fb5985ca12983fbb8 ""
   "Figure 8.pdf" 1761871644 17848 c263a25a5c09277801d5da7b048e706b ""
   "Figure 9.pdf" 1761871644 17882 07b0c66add908eb899f2dabc82d0a9b4 ""
-  "Main.aux" 1761917855 29475 64dd7471b6df77c43583ecf73ab1f154 "pdflatex"
-  "Main.bbl" 1761872020 99021 3d215bc1d922ddb457e1471811151c8f "biber Main"
-  "Main.out" 1761917855 2579 c79d3aec9ed44891a0f9b4585f64412b "pdflatex"
-  "Main.run.xml" 1761917855 2341 aeeeb2c2b8abbc6d2eabaf414a7575ec "pdflatex"
-  "Main.tex" 1761875128 100975 3cb51d9388f7ae99d10c71614535cea8 ""
-  "c:/Users/Taylon/latex/Emeral_publishiong-JAMR_final_submission/Main.tex" 1761875128 100975 3cb51d9388f7ae99d10c71614535cea8 ""
+  "Main.aux" 1764769868 29475 db3d26b66313b73caf24d33163ffbed0 "pdflatex"
+  "Main.bbl" 1764865045 99005 0a1bfdc87dfd6c9bfaf861e73560c55f "biber Main"
+  "Main.out" 1764769868 2579 c79d3aec9ed44891a0f9b4585f64412b "pdflatex"
+  "Main.run.xml" 1764769868 2341 aeeeb2c2b8abbc6d2eabaf414a7575ec "pdflatex"
+  "Main.tex" 1764768527 102320 7ab0c5aefdfd7230129111a992ded1dd ""
+  "c:/Users/Taylon/latex/Emeral_publishiong-JAMR_final_submission/Main.tex" 1764768527 102320 7ab0c5aefdfd7230129111a992ded1dd ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc" 1761794079 2211 c42193888177bc8f86d55dca129a9358 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1761794079 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc" 1761795379 2409 c64dab22331c83731e970f6020b4448b ""
@@ -227,6 +227,7 @@
   "c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1761792451 1224 978390e9c2234eab29404bc21b268d1e ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def" 1761792452 19626 23e2822b9b2b5005f4c549ca98b9334d ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty" 1761792450 7245 a7e8457a46cda4920df85d975267efb4 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def" 1761792450 5009 f48e1006c67ca6c50094e2f41e884d72 ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty" 1761792450 18363 69bb4f5538964bfea50d1e6d89cbe69f ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty" 1761792450 8118 43b99e52946c33a23f5f43b52d5cc5ec ""
   "c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty" 1761792450 2671 d9941f4bf4750e9b0603c9a2ec54693b ""

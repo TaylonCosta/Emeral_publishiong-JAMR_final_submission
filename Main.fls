@@ -151,6 +151,9 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT ./eqndefns-left.sty
 INPUT eqndefns-left.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
