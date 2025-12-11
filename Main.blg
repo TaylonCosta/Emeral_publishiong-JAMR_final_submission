@@ -1,18 +1,18 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'Main.blg'
-[182] biber-MSWIN64:342> INFO - === 
-[260] Biber.pm:421> INFO - Reading 'Main.bcf'
-[348] Biber.pm:1002> INFO - Found 50 citekeys in bib section 0
-[359] Biber.pm:4487> INFO - Processing section 0
-[379] Biber.pm:4678> INFO - Looking for bibtex file 'sample.bib' for section 0
-[421] bibtex.pm:1713> INFO - LaTeX decoding ...
-[539] bibtex.pm:1519> INFO - Found BibTeX data source 'sample.bib'
-[841] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[842] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[842] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[842] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[907] bbl.pm:676> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
-[931] bbl.pm:779> INFO - Output to Main.bbl
-[932] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Taylon\AppData\Local\Temp\biber_tmp_9hBh\4f254e11deca8776044b2c0962cb1230_250152.utf8, line 668, warning: 13 characters of junk seen at toplevel
-[932] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\Taylon\AppData\Local\Temp\biber_tmp_9hBh\4f254e11deca8776044b2c0962cb1230_250152.utf8, line 1418, warning: 14 characters of junk seen at toplevel
-[932] Biber.pm:134> INFO - WARNINGS: 2
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Main.blg'
+[88] biber:340> INFO - === ter dez  9, 2025, 12:19:17
+[104] Biber.pm:418> INFO - Reading 'Main.bcf'
+[177] Biber.pm:972> INFO - Found 50 citekeys in bib section 0
+[189] Biber.pm:4383> INFO - Processing section 0
+[197] Biber.pm:4574> INFO - Looking for bibtex file 'sample.bib' for section 0
+[202] bibtex.pm:1713> INFO - LaTeX decoding ...
+[294] bibtex.pm:1518> INFO - Found BibTeX data source 'sample.bib'
+[723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[723] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[723] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[790] bbl.pm:654> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[830] bbl.pm:757> INFO - Output to Main.bbl
+[831] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_QUNK/4f254e11deca8776044b2c0962cb1230_14142.utf8, line 668, warning: 13 characters of junk seen at toplevel
+[831] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_QUNK/4f254e11deca8776044b2c0962cb1230_14142.utf8, line 1418, warning: 14 characters of junk seen at toplevel
+[831] Biber.pm:132> INFO - WARNINGS: 2
