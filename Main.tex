@@ -27,7 +27,7 @@
 \usepackage{titlesec}
 %\usepackage[compatibility=false]{caption}
 \usepackage{authblk}
-\usepackage{xcolor} % Load the xcolor package for color options
+\usepackage[dvipsnames]{xcolor} % Load the xcolor package for color options
 \renewcommand{\thetable}{\Roman{table}}
 
 
@@ -247,7 +247,7 @@ In recent years, global supply chains have faced unprecedented disruptions, high
 
 Traditionally, production planning and distribution routing have been treated as separate optimization problems, often leading to suboptimal solutions that fail to capture the synergies of joint decision-making. However, with the advent of Industry 4.0 and the increasing digitalization of industrial processes, the boundaries between production and logistics are becoming increasingly blurred. Integrating these domains is now recognized as a key lever for achieving operational excellence, cost savings, and enhanced customer satisfaction in highly competitive markets.
 
-Despite significant advances, existing approaches frequently rely on simplified models or heuristic methods that may not scale well or deliver the level of responsiveness required by decentralized, real-time logistics environments. Moreover, while metaheuristics have demonstrated success in tackling large-scale combinatorial problems, the potential of Artificial Intelligence—particularly machine learning and reinforcement learning—for orchestrating adaptive and intelligent logistics operations remains largely untapped.
+\textcolor{YellowOrange}{Despite significant advances in integrated logistics optimization, a persistent research gap remains regarding the simultaneous coordination of production scheduling on unrelated parallel machines and vehicle routing decisions. Existing studies often treat these two domains separately or employ simplified integration schemes that overlook the interdependencies between production readiness, transportation constraints, and customer service requirements. This fragmentation leads to inefficiencies, including idle time, unbalanced workloads, and delivery delays. Therefore, the core research problem addressed in this study is how to design and optimize an AI-enhanced framework capable of synchronizing production and distribution decisions under dynamic and uncertain operational conditions, minimizing total weighted tardiness while improving responsiveness and service quality across the supply chain.}
 
 Our study delves into the intricacies of decentralized production systems, where the seamless integration of production planning and distribution is paramount. Unlike conventional methodologies primarily focused on cost reduction and resource optimization, our research shines a spotlight on enhancing customer service levels. By prioritizing the minimization of total weighted delay in product delivery to customers, our study aligns with the evolving demands of contemporary logistics operations. Leveraging insights from JIT principles and AI-driven optimization, we navigate the complexities of Industry 4.0, fostering synchronized supply chains and driving operational efficiency. Through a holistic approach that emphasizes service quality and responsiveness, our research contributes to the ongoing discourse on optimizing logistics operations within the dynamic landscape of Industry 4.0.
 
@@ -1073,6 +1073,10 @@ Table \ref{tab:ResultadosRPI} presents the RPI(\%) values for all evaluated meth
 \begin{tabular}{|c|ccccccccccc|}
 \hline
  \multirow{2}{*}{Instance} & \multicolumn{11}{|c|}{Relative Percentage Improvement (RPI)}                                                \\ \cline{2-12}
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> revisoes_r1
 & PPO-VND           & RVND          & Framework & NSH 1 & NSH 2 & NSH 3 & NSH 4 & NSH 5 & NSH 6 & NSH 7 & NSH 8 \\ \hline
 N\_10\_M\_2               & \textbf{80\%} & 74\%          & 76\%      & 31\%  & 36\%  & 21\%  & 30\%  & 53\%  & 76\%  & 48\%  & 67\%  \\
 N\_10\_M\_4               & \textbf{70\%} & 69\%          & 63\%      & 35\%  & 42\%  & 25\%  & 35\%  & 51\%  & 65\%  & 43\%  & 58\%  \\
@@ -1101,6 +1105,8 @@ Computational experiments demonstrate that PPO-VND significantly outperforms tra
 The proposed methodologies offer significant advantages for industrial environments, particularly in addressing complex production and distribution planning problems. The PPO-VND hybrid metaheuristic, with its exceptional scalability and adaptability, is well-suited to tackle the large-scale optimization challenges frequently encountered in real-world industrial settings. Unlike traditional methods that may falter with increasing instance complexity, PPO-VND demonstrates robust performance, even in highly demanding scenarios, as evidenced by its superior GAP results for larger problem sizes. This capability ensures that businesses can consistently achieve highly optimized solutions for their integrated planning needs, leading to more efficient resource utilization, reduced operational costs, and improved overall productivity. The emphasis on intelligent neighborhood selection, powered by machine learning, moves beyond rigid, pre-defined heuristics, allowing for more dynamic and effective problem-solving tailored to specific industrial instances.
 
 Furthermore, the integration of machine learning into the decision-making process, as demonstrated by the Framework, offers a significant paradigm shift. By intelligently pinpointing the most effective heuristic for a particular problem instance based on its characteristics, the framework can streamline the optimization process. This eliminates the need for manual trial-and-error in selecting algorithms, saving valuable time and resources. While the initial training of the machine learning model might require some computational effort, its ability to recommend an optimal algorithm in approximately 0.1 seconds post-training highlights its immense potential for efficient application in dynamic industrial contexts. This rapid decision-making capability, coupled with the consistently strong performance across various instance types, translates directly into quicker responses to changing demands, enhanced operational agility, and a competitive edge in fast-paced industrial landscapes.
+
+\textcolor{YellowOrange}{The findings of this study provide both theoretical and practical contributions. From a theoretical perspective, the hybrid metaheuristic framework proposed—integrating reinforcement learning and variable neighborhood search—extends current models of integrated production and distribution optimization by incorporating adaptive intelligence into decision-making. From a practical standpoint, the proposed AI-enhanced system offers a scalable and flexible solution for real-world logistics operations, particularly in industries characterized by high variability and tight delivery constraints. Future research may explore the integration of stochastic demand forecasting, multi-objective optimization criteria (e.g., sustainability or cost–service trade-offs), and real-time data from IoT-enabled production environments to further enhance the applicability of AI-driven logistics optimization.}
 
 \hfill
 

@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber Main"] 1764789386 "Main.bcf" "Main.bbl" "Main" 1764790074
-  "Main.bcf" 1764790074 114202 b8519300b1f44cae949a4e461739d871 "pdflatex"
+["biber Main"] 0 "Main.bcf" "Main.bbl" "Main" 0
+  "Main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "Main.bbl"
   "Main.blg"
-["pdflatex"] 1764790074 "/home/taylon/latex projects/Emeral_publishiong-JAMR_final_submission/Main.tex" "Main.pdf" "Main" 1764790074
+["pdflatex"] 1765467267 "/home/taylon/latex projects/Emeral_publishiong-JAMR_final_submission/Main.tex" "Main.pdf" "Main" 1765467267
   "/etc/texmf/web2c/texmf.cnf" 1761669745 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/taylon/latex projects/Emeral_publishiong-JAMR_final_submission/Main.tex" 1764790071 103940 6cb3ad2992d8778312b44db85b869915 ""
+  "/home/taylon/latex projects/Emeral_publishiong-JAMR_final_submission/Main.tex" 1765467264 105328 7cbfd19fe04b7b9adfb87fe05ddaa114 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1640468671 3136 aac2e2476de8af6c827239df395814ee ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1640468671 2914 8283dfc24eaf1964346f843d7605c2b0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -213,6 +213,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def" 1601931164 19103 48d29b6e2a64cb717117ef65f107b404 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty" 1639603921 7197 eb6c1ebf41667a05cb50c23c19d5e8bc ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def" 1622581934 4995 8040f614c8de8318a0b5b2dea8a3fcef ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty" 1622581934 18399 7e40f80366dffb22c0e7b70517db5cb4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty" 1636758526 7996 a8fb260d598dcaf305a7ae7b9c3e3229 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
@@ -328,11 +329,11 @@
   "Figure 7.pdf" 1762263960 16560 319cdaadb693b73fb5985ca12983fbb8 ""
   "Figure 8.pdf" 1762263960 17848 c263a25a5c09277801d5da7b048e706b ""
   "Figure 9.pdf" 1762263960 17882 07b0c66add908eb899f2dabc82d0a9b4 ""
-  "Main.aux" 1764790077 35665 779708c44ef334829ce19042230ce3a1 "pdflatex"
-  "Main.bbl" 1764789388 90444 d6d36d31751394399e62aee140126507 "biber Main"
-  "Main.out" 1764790077 2579 c79d3aec9ed44891a0f9b4585f64412b "pdflatex"
-  "Main.run.xml" 1764790074 2341 aeeeb2c2b8abbc6d2eabaf414a7575ec "pdflatex"
-  "Main.tex" 1764790071 103940 6cb3ad2992d8778312b44db85b869915 ""
+  "Main.aux" 1765467267 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Main.bbl" 1765293558 90444 d6d36d31751394399e62aee140126507 "biber Main"
+  "Main.out" 0 -1 0 "pdflatex"
+  "Main.run.xml" 0 -1 0 "pdflatex"
+  "Main.tex" 1765467264 105328 7cbfd19fe04b7b9adfb87fe05ddaa114 ""
   "eqndefns-left.sty" 1762263960 15505 7d6a0a8f6706c093c948a2124b918481 ""
   (generated)
   "Main.aux"
