@@ -1603,9 +1603,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm
-INPUT ./Main.aux
-INPUT Main.aux
-INPUT Main.aux
 OUTPUT Main.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/newtx/omlntxmi.fd
