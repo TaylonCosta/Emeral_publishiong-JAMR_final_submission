@@ -315,6 +315,10 @@ Our proposed approach leverages several advanced techniques to address the intri
 
 The Randomized Variable Neighborhood Descent (RVND) algorithm is a variant of the classical Variable Neighborhood Descent (VND), widely used in combinatorial optimization problems due to its ability to escape local optima. While the traditional VND explores neighborhoods in a fixed, deterministic order, RVND introduces randomness by selecting neighborhoods at random in each iteration \cite{vasconcelos2021algoritmo}. This mechanism allows for more effective diversification of the search, avoiding repetitive patterns and increasing the chances of reaching higher-quality solutions. Furthermore, when no improvement is found after exploring a neighborhood, it is temporarily discarded, allowing for dynamic and adaptive exploration of the solution space. This strategy has been successfully applied in various contexts, such as the vehicle routing problem with time windows, showing promising results in both solution quality and computational time \cite{VIDAL2020401}. Due to its efficiency and flexibility, RVND has been widely adopted in hybrid metaheuristics, especially for integrated problems like production scheduling and vehicle routing, where combinatorial complexity demands robust intensification and diversification strategies.
 
+In addition, recent research has increasingly applied reinforcement learning and other AI methods to address complexity in production scheduling and logistics. \cite{Modrak2024} provide a broad bibliometric review of RL in production scheduling, showing a clear growth trend and highlighting how RL has become a viable approach for handling dynamic shop-floor decisions. \cite{JEONG2021} complement this perspective with an empirical RL framework for task assignment and route planning in Smart Production Logistics. Their work specifies the RL components required for practical deployment and demonstrates improved decision responsiveness in an automotive environment.
+
+In logistics optimization, particularly for multi-depot vehicle routing, recent studies emphasize hybrid and learning-based strategies. \cite{Wangetal2013} propose a bi-objective model for multi-depot pickup and delivery with dynamic demands, solved via clustering and an adaptive NSGA-II, and validated in a real urban case. \cite{Arishi2023} further explore deep reinforcement learning through a multi-agent DRL model capable of producing real-time, high-quality MDVRP solutions. \cite{WANG2025} synthesize a decade of AI-based MDVRP research, noting the rise of hybrid metaheuristic–DL/RL methods and the growing need for real-time data integration and multi-objective formulations. Together, these works indicate a clear shift toward adaptive, data-driven approaches for both scheduling and routing problems.
+
 These studies collectively highlight the field’s evolution from deterministic, sequential methods to integrated, AI-enhanced, and learning-capable frameworks. In this context, our proposal contributes not only by addressing a novel configuration (unrelated parallel machines with integrated vehicle routing) but also by embedding intelligence into the search process itself. Through the use of predictive models to guide heuristic selection and reinforcement learning to adapt the local search dynamics, we offer a methodology that aligns with the demands of Industry 4.0—flexibility, scalability, and resilience in the face of complex, dynamic operational environments.
 
 
@@ -909,13 +913,41 @@ To quantitatively assess the quality of the obtained solutions, we employed the 
 
 Where $F_{best}$ represents the minimum TWT (total weighted tardiness of jobs delays) value obtained among all compared methods, and $F_{method}$ is the TWT obtained with a specific method.
 
+\subsection{PPO Training}
+\label{subsec:PPOtraining}
 
-\subsection{Computational Results} %
-\label{subsec:ComputationalResults}
+As mentioned in earlier sections, we optimized the hyperparameters of the PPO agent using OptunaAt each trial, Optuna samples a complete PPO configuration by drawing from a mixture of categorical and continuous distributions. The categorical parameters include: batch size (8-512), number of rollout steps (8-2048), discount factor (0.--0.9999), clipping range (0.1-0.4), number of training epochs per update (1-20), GAE parameter $\lambda$ (0.8-1.0), maximum gradient norm (0.3-5), network architecture, and activation function (tanh or ReLU). Continuous parameters include the learning rate (log-uniform in [1e-5, 1]) and the entropy coefficient (log-uniform in [1e-8, 1e-1]), along with a uniform value-function loss coefficient in [0, 1]. To ensure valid training configurations, the batch size is constrained not to exceed the number of rollout steps, and the selected architecture is mapped to predefined multilayer perceptrons for the policy and value networks (either [64, 64] or [256, 256] units per layer). The hyperparameters found via Optuna utilized in training are shown in Table \ref{tab:hyperparams}.
 
-This section presents a thorough and comprehensive computational analysis, clearly demonstrating the significant advancements achieved by our proposed methodologies compared to existing approaches. The evaluated methods include the proposed Mixed-Integer Linear Programming (MILP) model, the PPO-VND metaheuristic, the RVND metaheuristic, the machine-learning-driven Framework, and the eight Neighborhood Search Heuristics (NSH). Given the inherent stochastic nature of PPO-VND and RVND, each of these algorithms underwent five independent executions per instance, ensuring robustness and reliability of the reported results.
+\begin{table}
+\caption{Hyperparameters utilized on training found via Optuna tunnning. \label{tab:hyperparams}}
+\centering % Este comando centraliza a tabela.
+{
+\centering % Este comando centraliza a tabela.
+% \resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|}
+\hline
+Parameter & Value \\
+\hline
+Learning rate decay2    & 0.001   \\
+Gamma decay             & 0.98   \\
+Mini batch size         & 256   \\
+Clipping range          & 0.2   \\
+Entropy coefficient     & 0.0   \\
+Number of envs          & 4   \\
+Number of timesteps     & 1000   \\
+Number of steps         & 100   \\
+Number of steps         & 20   \\
+Policy                  & MlpPolicy   \\
+lambda                  &0.8  \\ 
+\hline
+\end{tabular}}
+%}
+\\
+\text{(Source: Authors own work)}
+\end{table}
 
-Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illustrate a consistent increase in the average reward during PPO training, signifying the effective learning process of the Deep Reinforcement Learning (DRL) agents in addressing the chosen problem. Specifically, the orange graph in Figure \ref{fig:grafico10} represents the learning curve for instances with $n=10$ jobs. Figure \ref{fig:grafico10} demonstrates that the PPO algorithm achieves faster learning for smaller instances, with the reward stabilizing from approximately the first 100 thousand episodes onward. The blue and green graphs (Figures \ref{fig:grafico15} and \ref{fig:grafico30}, respectively) depict the learning curves for instances with $n=15$ and $n=30$ jobs. For these larger instances, it is evident that PPO exhibits greater difficulty in learning, requiring a higher number of episodes to stabilize the rewards. This indicates that the complexity of the instances directly correlates with the training time required for the PPO. In addition, the variability observed in the raw reward trajectories reveals that smaller instances (n = 10) exhibit lower standard deviation in the episode rewards, whereas larger instances (n = 15 and n = 30) show substantially higher dispersion. Despite this increased training complexity, Table \ref{tab:Resultados} clearly shows the superior performance of PPO-VND when compared to other methods. Regarding training duration, PPO required approximately 16 hours for instances with $n=10$, around 74 hours for $n=15$, and approximately 45 days for $n=30$. It is important to note that the PPO model's training time was not factored into our performance comparisons, as training is a one-time process.
+
+Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illustrate a consistent increase in the average reward during PPO training, signifying the effective learning process of the Deep Reinforcement Learning (DRL) agents in addressing the chosen problem. Specifically, the orange graph in Figure \ref{fig:grafico10} represents the learning curve for instances with $n=10$ jobs. Figure \ref{fig:grafico10} demonstrates that the PPO algorithm achieves faster learning for smaller instances, with the reward stabilizing from approximately the first 100 thousand episodes onward. The blue and green graphs (Figures \ref{fig:grafico15} and \ref{fig:grafico30}, respectively) depict the learning curves for instances with $n=15$ and $n=30$ jobs. For these larger instances, it is evident that PPO exhibits greater difficulty in learning, requiring a higher number of episodes to stabilize the rewards. This indicates that the complexity of the instances directly correlates with the training time required for the PPO. In addition, the variability observed in the raw reward trajectories reveals that smaller instances (n = 10) exhibit lower standard deviation in the episode rewards, whereas larger instances (n = 15 and n = 30) show substantially higher dispersion. Regarding training duration, PPO required approximately 16 hours for instances with $n=10$, around 74 hours for $n=15$, and approximately 45 days for $n=30$. It is important to note that the PPO model's training time was not factored into our performance comparisons, as training is a one-time process.
 
 \begin{figure}[H]
     \centering
@@ -940,13 +972,10 @@ Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illust
     \label{fig:ppo_rewards_all}
 \end{figure} 
 
-We rigorously confirmed the statistical significance of the performance disparities among algorithms using Analysis of Variance (ANOVA) \citep{zar1999biostatistical}. The resulting p-value was below 0.01, indicating highly significant differences. Figure \ref{figura:boxplot} visually highlights these performance discrepancies by clearly illustrating the distributions of GAPs across all methods and further corroborate these findgins, as PPO-VND displays moderate variability, the Framework and MILP present comparatively lower dispersion, and the NSH heuristics exhibit considerably higher standard deviation values,. This visualization effectively emphasizes PPO-VND's consistently superior performance, especially in more challenging scenarios.
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.85\textwidth,scale=0.75]{Figure 9.pdf}
-    \caption{\textbf{Comparative boxplots of optimality gaps (\%) across all methods}. The proposed Framework shows a competitive performance profile, with median and variability similar to the MILP and RVND baselines. PPO-VND attains the lowest median gap but exhibits notable instability due to high outliers, whereas most constructive heuristics (NSH 1-8) present higher medians and larger variances.}
-    \label{figura:boxplot}
-\end{figure}
+\subsection{Computational Results} %
+\label{subsec:ComputationalResults}
+
+This section presents a thorough and comprehensive computational analysis, clearly demonstrating the significant advancements achieved by our proposed methodologies compared to existing approaches. The evaluated methods include the proposed Mixed-Integer Linear Programming (MILP) model, the PPO-VND metaheuristic, the RVND metaheuristic, the machine-learning-driven Framework, and the eight Neighborhood Search Heuristics (NSH). Given the inherent stochastic nature of PPO-VND and RVND, each of these algorithms underwent five independent executions per instance, ensuring robustness and reliability of the reported results.
 
 Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborhood Search Heuristics. Meanwhile, Table \ref{tab:Resultados} displays the average GAPs for the other algorithms discussed in this work. Each row in these tables presents the average GAPs across 60 instances, categorized by the number of jobs and machines. The smallest average GAPs are highlighted in bold. The final rows of each table summarizes the average and standard deviation of GAPs for the entire set of instances.
 
@@ -1060,6 +1089,16 @@ To evaluate the percentage of improvement caused by the heuristic relative to th
 Where $F_{s.i.}$ is the TWT of the initial solution provided by the constructive heuristic, and $F_{method}$ the TWT obtained with a specific method.
 
 Table \ref{tab:ResultadosRPI} presents the RPI(\%) values for all evaluated methods. The results show that the evaluated methods, PPO-VND, RVND, and Framework, achieved significant improvements compared to the initial solution. The PPO-VND method found the best solutions for the groups N\_10\_M\_2 (80\%), N\_10\_M\_4 (70\%), N\_15\_M\_2 (85\%), N\_15\_M\_4 (71\%), N\_30\_M\_2 (89\%), N\_30\_M\_4 (73\%), and N\_30\_M\_8 (60\%), followed by RVND, which found the best values for the groups N\_15\_M\_8 (59\%) and N\_15\_M\_8 (62\%). Overall, PPO-VND had the highest average RPI (71\%), followed by RVND with 69\%, Framework with 67\%, and NSH. The results of PPO-VND highlight its consistent ability to significantly improve initial solutions, especially in more complex instances.
+
+
+We rigorously confirmed the statistical significance of the performance disparities among algorithms using Analysis of Variance (ANOVA) \citep{zar1999biostatistical}. The resulting p-value was below 0.01, indicating highly significant differences. Figure \ref{figura:boxplot} visually highlights these performance discrepancies by clearly illustrating the distributions of GAPs across all methods and further corroborate these findgins, as PPO-VND displays moderate variability, the Framework and MILP present comparatively lower dispersion, and the NSH heuristics exhibit considerably higher standard deviation values,. This visualization effectively emphasizes PPO-VND's consistently superior performance, especially in more challenging scenarios.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth,scale=0.75]{Figure 9.pdf}
+    \caption{\textbf{Comparative boxplots of optimality gaps (\%) across all methods}. The proposed Framework shows a competitive performance profile, with median and variability similar to the MILP and RVND baselines. PPO-VND attains the lowest median gap but exhibits notable instability due to high outliers, whereas most constructive heuristics (NSH 1-8) present higher medians and larger variances.}
+    \label{figura:boxplot}
+\end{figure}
 
 
 \begin{table}
