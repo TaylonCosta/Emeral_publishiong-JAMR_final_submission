@@ -247,7 +247,7 @@ In recent years, global supply chains have faced unprecedented disruptions, high
 
 Traditionally, production planning and distribution routing have been treated as separate optimization problems, often leading to suboptimal solutions that fail to capture the synergies of joint decision-making. However, with the advent of Industry 4.0 and the increasing digitalization of industrial processes, the boundaries between production and logistics are becoming increasingly blurred. Integrating these domains is now recognized as a key lever for achieving operational excellence, cost savings, and enhanced customer satisfaction in highly competitive markets.
 
-\textcolor{YellowOrange}{Despite significant advances in integrated logistics optimization, a persistent research gap remains regarding the simultaneous coordination of production scheduling on unrelated parallel machines and vehicle routing decisions. Existing studies often treat these two domains separately or employ simplified integration schemes that overlook the interdependencies between production readiness, transportation constraints, and customer service requirements. This fragmentation leads to inefficiencies, including idle time, unbalanced workloads, and delivery delays. Therefore, the core research problem addressed in this study is how to design and optimize an AI-enhanced framework capable of synchronizing production and distribution decisions under dynamic and uncertain operational conditions, minimizing total weighted tardiness while improving responsiveness and service quality across the supply chain.}
+\textcolor{red}{Despite significant advances in integrated logistics optimization, a persistent research gap remains regarding the simultaneous coordination of production scheduling on unrelated parallel machines and vehicle routing decisions. Existing studies often treat these two domains separately or employ simplified integration schemes that overlook the interdependencies between production readiness, transportation constraints, and customer service requirements. This fragmentation leads to inefficiencies, including idle time, unbalanced workloads, and delivery delays. Therefore, the core research problem addressed in this study is how to design and optimize an AI-enhanced framework capable of synchronizing production and distribution decisions under dynamic and uncertain operational conditions, minimizing total weighted tardiness while improving responsiveness and service quality across the supply chain.}
 
 Our study delves into the intricacies of decentralized production systems, where the seamless integration of production planning and distribution is paramount. Unlike conventional methodologies primarily focused on cost reduction and resource optimization, our research shines a spotlight on enhancing customer service levels. By prioritizing the minimization of total weighted delay in product delivery to customers, our study aligns with the evolving demands of contemporary logistics operations. Leveraging insights from JIT principles and AI-driven optimization, we navigate the complexities of Industry 4.0, fostering synchronized supply chains and driving operational efficiency. Through a holistic approach that emphasizes service quality and responsiveness, our research contributes to the ongoing discourse on optimizing logistics operations within the dynamic landscape of Industry 4.0.
 
@@ -315,11 +315,11 @@ Our proposed approach leverages several advanced techniques to address the intri
 
 The Randomized Variable Neighborhood Descent (RVND) algorithm is a variant of the classical Variable Neighborhood Descent (VND), widely used in combinatorial optimization problems due to its ability to escape local optima. While the traditional VND explores neighborhoods in a fixed, deterministic order, RVND introduces randomness by selecting neighborhoods at random in each iteration \cite{vasconcelos2021algoritmo}. This mechanism allows for more effective diversification of the search, avoiding repetitive patterns and increasing the chances of reaching higher-quality solutions. Furthermore, when no improvement is found after exploring a neighborhood, it is temporarily discarded, allowing for dynamic and adaptive exploration of the solution space. This strategy has been successfully applied in various contexts, such as the vehicle routing problem with time windows, showing promising results in both solution quality and computational time \cite{VIDAL2020401}. Due to its efficiency and flexibility, RVND has been widely adopted in hybrid metaheuristics, especially for integrated problems like production scheduling and vehicle routing, where combinatorial complexity demands robust intensification and diversification strategies.
 
-In addition, recent research has increasingly applied reinforcement learning and other AI methods to address complexity in production scheduling and logistics. \cite{Modrak2024} provide a broad bibliometric review of RL in production scheduling, showing a clear growth trend and highlighting how RL has become a viable approach for handling dynamic shop-floor decisions. \cite{JEONG2021} complement this perspective with an empirical RL framework for task assignment and route planning in Smart Production Logistics. Their work specifies the RL components required for practical deployment and demonstrates improved decision responsiveness in an automotive environment.
+\textcolor{red}{In addition, recent research has increasingly applied reinforcement learning and other AI methods to address complexity in production scheduling and logistics. \cite{Modrak2024} provide a broad bibliometric review of RL in production scheduling, showing a clear growth trend and highlighting how RL has become a viable approach for handling dynamic shop-floor decisions. \cite{JEONG2021} complement this perspective with an empirical RL framework for task assignment and route planning in Smart Production Logistics. Their work specifies the RL components required for practical deployment and demonstrates improved decision responsiveness in an automotive environment.}
 
-In logistics optimization, particularly for multi-depot vehicle routing, recent studies emphasize hybrid and learning-based strategies. \cite{Wangetal2013} propose a bi-objective model for multi-depot pickup and delivery with dynamic demands, solved via clustering and an adaptive NSGA-II, and validated in a real urban case. \cite{Arishi2023} further explore deep reinforcement learning through a multi-agent DRL model capable of producing real-time, high-quality MDVRP solutions. \cite{WANG2025} synthesize a decade of AI-based MDVRP research, noting the rise of hybrid metaheuristic–DL/RL methods and the growing need for real-time data integration and multi-objective formulations. Together, these works indicate a clear shift toward adaptive, data-driven approaches for both scheduling and routing problems.
+\textcolor{red}{In logistics optimization, particularly for multi-depot vehicle routing, recent studies emphasize hybrid and learning-based strategies. \cite{Wangetal2013} propose a bi-objective model for multi-depot pickup and delivery with dynamic demands, solved via clustering and an adaptive NSGA-II, and validated in a real urban case. \cite{Arishi2023} further explore deep reinforcement learning through a multi-agent DRL model capable of producing real-time, high-quality MDVRP solutions. \cite{WANG2025} synthesize a decade of AI-based MDVRP research, noting the rise of hybrid metaheuristic–DL/RL methods and the growing need for real-time data integration and multi-objective formulations. Together, these works indicate a clear shift toward adaptive, data-driven approaches for both scheduling and routing problems.}
 
-These studies collectively highlight the field’s evolution from deterministic, sequential methods to integrated, AI-enhanced, and learning-capable frameworks. In this context, our proposal contributes not only by addressing a novel configuration (unrelated parallel machines with integrated vehicle routing) but also by embedding intelligence into the search process itself. Through the use of predictive models to guide heuristic selection and reinforcement learning to adapt the local search dynamics, we offer a methodology that aligns with the demands of Industry 4.0—flexibility, scalability, and resilience in the face of complex, dynamic operational environments.
+\textcolor{red}{These studies collectively highlight the field’s evolution from deterministic, sequential methods to integrated, AI-enhanced, and learning-capable frameworks. In this context, our proposal contributes not only by addressing a novel configuration (unrelated parallel machines with integrated vehicle routing) but also by embedding intelligence into the search process itself. Through the use of predictive models to guide heuristic selection and reinforcement learning to adapt the local search dynamics, we offer a methodology that aligns with the demands of Industry 4.0—flexibility, scalability, and resilience in the face of complex, dynamic operational environments.}
 
 
 \section{Problem Definition}
@@ -334,7 +334,7 @@ Formally, a set of jobs $I = {1, 2, ..., n}$ must be scheduled on $m$ unrelated 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth,scale=0.95]{Figure 1.pdf} % Ajuste conforme necessário
-    \caption{\textbf{Gantt chart illustrating the integrated production and distribution schedule}. The timeline is vertically partitioned into two operational stages: Production Scheduling involving parallel machines and Delivery Routes utilizing a vehicle fleet. The visualizationemonstrates the synchronization constraints, where the departure time of each vehicleis strictly determined by the completion time of the last manufactured job assigned to that route. (Source: Authors' own work)}
+    \caption{\textcolor{red}{\textbf{Gantt chart illustrating the integrated production and distribution schedule}. The timeline is vertically partitioned into two operational stages: Production Scheduling involving parallel machines and Delivery Routes utilizing a vehicle fleet. The visualizationemonstrates the synchronization constraints, where the departure time of each vehicleis strictly determined by the completion time of the last manufactured job assigned to that route.} (Source: Authors' own work)}
     \label{figura:planejamentoRotas}
 \end{figure}
 
@@ -547,7 +547,7 @@ Although the problem comprises two interdependent components—parallel machine 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.6\textwidth,scale=0.65]{Figure 2.pdf}
-    \caption{\textbf{Flowchart of the two-stage solution decoding process}. The mechanism transforms the list-based representation into a complete solution $\{s,r\}$. In the first stage, the NEH Decoding Algorithm utilizes the job list $L1$ to construct the machine schedule, denoted as $s$. In the second stage, the PIFH Decoding Algorithm takes both the generated schedule s and $L2$ to determine the vehicle routing assignments, denoted as $r$. (Source: Author's own work)}
+    \caption{\textcolor{red}{\textbf{Flowchart of the two-stage solution decoding process}. The mechanism transforms the list-based representation into a complete solution $\{s,r\}$. In the first stage, the NEH Decoding Algorithm utilizes the job list $L1$ to construct the machine schedule, denoted as $s$. In the second stage, the PIFH Decoding Algorithm takes both the generated schedule s and $L2$ to determine the vehicle routing assignments, denoted as $r$.} (Source: Author's own work)}
     \label{figura:decoding}
 \end{figure}
 
@@ -589,7 +589,7 @@ To construct a solution for the problem ($sol = {s, r}$), the process begins wit
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth,scale=0.95]{Figure 3.pdf}
-    \caption{\textbf{Flowchart of the initial solution construction process}. The sequential decoding procedure builds the solution structure $sol=\{s,r\}$. The NEH Decoding Algorithm first processes the initial job list $L1$ to produce a preliminary machine schedule $s$. Then, the PIFH Decoding Algorithm uses $s$ to generate the secondary job list $L2$ and resource assignments $r$, yielding a valid starting solution for the optimization phase. (Source: Authors' own work)}
+    \caption{\textcolor{red}{\textbf{Flowchart of the initial solution construction process}. The sequential decoding procedure builds the solution structure $sol=\{s,r\}$. The NEH Decoding Algorithm first processes the initial job list $L1$ to produce a preliminary machine schedule $s$. Then, the PIFH Decoding Algorithm uses $s$ to generate the secondary job list $L2$ and resource assignments $r$, yielding a valid starting solution for the optimization phase.} (Source: Authors' own work)}
     \label{figura:solucaoInicial}
 \end{figure}
 
@@ -749,7 +749,7 @@ Upon analyzing the underlying patterns and rules within the training data, a mac
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth,scale=0.85]{Figure 4.JPG}
-    \caption{\textbf{Schematic overview of the proposed learning framework}. The pipeline progresses from offline data analysis to online execution: instance data is analyzed and classified to build a representative training set, which trains the central learning algorithm. The resulting decision model $h(x)$ maps instance features to the most suitable local search method, enabling automated heuristic selection based on problem characteristics.. Source: \citet{de2022heuristics}.}
+    \caption{\textcolor{red}{\textbf{Schematic overview of the proposed learning framework}. The pipeline progresses from offline data analysis to online execution: instance data is analyzed and classified to build a representative training set, which trains the central learning algorithm. The resulting decision model $h(x)$ maps instance features to the most suitable local search method, enabling automated heuristic selection based on problem characteristics. Source: \citet{de2022heuristics}.}}
     \label{figura:framework}
 \end{figure}
 
@@ -860,7 +860,7 @@ The Variable Neighborhood Descent (VND) algorithm \citep{hansen2001variable} is 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.65\textwidth,scale=0.65]{Figure 5.pdf}
-    \caption{\textbf{Operational flowchart of the proposed PPO-VND framework}. Diagram depicting the hybrid metaheuristic architecture in which the PPO agent serves as the high-level controller, selecting a NSH at each iteration using action masking to ensure valid choices. (Source: Authors' own work)}
+    \caption{\textcolor{red}{\textbf{Operational flowchart of the proposed PPO-VND framework}. Diagram depicting the hybrid metaheuristic architecture in which the PPO agent serves as the high-level controller, selecting a NSH at each iteration using action masking to ensure valid choices.} (Source: Authors' own work)}
     \label{figura:PPO-VND}
 \end{figure}
 
@@ -913,32 +913,33 @@ To quantitatively assess the quality of the obtained solutions, we employed the 
 
 Where $F_{best}$ represents the minimum TWT (total weighted tardiness of jobs delays) value obtained among all compared methods, and $F_{method}$ is the TWT obtained with a specific method.
 
-\subsection{PPO Training}
+\subsection{\textcolor{red}{PPO Training}}
 \label{subsec:PPOtraining}
 
-As mentioned in earlier sections, we optimized the hyperparameters of the PPO agent using OptunaAt each trial, Optuna samples a complete PPO configuration by drawing from a mixture of categorical and continuous distributions. The categorical parameters include: batch size (8-512), number of rollout steps (8-2048), discount factor (0.--0.9999), clipping range (0.1-0.4), number of training epochs per update (1-20), GAE parameter $\lambda$ (0.8-1.0), maximum gradient norm (0.3-5), network architecture, and activation function (tanh or ReLU). Continuous parameters include the learning rate (log-uniform in [1e-5, 1]) and the entropy coefficient (log-uniform in [1e-8, 1e-1]), along with a uniform value-function loss coefficient in [0, 1]. To ensure valid training configurations, the batch size is constrained not to exceed the number of rollout steps, and the selected architecture is mapped to predefined multilayer perceptrons for the policy and value networks (either [64, 64] or [256, 256] units per layer). The hyperparameters found via Optuna utilized in training are shown in Table \ref{tab:hyperparams}.
+\textcolor{red}{As mentioned in earlier sections, we optimized the hyperparameters of the PPO agent using OptunaAt each trial, Optuna samples a complete PPO configuration by drawing from a mixture of categorical and continuous distributions. The categorical parameters include: batch size (8-512), number of rollout steps (8-2048), discount factor (0.--0.9999), clipping range (0.1-0.4), number of training epochs per update (1-20), GAE parameter $\lambda$ (0.8-1.0), maximum gradient norm (0.3-5), network architecture, and activation function (tanh or ReLU). Continuous parameters include the learning rate (log-uniform in [1e-5, 1]) and the entropy coefficient (log-uniform in [1e-8, 1e-1]), along with a uniform value-function loss coefficient in [0, 1]. To ensure valid training configurations, the batch size is constrained not to exceed the number of rollout steps, and the selected architecture is mapped to predefined multilayer perceptrons for the policy and value networks (either [64, 64] or [256, 256] units per layer). The hyperparameters found via Optuna utilized in training are shown in Table \ref{tab:hyperparams}.}
+
 
 \begin{table}
-\caption{Hyperparameters utilized on training found via Optuna tunnning. \label{tab:hyperparams}}
+\caption{\textcolor{red}{Hyperparameters utilized on training found via Optuna tunnning.} \label{tab:hyperparams}}
 \centering % Este comando centraliza a tabela.
 {
 \centering % Este comando centraliza a tabela.
 % \resizebox{\textwidth}{!}{%
 \begin{tabular}{|l|c|}
 \hline
-Parameter & Value \\
+\textcolor{red}{Parameter} & \textcolor{red}{Value} \\
 \hline
-Learning rate decay2    & 0.001   \\
-Gamma decay             & 0.98   \\
-Mini batch size         & 256   \\
-Clipping range          & 0.2   \\
-Entropy coefficient     & 0.0   \\
-Number of envs          & 4   \\
-Number of timesteps     & 1000   \\
-Number of steps         & 100   \\
-Number of steps         & 20   \\
-Policy                  & MlpPolicy   \\
-lambda                  &0.8  \\ 
+\textcolor{red}{Learning rate decay2 }   &\textcolor{red}{0.001} \\
+\textcolor{red}{Gamma decay             }   &\textcolor{red}{ 0.98  } \\
+\textcolor{red}{Mini batch size         }   &\textcolor{red}{ 256  } \\
+\textcolor{red}{Clipping range          }   &\textcolor{red}{ 0.2 }  \\
+\textcolor{red}{Entropy coefficient     }   &\textcolor{red}{ 0.0}   \\
+\textcolor{red}{Number of envs          }   &\textcolor{red}{ 4 }  \\
+\textcolor{red}{Number of timesteps     }   &\textcolor{red}{ 1000}   \\
+\textcolor{red}{Number of steps         }   &\textcolor{red}{ 100}   \\
+\textcolor{red}{Number of steps         }   &\textcolor{red}{ 20}   \\
+\textcolor{red}{Policy                  }   &\textcolor{red}{ MlpPolicy}   \\
+\textcolor{red}{lambda                  }   &\textcolor{red}{0.8} \\ 
 \hline
 \end{tabular}}
 %}
@@ -947,7 +948,7 @@ lambda                  &0.8  \\
 \end{table}
 
 
-Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illustrate a consistent increase in the average reward during PPO training, signifying the effective learning process of the Deep Reinforcement Learning (DRL) agents in addressing the chosen problem. Specifically, the orange graph in Figure \ref{fig:grafico10} represents the learning curve for instances with $n=10$ jobs. Figure \ref{fig:grafico10} demonstrates that the PPO algorithm achieves faster learning for smaller instances, with the reward stabilizing from approximately the first 100 thousand episodes onward. The blue and green graphs (Figures \ref{fig:grafico15} and \ref{fig:grafico30}, respectively) depict the learning curves for instances with $n=15$ and $n=30$ jobs. For these larger instances, it is evident that PPO exhibits greater difficulty in learning, requiring a higher number of episodes to stabilize the rewards. This indicates that the complexity of the instances directly correlates with the training time required for the PPO. In addition, the variability observed in the raw reward trajectories reveals that smaller instances (n = 10) exhibit lower standard deviation in the episode rewards, whereas larger instances (n = 15 and n = 30) show substantially higher dispersion. Regarding training duration, PPO required approximately 16 hours for instances with $n=10$, around 74 hours for $n=15$, and approximately 45 days for $n=30$. It is important to note that the PPO model's training time was not factored into our performance comparisons, as training is a one-time process.
+Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illustrate a consistent increase in the average reward during PPO training, signifying the effective learning process of the Deep Reinforcement Learning (DRL) agents in addressing the chosen problem. Specifically, the orange graph in Figure \ref{fig:grafico10} represents the learning curve for instances with $n=10$ jobs. Figure \ref{fig:grafico10} demonstrates that the PPO algorithm achieves faster learning for smaller instances, with the reward stabilizing from approximately the first 100 thousand episodes onward. The blue and green graphs (Figures \ref{fig:grafico15} and \ref{fig:grafico30}, respectively) depict the learning curves for instances with $n=15$ and $n=30$ jobs. For these larger instances, it is evident that PPO exhibits greater difficulty in learning, requiring a higher number of episodes to stabilize the rewards. This indicates that the complexity of the instances directly correlates with the training time required for the PPO. In addition, the variability observed in the raw reward trajectories reveals that smaller instances (n = 10) \textcolor{red}{exhibit lower standard deviation in the episode rewards, whereas larger instances (n = 15 and n = 30) show substantially higher dispersion.} Regarding training duration, PPO required approximately 16 hours for instances with $n=10$, around 74 hours for $n=15$, and approximately 45 days for $n=30$. It is important to note that the PPO model's training time was not factored into our performance comparisons, as training is a one-time process.
 
 \begin{figure}[H]
     \centering
@@ -968,7 +969,7 @@ Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illust
         \caption{$n = 30$}
         \label{fig:grafico30}
     \end{subfigure}
-    \caption{\textbf{Training evolution of the PPO agent for instance sizes (n = 10, 15, 30)}. Episode rewards are shown over 500,000 training steps, with solid curves indicating the smoothed learning trend and translucent lines depicting raw variability. Across all instance sizes, the agent shows consistent learning, with a rapid initial reward increase followed by stabilization as the policy converges.(Source: Authors' own work)}
+    \caption{\textcolor{red}{\textbf{Training evolution of the PPO agent for instance sizes (n = 10, 15, 30)}. Episode rewards are shown over 500,000 training steps, with solid curves indicating the smoothed learning trend and translucent lines depicting raw variability. Across all instance sizes, the agent shows consistent learning, with a rapid initial reward increase followed by stabilization as the policy converges.}(Source: Authors' own work)}
     \label{fig:ppo_rewards_all}
 \end{figure} 
 
@@ -977,11 +978,11 @@ Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illust
 
 This section presents a thorough and comprehensive computational analysis, clearly demonstrating the significant advancements achieved by our proposed methodologies compared to existing approaches. The evaluated methods include the proposed Mixed-Integer Linear Programming (MILP) model, the PPO-VND metaheuristic, the RVND metaheuristic, the machine-learning-driven Framework, and the eight Neighborhood Search Heuristics (NSH). Given the inherent stochastic nature of PPO-VND and RVND, each of these algorithms underwent five independent executions per instance, ensuring robustness and reliability of the reported results.
 
-Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborhood Search Heuristics. Meanwhile, Table \ref{tab:Resultados} displays the average GAPs for the other algorithms discussed in this work. Each row in these tables presents the average GAPs across 60 instances, categorized by the number of jobs and machines. The smallest average GAPs are highlighted in bold. The final rows of each table summarizes the average and standard deviation of GAPs for the entire set of instances.
+Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborhood Search Heuristics. Meanwhile, Table \ref{tab:Resultados} displays the average GAPs for the other algorithms discussed in this work. Each row in these tables presents the average GAPs across 60 instances, categorized by the number of jobs and machines. The smallest average GAPs are highlighted in bold. The final rows of each table summarizes the average\textcolor{red}{{ and standard deviation} of GAPs for the entire set of instances.
 
 \begin{table}
 \centering % Este comando centraliza a tabela.
- \caption{\textbf{Performance comparison of NSH based on average optimality gap (\%)}. The results demonstrate the superior efficiency of NSH 6 compared with simlar NSH's. \label{tab:ResultadosNSH}}
+ \caption{\textcolor{red}{\textbf{Performance comparison of NSH based on average optimality gap (\%)}. The results demonstrate the superior efficiency of NSH 6 compared with simlar NSH's.} \label{tab:ResultadosNSH}}
  {
  \centering % Este comando centraliza a tabela.
 % \resizebox{\textwidth}{!}{%
@@ -999,7 +1000,7 @@ N\_30\_M\_2& 90\%  & 87\%  & 91\%  & 90\%  & 89\%  & \textbf{33\%} & 90\%  & 74\
 N\_30\_M\_4& 75\%  & 64\%  & 77\%  & 72\%  & 70\%  & \textbf{33\%} & 72\%  & 56\%  \\
 N\_30\_M\_8& 60\%  & 44\%  & 63\%  & 57\%  & 54\%  & \textbf{30\%} & 58\%  & 43\%  \\ \hline
 Average    & 71\%  & 64\%  & 74\%  & 70\%  & 65\%  & \textbf{37\%} & 69\%  & 53\%  \\
-Std. deviation   & 15.49\%  & 18.83\%  & 14.34\%  & 16.01\%  & 15.98\%  & 7.83 & 14.9  & 13.39  \\ \hline
+\textcolor{red}{Std. deviation   }   &\textcolor{red}{ 15.49\%  }   &\textcolor{red}{ 18.83\%  }   &\textcolor{red}{ 14.34\%  }   &\textcolor{red}{ 16.01\%  }   &\textcolor{red}{ 15.98\%  }   &\textcolor{red}{ 7.83 }   &\textcolor{red}{ 14.9  }   &\textcolor{red}{ 13.39 } \\ \hline
 \end{tabular}}
 %}
 {}
@@ -1008,7 +1009,7 @@ Std. deviation   & 15.49\%  & 18.83\%  & 14.34\%  & 16.01\%  & 15.98\%  & 7.83 &
 
 \begin{table}
 
-\caption{\textbf{Comparative analysis of optimality gaps across varying instance dimensions}. Average, Best, and Worst solution gaps for the exact method (MILP) versus heuristic approaches.\label{tab:Resultados}}
+\caption{\textcolor{red}{\textbf{Comparative analysis of optimality gaps across varying instance dimensions}. Average, Best, and Worst solution gaps for the exact method (MILP) versus heuristic approaches.}\label{tab:Resultados}}
 \centering % Este comando centraliza a tabela
 % \resizebox{\textwidth}{!}{%
 \resizebox{\textwidth}{!}{
@@ -1026,14 +1027,14 @@ N\_30\_M\_2  & 79\%& \textbf{26\%} & 69\%& 31\%& 33\%  & 4\%    & 56\%& 43\%   &
 N\_30\_M\_4  & 80\%& \textbf{24\%} & 34\%& 32\%& 33\%  & 10\%   & 15\%& 35\%   & 47\%\\
 N\_30\_M\_8  & 90\%& \textbf{19\%} & 22\%& 30\%& 30\%  & 7\%    & 9\%& 26\%   & 31\%\\ \hline
 Average& 40\%& \textbf{29\%} & 41\%& 36\%& 37\%  & \textbf{17\%}& 27\%& \textbf{37\%}& 53\%\\
-Std. deviation & 34.78\%& 8.52\% & 19.28\%& 8.19\%& 7.83\%  & 11.28\% & 19.7\%& 8.05\% & 18.33\%\\ \hline
+\textcolor{red}{Std. deviation }   &\textcolor{red}{ 34.78\%}   &\textcolor{red}{ 8.52\% }   &\textcolor{red}{ 19.28\%}   &\textcolor{red}{ 8.19\%}   &\textcolor{red}{ 7.83\%  }   &\textcolor{red}{ 11.28\% }   &\textcolor{red}{ 19.7\%}   &\textcolor{red}{ 8.05\% }   &\textcolor{red}{ 18.33\%}\\ \hline
 \end{tabular}
 %}
 }{}
 \text{(Source: Authors own work)}
 \end{table}
 
-As shown in Table \ref{tab:ResultadosNSH}, NSH 6 consistently delivered the best average performance among all Neighborhood Search Heuristics, achieving an average GAP of 37\%. NSH 6's effectiveness stems from its strategy of applying switching movements to the $L1$ job list and restarting the search process whenever a better solution is discovered. This performance is reinforced by its standard deviation values, which are markedly lower than those of the other NSH variants. When we compare only the NSH variants, NSH 6 found the best solutions for 386 instances, representing 71\% of the total. NSH 8 followed with 139 instances (26\%), while NSH 2 achieved the best results for 89 instances (16\%). The remaining heuristics, NSH 5, NSH 4, NSH 7, NSH 1, and NSH 3, found the best values for a smaller percentage of instances: 47 (9\%), 41 (8\%), 37 (7\%), 32 (6\%), and 26 (5\%) instances, respectively.
+As shown in Table \ref{tab:ResultadosNSH}, NSH 6 consistently delivered the best average performance among all Neighborhood Search Heuristics, achieving an average GAP of 37\%. NSH 6's effectiveness stems from its strategy of applying switching movements to the $L1$ job list and restarting the search process whenever a better solution is discovered. \textcolor{red}{This performance is reinforced by its standard deviation values, which are markedly lower than those of the other NSH variants.} When we compare only the NSH variants, NSH 6 found the best solutions for 386 instances, representing 71\% of the total. NSH 8 followed with 139 instances (26\%), while NSH 2 achieved the best results for 89 instances (16\%). The remaining heuristics, NSH 5, NSH 4, NSH 7, NSH 1, and NSH 3, found the best values for a smaller percentage of instances: 47 (9\%), 41 (8\%), 37 (7\%), 32 (6\%), and 26 (5\%) instances, respectively.
 
 Table \ref{tab:Resultados} presents the GAPs achieved by the PPO-VND and RVND algorithms, showcasing their performance across instances of increasing complexity. For smaller instances (e.g., $n=10$), the Mixed-Integer Linear Programming (MILP) model initially demonstrates superior average GAPs. However, as the instance complexity escalates due to an increased job count, MILP's effectiveness noticeably diminishes. In contrast, algorithms that leverage machine learning, such as PPO-VND and our overarching Framework, exhibit improved performance as instance sizes expand.
 
@@ -1041,9 +1042,9 @@ Furthermore, MILP did outperform other methods in specific smaller instance grou
 
 %In contrast, the hybrid algorithm PPO-VND also showcased its prowess, securing the best average GAP for four groups of instances. Its adaptability was particularly evident in more complex instances, where it achieved the best GAPs for the groups n\_15\_m\_2 (34\%), n\_30\_m\_2 (26\%), n\_30\_m\_4 (24\%), and n\_30\_m\_8 (19\%). This adaptability sparks interest in its potential to handle complex optimization scenarios.
 
-Conversely, the PPO-VND algorithm showcased exceptional scalability and adaptability, clearly differentiating itself as a superior choice for more demanding scenarios. It achieved outstanding GAP results, including 34\% for instances n\_15\_m\_2, 26\% for n\_30\_m\_2, 24\% for n\_30\_m\_4, and an impressive 19\% for the largest and most complex scenarios (n\_30\_m\_8). PPO-VND’s superior adaptability is not merely theoretical; it is practically demonstrated, illustrating its ability to efficiently tackle large-scale optimization challenges. The standard deviation results complement this trend, showing that PPO-VND generally maintains low variability compared to RVND.
+Conversely, the PPO-VND algorithm showcased exceptional scalability and adaptability, clearly differentiating itself as a superior choice for more demanding scenarios. It achieved outstanding GAP results, including 34\% for instances n\_15\_m\_2, 26\% for n\_30\_m\_2, 24\% for n\_30\_m\_4, and an impressive 19\% for the largest and most complex scenarios (n\_30\_m\_8). PPO-VND’s superior adaptability is not merely theoretical; it is practically demonstrated, illustrating its ability to efficiently tackle large-scale optimization challenges. \textcolor{red}{The standard deviation results complement this trend, showing that PPO-VND generally maintains low variability compared to RVND.}
 
-Analyzing the data presented in Tables \ref{tab:ResultadosNSH} and \ref{tab:Resultados}, it is evident that both NSH 6 and the Framework consistently outperform the RVND meta-heuristic across four distinct instance groups. This observation underscores the significant advantage of selecting a proficient neighborhood structure over random selection, which is characteristic of RVND. Consequently, these findings highlight the pivotal role of intelligent neighborhood selection in the efficacy of these methodologies and their potential to surpass conventional approaches. Moreover, standard deviation values reveal that both NSH 6 and the Framework reliably maintain lower dispersion than RVND, reinforcing that systematic or learned neighborhood selection produces more stable results than randomized exploration.
+Analyzing the data presented in Tables \ref{tab:ResultadosNSH} and \ref{tab:Resultados}, it is evident that both NSH 6 and the Framework consistently outperform the RVND meta-heuristic across four distinct instance groups. This observation underscores the significant advantage of selecting a proficient neighborhood structure over random selection, which is characteristic of RVND. Consequently, these findings highlight the pivotal role of intelligent neighborhood selection in the efficacy of these methodologies and their potential to surpass conventional approaches.\textcolor{red}{Moreover, standard deviation values reveal that both NSH 6 and the Framework reliably maintain lower dispersion than RVND, reinforcing that systematic or learned neighborhood selection produces more stable results than randomized exploration.}
 
 Interestingly, while NSH 6 emerged as the most effective individual Neighborhood Search Heuristic across all datasets, the Framework's performance rivaled or even surpassed NSH 6 in some cases. This provides compelling evidence that employing an algorithm that leverages machine learning to dynamically determine the best heuristic for a specific instance is highly efficient. The Framework's success rate in this experiment was 72\%; in other words, for 391 instances (out of a total of 540), the Framework accurately selected the optimal NSH. The results achieved by the Framework were commendable, and in certain instances, they even surpassed those of the RVND meta-heuristic.
 
@@ -1052,7 +1053,7 @@ Table \ref{tab:tempo} presents the algorithm execution times across various prob
 
 \begin{table}
 \centering % Este comando centraliza a tabela.
-\caption{\textbf{Comparison of average computational processing time (in seconds)}. The data highlights the runtime disparity between exact and heuristic approaches.\label{tab:tempo}}
+\caption{\textcolor{red}{\textbf{Comparison of average computational processing time (in seconds)}. The data highlights the runtime disparity between exact and heuristic approaches.}\label{tab:tempo}}
  {
  \resizebox{\textwidth}{!}{%
 \begin{tabular}{|c|cccccccccccc|}
@@ -1068,7 +1069,7 @@ N\_30\_M\_2 & 600.57 & 146.83  & 300.57 & 12.96     & 10.62 & 16.55 & 20.61 & 82
 N\_30\_M\_4 & 600.68 & 167.22  & 354.30 & 15.78     & 12.29 & 19.96 & 24.20 & 100.94 & 12.38 & 21.55 & 23.28 & 69.80 \\
 N\_30\_M\_8 & 601.20 & 269.30  & 469.47 & 19.75     & 16.20 & 24.62 & 32.17 & 113.66 & 17.78 & 27.54 & 30.66 & 88.10 \\ \hline
 Averange    & 581.54 & 69.24   & 130.35 & 5.95      & 4.71  & 7.37  & 9.27  & 34.83  & 4.88  & 8.14  & 8.87  & 26.50 \\
-Std. deviation    & 27.80 & 99.60   & 188.41 & 7.85     & 6.41  & 9.97  & 12.62  & 48.80  & 6.78  & 10.99  & 12.13  & 36.06 \\ \hline
+\textcolor{red}{Std. deviation    }   &\textcolor{red}{ 27.80 }   &\textcolor{red}{ 99.60   }   &\textcolor{red}{ 188.41 }   &\textcolor{red}{ 7.85     }   &\textcolor{red}{ 6.41  }   &\textcolor{red}{ 9.97  }   &\textcolor{red}{ 12.62  }   &\textcolor{red}{ 48.80  }   &\textcolor{red}{ 6.78  }   &\textcolor{red}{ 10.99  }   &\textcolor{red}{ 12.13  }   &\textcolor{red}{ 36.06} \\ \hline
 \end{tabular}}
 }
 {}
@@ -1076,7 +1077,7 @@ Std. deviation    & 27.80 & 99.60   & 188.41 & 7.85     & 6.41  & 9.97  & 12.62 
 \end{table}
 
 
-A holistic evaluation, considering overall GAP outcomes, decisively positions PPO-VND as the top-performing methodology, boasting an exceptional average GAP of 29\% and standard deviation of 8.52\%. The framework follows, achieving a GAP of 36\%. NSH 6 ranks third with a GAP of 37\%. The remaining algorithms are classified as follows: MILP (40\%), RVND (41\%), NSH 8 (53\%), NSH 2 (64\%), NSH 5 (65\%), NSH 7 (69\%), NSH 4 (70\%), NSH 1 (71\%), and finally, NSH 3 (74\%).
+A holistic evaluation, considering overall GAP outcomes, decisively positions PPO-VND as the top-performing methodology, boasting an exceptional average GAP of 29\% \textcolor{red}{{and standard deviation of 8.52\%}. The framework follows, achieving a GAP of 36\%. NSH 6 ranks third with a GAP of 37\%. The remaining algorithms are classified as follows: MILP (40\%), RVND (41\%), NSH 8 (53\%), NSH 2 (64\%), NSH 5 (65\%), NSH 7 (69\%), NSH 4 (70\%), NSH 1 (71\%), and finally, NSH 3 (74\%).
 
 
 To evaluate the percentage of improvement caused by the heuristic relative to the initial solution, the Relative Percentage Improvement (RPI) was calculated. The RPI metric is defined by the equation \ref{eq:RPI}:
@@ -1091,19 +1092,19 @@ Where $F_{s.i.}$ is the TWT of the initial solution provided by the constructive
 Table \ref{tab:ResultadosRPI} presents the RPI(\%) values for all evaluated methods. The results show that the evaluated methods, PPO-VND, RVND, and Framework, achieved significant improvements compared to the initial solution. The PPO-VND method found the best solutions for the groups N\_10\_M\_2 (80\%), N\_10\_M\_4 (70\%), N\_15\_M\_2 (85\%), N\_15\_M\_4 (71\%), N\_30\_M\_2 (89\%), N\_30\_M\_4 (73\%), and N\_30\_M\_8 (60\%), followed by RVND, which found the best values for the groups N\_15\_M\_8 (59\%) and N\_15\_M\_8 (62\%). Overall, PPO-VND had the highest average RPI (71\%), followed by RVND with 69\%, Framework with 67\%, and NSH. The results of PPO-VND highlight its consistent ability to significantly improve initial solutions, especially in more complex instances.
 
 
-We rigorously confirmed the statistical significance of the performance disparities among algorithms using Analysis of Variance (ANOVA) \citep{zar1999biostatistical}. The resulting p-value was below 0.01, indicating highly significant differences. Figure \ref{figura:boxplot} visually highlights these performance discrepancies by clearly illustrating the distributions of GAPs across all methods and further corroborate these findgins, as PPO-VND displays moderate variability, the Framework and MILP present comparatively lower dispersion, and the NSH heuristics exhibit considerably higher standard deviation values,. This visualization effectively emphasizes PPO-VND's consistently superior performance, especially in more challenging scenarios.
+We rigorously confirmed the statistical significance of the performance disparities among algorithms using Analysis of Variance (ANOVA) \citep{zar1999biostatistical}. The resulting p-value was below 0.01, indicating highly significant differences. Figure \ref{figura:boxplot} visually highlights these performance discrepancies by clearly illustrating the distributions of GAPs across all methods and further corroborate these findgins\textcolor{red}{, as PPO-VND displays moderate variability, the Framework and MILP present comparatively lower dispersion, and the NSH heuristics exhibit considerably higher standard deviation values.} This visualization effectively emphasizes PPO-VND's consistently superior performance, especially in more challenging scenarios.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth,scale=0.75]{Figure 9.pdf}
-    \caption{\textbf{Comparative boxplots of optimality gaps (\%) across all methods}. The proposed Framework shows a competitive performance profile, with median and variability similar to the MILP and RVND baselines. PPO-VND attains the lowest median gap but exhibits notable instability due to high outliers, whereas most constructive heuristics (NSH 1-8) present higher medians and larger variances.}
+    \caption{\textcolor{red}{\textbf{Comparative boxplots of optimality gaps (\%) across all methods}. The proposed Framework shows a competitive performance profile, with median and variability similar to the MILP and RVND baselines. PPO-VND attains the lowest median gap but exhibits notable instability due to high outliers, whereas most constructive heuristics (NSH 1-8) present higher medians and larger variances.}}
     \label{figura:boxplot}
 \end{figure}
 
 
 \begin{table}
 \centering
-\caption{Assessment of solution quality based on Relative Percentage Improvement (RPI). Quantification of the improvement of each method relative to the initial solution. \label{tab:ResultadosRPI}}
+\caption{\textcolor{red}{Assessment of solution quality based on Relative Percentage Improvement (RPI). Quantification of the improvement of each method relative to the initial solution.} \label{tab:ResultadosRPI}}
  
 \centering
 \resizebox{\textwidth}{!}{
@@ -1121,7 +1122,7 @@ N\_30\_M\_2               & \textbf{89\%} & 80\%          & 87\%      & 17\%  & 
 N\_30\_M\_4               & \textbf{73\%} & 70\%          & 68\%      & 17\%  & 40\%  & 9\%   & 23\%  & 35\%  & 68\%  & 29\%  & 53\%  \\
 N\_30\_M\_8               & \textbf{60\%} & 59\%          & 54\%      & 20\%  & 43\%  & 13\%  & 25\%  & 31\%  & 54\%  & 24\%  & 44\%  \\ \hline
 Average                   & \textbf{71\%} & 69\%          & 67\%      & 28\%  & 41\%  & 18\%  & 30\%  & 43\%  & 67\%  & 36\%  & 58\% \\
-Std. deviation & 11.5\%     & 7.7\%     & 12.8\%  & 8.4\%  & 4.3\% & 7.3\% & 6.2\%  & 8.9\%  & 12.5\%  & 8.7\%  & 10.4\% \\ \hline
+\textcolor{red}{Std. deviation }   &\textcolor{red}{ 11.5\%     }   &\textcolor{red}{ 7.7\%     }   &\textcolor{red}{ 12.8\%  }   &\textcolor{red}{ 8.4\%  }   &\textcolor{red}{ 4.3\% }   &\textcolor{red}{ 7.3\% }   &\textcolor{red}{ 6.2\%  }   &\textcolor{red}{ 8.9\%  }   &\textcolor{red}{ 12.5\%  }   &\textcolor{red}{ 8.7\%  }   &\textcolor{red}{ 10.4\%} \\ \hline
 \end{tabular}}
 {}
 \text{(Source: Authors own work)}
@@ -1140,7 +1141,7 @@ The proposed methodologies offer significant advantages for industrial environme
 
 Furthermore, the integration of machine learning into the decision-making process, as demonstrated by the Framework, offers a significant paradigm shift. By intelligently pinpointing the most effective heuristic for a particular problem instance based on its characteristics, the framework can streamline the optimization process. This eliminates the need for manual trial-and-error in selecting algorithms, saving valuable time and resources. While the initial training of the machine learning model might require some computational effort, its ability to recommend an optimal algorithm in approximately 0.1 seconds post-training highlights its immense potential for efficient application in dynamic industrial contexts. This rapid decision-making capability, coupled with the consistently strong performance across various instance types, translates directly into quicker responses to changing demands, enhanced operational agility, and a competitive edge in fast-paced industrial landscapes.
 
-\textcolor{YellowOrange}{The findings of this study provide both theoretical and practical contributions. From a theoretical perspective, the hybrid metaheuristic framework proposed—integrating reinforcement learning and variable neighborhood search—extends current models of integrated production and distribution optimization by incorporating adaptive intelligence into decision-making. From a practical standpoint, the proposed AI-enhanced system offers a scalable and flexible solution for real-world logistics operations, particularly in industries characterized by high variability and tight delivery constraints. Future research may explore the integration of stochastic demand forecasting, multi-objective optimization criteria (e.g., sustainability or cost–service trade-offs), and real-time data from IoT-enabled production environments to further enhance the applicability of AI-driven logistics optimization.}
+\textcolor{red}{The findings of this study provide both theoretical and practical contributions. From a theoretical perspective, the hybrid metaheuristic framework proposed—integrating reinforcement learning and variable neighborhood search—extends current models of integrated production and distribution optimization by incorporating adaptive intelligence into decision-making. From a practical standpoint, the proposed AI-enhanced system offers a scalable and flexible solution for real-world logistics operations, particularly in industries characterized by high variability and tight delivery constraints. Future research may explore the integration of stochastic demand forecasting, multi-objective optimization criteria (e.g., sustainability or cost–service trade-offs), and real-time data from IoT-enabled production environments to further enhance the applicability of AI-driven logistics optimization.}
 
 \hfill
 
