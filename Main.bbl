@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{optuna_2019}{inproceedings}{}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{optuna_2019}{inproceedings}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=2939d0d5b491018f7cc7812609071a79}{%
            family={Akiba},
@@ -54,21 +54,23 @@
       }
       \strng{namehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
       \strng{fullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{fullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
       \strng{bibnamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
       \strng{authorbibnamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
       \strng{authornamehash}{0da4c5b8107cb83a6bd4ba0c9b294621}
       \strng{authorfullhash}{6a8f61fd5680dbd348b2b27b4a54d0d8}
+      \strng{authorfullhashraw}{6a8f61fd5680dbd348b2b27b4a54d0d8}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 25th {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining}
       \field{title}{Optuna: A Next-generation Hyperparameter Optimization Framework}
       \field{year}{2019}
     \endentry
-    \entry{alves2020deep}{inproceedings}{}
+    \entry{alves2020deep}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e4cbcb1736d8b45bd6d506be73a1a5ed}{%
            family={Alves},
@@ -88,14 +90,16 @@
       }
       \strng{namehash}{a4fb1ec9dcbee22a85024b90c070b248}
       \strng{fullhash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{fullhashraw}{a4fb1ec9dcbee22a85024b90c070b248}
       \strng{bibnamehash}{a4fb1ec9dcbee22a85024b90c070b248}
       \strng{authorbibnamehash}{a4fb1ec9dcbee22a85024b90c070b248}
       \strng{authornamehash}{a4fb1ec9dcbee22a85024b90c070b248}
       \strng{authorfullhash}{a4fb1ec9dcbee22a85024b90c070b248}
+      \strng{authorfullhashraw}{a4fb1ec9dcbee22a85024b90c070b248}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Computational Logistics}
@@ -104,7 +108,7 @@
       \field{pages}{584\bibrangedash 599}
       \range{pages}{16}
     \endentry
-    \entry{de2022heuristics}{inproceedings}{}
+    \entry{de2022heuristics}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9deaa2b2f5754d6b40d8e4219f34d960}{%
            family={Araujo},
@@ -130,14 +134,16 @@
       }
       \strng{namehash}{08b713a538074f99e1e8bc559edd2f0f}
       \strng{fullhash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{fullhashraw}{557e22b9d6d23e9c885ab592e7124a6c}
       \strng{bibnamehash}{557e22b9d6d23e9c885ab592e7124a6c}
       \strng{authorbibnamehash}{557e22b9d6d23e9c885ab592e7124a6c}
       \strng{authornamehash}{08b713a538074f99e1e8bc559edd2f0f}
       \strng{authorfullhash}{557e22b9d6d23e9c885ab592e7124a6c}
+      \strng{authorfullhashraw}{557e22b9d6d23e9c885ab592e7124a6c}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Intelligent Systems Design and Applications}
@@ -146,7 +152,7 @@
       \field{pages}{120\bibrangedash 131}
       \range{pages}{12}
     \endentry
-    \entry{Arishi2023}{article}{}
+    \entry{Arishi2023}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f909e5772bdf21ad5146228a513d8731}{%
            family={Arishi},
@@ -163,14 +169,16 @@
       }
       \strng{namehash}{0d2a537a2cb2563cbb9735cfb6446a67}
       \strng{fullhash}{0d2a537a2cb2563cbb9735cfb6446a67}
+      \strng{fullhashraw}{0d2a537a2cb2563cbb9735cfb6446a67}
       \strng{bibnamehash}{0d2a537a2cb2563cbb9735cfb6446a67}
       \strng{authorbibnamehash}{0d2a537a2cb2563cbb9735cfb6446a67}
       \strng{authornamehash}{0d2a537a2cb2563cbb9735cfb6446a67}
       \strng{authorfullhash}{0d2a537a2cb2563cbb9735cfb6446a67}
+      \strng{authorfullhashraw}{0d2a537a2cb2563cbb9735cfb6446a67}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The multi-depot vehicle routing problem (MDVRP) is one of the most essential and useful variants of the traditional vehicle routing problem (VRP) in supply chain management (SCM) and logistics studies. Many supply chains (SC) choose the joint distribution of multiple depots to cut transportation costs and delivery times. However, the ability to deliver quality and fast solutions for MDVRP remains a challenging task. Traditional optimization approaches in operation research (OR) may not be practical to solve MDVRP in real-time. With the latest developments in artificial intelligence (AI), it becomes feasible to apply deep reinforcement learning (DRL) for solving combinatorial routing problems. This paper proposes a new multi-agent deep reinforcement learning (MADRL) model to solve MDVRP. Extensive experiments are conducted to evaluate the performance of the proposed approach. Results show that the developed MADRL model can rapidly capture relative information embedded in graphs and effectively produce quality solutions in real-time.}
@@ -192,7 +200,7 @@
       \verb https://ideas.repec.org/a/taf/tjmaxx/v10y2023i3p493-515.html
       \endverb
     \endentry
-    \entry{boudia2008fast}{article}{}
+    \entry{boudia2008fast}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d6d8d51705ef08906ae8bc89003bae9c}{%
            family={Boudia},
@@ -218,14 +226,16 @@
       }
       \strng{namehash}{9c7fc451362f28830220d10b26a04c9d}
       \strng{fullhash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{fullhashraw}{2217ec1bba07a0c3d6ff537a1708b439}
       \strng{bibnamehash}{2217ec1bba07a0c3d6ff537a1708b439}
       \strng{authorbibnamehash}{2217ec1bba07a0c3d6ff537a1708b439}
       \strng{authornamehash}{9c7fc451362f28830220d10b26a04c9d}
       \strng{authorfullhash}{2217ec1bba07a0c3d6ff537a1708b439}
+      \strng{authorfullhashraw}{2217ec1bba07a0c3d6ff537a1708b439}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Production Planning and Control}
@@ -236,7 +246,7 @@
       \field{pages}{85\bibrangedash 96}
       \range{pages}{12}
     \endentry
-    \entry{chen2004integrated}{article}{}
+    \entry{chen2004integrated}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=568c5f0538e5ee4ad2d4d773b8057cc9}{%
            family={Chen},
@@ -250,15 +260,17 @@
       }
       \strng{namehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{fullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{fullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{bibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{authorbibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{authornamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{authorfullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorfullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Handbook of quantitative supply chain analysis}
@@ -267,7 +279,7 @@
       \field{pages}{711\bibrangedash 745}
       \range{pages}{35}
     \endentry
-    \entry{chen2010integrated}{article}{}
+    \entry{chen2010integrated}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=568c5f0538e5ee4ad2d4d773b8057cc9}{%
            family={Chen},
@@ -281,15 +293,17 @@
       }
       \strng{namehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{fullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{fullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{bibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{authorbibnamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{authornamehash}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \strng{authorfullhash}{568c5f0538e5ee4ad2d4d773b8057cc9}
+      \strng{authorfullhashraw}{568c5f0538e5ee4ad2d4d773b8057cc9}
       \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Operations research}
@@ -300,7 +314,7 @@
       \field{pages}{130\bibrangedash 148}
       \range{pages}{19}
     \endentry
-    \entry{duan2018effective}{article}{}
+    \entry{duan2018effective}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=53230429f4441a419728e0d71bfecbe7}{%
            family={Duan},
@@ -335,14 +349,16 @@
       }
       \strng{namehash}{eb226ff3b91574f7eb40d02160a284af}
       \strng{fullhash}{285bb7cd2aa08994ff0d4fccf9a3801a}
+      \strng{fullhashraw}{285bb7cd2aa08994ff0d4fccf9a3801a}
       \strng{bibnamehash}{eb226ff3b91574f7eb40d02160a284af}
       \strng{authorbibnamehash}{eb226ff3b91574f7eb40d02160a284af}
       \strng{authornamehash}{eb226ff3b91574f7eb40d02160a284af}
       \strng{authorfullhash}{285bb7cd2aa08994ff0d4fccf9a3801a}
+      \strng{authorfullhashraw}{285bb7cd2aa08994ff0d4fccf9a3801a}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Intelligent Computing}
@@ -351,7 +367,7 @@
       \field{pages}{795\bibrangedash 806}
       \range{pages}{12}
     \endentry
-    \entry{FelixArroyo}{article}{}
+    \entry{FelixArroyo}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e999d803b3d6da710a4c9817c2d48048}{%
            family={Felix},
@@ -368,21 +384,23 @@
       }
       \strng{namehash}{14433bf7555172eed0abc6e023d36288}
       \strng{fullhash}{14433bf7555172eed0abc6e023d36288}
+      \strng{fullhashraw}{14433bf7555172eed0abc6e023d36288}
       \strng{bibnamehash}{14433bf7555172eed0abc6e023d36288}
       \strng{authorbibnamehash}{14433bf7555172eed0abc6e023d36288}
       \strng{authornamehash}{14433bf7555172eed0abc6e023d36288}
       \strng{authorfullhash}{14433bf7555172eed0abc6e023d36288}
+      \strng{authorfullhashraw}{14433bf7555172eed0abc6e023d36288}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{LII Simpósio Brasileiro de Pesquisa Operacional}
       \field{title}{HEURÍSTICAS PARA O SEQUENCIAMENTO DA PRODUÇÃO E ROTEAMENTO DE VEÍCULOS COM FROTA HETEROGÊNEA}
       \field{year}{2020}
     \endentry
-    \entry{Arroyo_felix}{inproceedings}{}
+    \entry{Arroyo_felix}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f6e3633567dadab918d67fe34dbe7d7d}{%
            family={Félix},
@@ -441,17 +459,20 @@
       }
       \strng{namehash}{e9c5de40da0b614773ee6d45f2d04562}
       \strng{fullhash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{fullhashraw}{b7f1b27a465bccf5577740fb8c199278}
       \strng{bibnamehash}{b7f1b27a465bccf5577740fb8c199278}
       \strng{authorbibnamehash}{b7f1b27a465bccf5577740fb8c199278}
       \strng{authornamehash}{e9c5de40da0b614773ee6d45f2d04562}
       \strng{authorfullhash}{b7f1b27a465bccf5577740fb8c199278}
+      \strng{authorfullhashraw}{b7f1b27a465bccf5577740fb8c199278}
       \strng{editorbibnamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
       \strng{editornamehash}{4bb54db2903cebec3bc9cdecfdab3a4c}
       \strng{editorfullhash}{9b5759c6801ae956402ff308df772a54}
+      \strng{editorfullhashraw}{9b5759c6801ae956402ff308df772a54}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Third Congress on Intelligent Systems}
@@ -461,7 +482,7 @@
       \field{pages}{223\bibrangedash 235}
       \range{pages}{13}
     \endentry
-    \entry{ghinato1995sistema}{article}{}
+    \entry{ghinato1995sistema}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=255354b136515d4ff0bfafbfc65d17d8}{%
            family={Ghinato},
@@ -475,14 +496,16 @@
       }
       \strng{namehash}{255354b136515d4ff0bfafbfc65d17d8}
       \strng{fullhash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{fullhashraw}{255354b136515d4ff0bfafbfc65d17d8}
       \strng{bibnamehash}{255354b136515d4ff0bfafbfc65d17d8}
       \strng{authorbibnamehash}{255354b136515d4ff0bfafbfc65d17d8}
       \strng{authornamehash}{255354b136515d4ff0bfafbfc65d17d8}
       \strng{authorfullhash}{255354b136515d4ff0bfafbfc65d17d8}
+      \strng{authorfullhashraw}{255354b136515d4ff0bfafbfc65d17d8}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Production}
@@ -492,7 +515,7 @@
       \field{pages}{169\bibrangedash 189}
       \range{pages}{21}
     \endentry
-    \entry{haddad2014aiv}{inproceedings}{}
+    \entry{haddad2014aiv}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=3be3c0c9991c0089a0777d996c6b6898}{%
            family={Haddad},
@@ -524,14 +547,16 @@
       }
       \strng{namehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
       \strng{fullhash}{848970b8e44ad12420a8c343cf65eba0}
+      \strng{fullhashraw}{848970b8e44ad12420a8c343cf65eba0}
       \strng{bibnamehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
       \strng{authorbibnamehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
       \strng{authornamehash}{e7f9e00a8e086f1c9f6c532e95c5f17a}
       \strng{authorfullhash}{848970b8e44ad12420a8c343cf65eba0}
+      \strng{authorfullhashraw}{848970b8e44ad12420a8c343cf65eba0}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{International Conference on Enterprise Information Systems}
@@ -541,7 +566,7 @@
       \field{pages}{376\bibrangedash 383}
       \range{pages}{8}
     \endentry
-    \entry{hansen2001variable}{article}{}
+    \entry{hansen2001variable}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7bb981a79a1c9c28df155eaf022cd6ba}{%
            family={Hansen},
@@ -561,14 +586,16 @@
       }
       \strng{namehash}{a24a32bfc1e56cd2240b83497453aeed}
       \strng{fullhash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{fullhashraw}{a24a32bfc1e56cd2240b83497453aeed}
       \strng{bibnamehash}{a24a32bfc1e56cd2240b83497453aeed}
       \strng{authorbibnamehash}{a24a32bfc1e56cd2240b83497453aeed}
       \strng{authornamehash}{a24a32bfc1e56cd2240b83497453aeed}
       \strng{authorfullhash}{a24a32bfc1e56cd2240b83497453aeed}
+      \strng{authorfullhashraw}{a24a32bfc1e56cd2240b83497453aeed}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{European journal of operational research}
@@ -579,7 +606,7 @@
       \field{pages}{449\bibrangedash 467}
       \range{pages}{19}
     \endentry
-    \entry{hou2022modelling}{article}{}
+    \entry{hou2022modelling}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=e70f121c9a3f918589732af98bd7d3fd}{%
            family={Hou},
@@ -617,14 +644,16 @@
       }
       \strng{namehash}{1f8c1e6db7b3aa5b8797573b510013d7}
       \strng{fullhash}{be7aa8f693cdfd181d30b09271624800}
+      \strng{fullhashraw}{be7aa8f693cdfd181d30b09271624800}
       \strng{bibnamehash}{1f8c1e6db7b3aa5b8797573b510013d7}
       \strng{authorbibnamehash}{1f8c1e6db7b3aa5b8797573b510013d7}
       \strng{authornamehash}{1f8c1e6db7b3aa5b8797573b510013d7}
       \strng{authorfullhash}{be7aa8f693cdfd181d30b09271624800}
+      \strng{authorfullhashraw}{be7aa8f693cdfd181d30b09271624800}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Expert Systems with Applications}
@@ -634,7 +663,7 @@
       \field{pages}{115827}
       \range{pages}{1}
     \endentry
-    \entry{iklassov2024reinforcementlearningsolvingstochastic}{misc}{}
+    \entry{iklassov2024reinforcementlearningsolvingstochastic}{misc}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fc00230f1be63b4675aa196c0d9a9dc1}{%
            family={Iklassov},
@@ -663,14 +692,16 @@
       }
       \strng{namehash}{943e83425cb7e742e837dbdb1fa828db}
       \strng{fullhash}{0b55f5eda5979d4a65791242e72d4a22}
+      \strng{fullhashraw}{0b55f5eda5979d4a65791242e72d4a22}
       \strng{bibnamehash}{943e83425cb7e742e837dbdb1fa828db}
       \strng{authorbibnamehash}{943e83425cb7e742e837dbdb1fa828db}
       \strng{authornamehash}{943e83425cb7e742e837dbdb1fa828db}
       \strng{authorfullhash}{0b55f5eda5979d4a65791242e72d4a22}
+      \strng{authorfullhashraw}{0b55f5eda5979d4a65791242e72d4a22}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.AI}
@@ -687,7 +718,7 @@
       \verb https://arxiv.org/abs/2402.09765
       \endverb
     \endentry
-    \entry{JEONG2021}{article}{}
+    \entry{JEONG2021}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=1bbd7850a305d2cd72f8afb8d29f1516}{%
            family={Jeong},
@@ -716,14 +747,16 @@
       }
       \strng{namehash}{2ec1754e7d734e1b6ebb6a0afb143da0}
       \strng{fullhash}{9a4e458aaa31a5ed500a333e0b2f76c1}
+      \strng{fullhashraw}{9a4e458aaa31a5ed500a333e0b2f76c1}
       \strng{bibnamehash}{2ec1754e7d734e1b6ebb6a0afb143da0}
       \strng{authorbibnamehash}{2ec1754e7d734e1b6ebb6a0afb143da0}
       \strng{authornamehash}{2ec1754e7d734e1b6ebb6a0afb143da0}
       \strng{authorfullhash}{9a4e458aaa31a5ed500a333e0b2f76c1}
+      \strng{authorfullhashraw}{9a4e458aaa31a5ed500a333e0b2f76c1}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The study analyzes the application of reinforcement learning (RL) for material handling tasks in Smart Production Logistics (SPL). It presents two contributions based on empirical results of a RL model in dynamic production logistics environment from the automotive industry. Firstly, an architecture integrating the use of RL in SPL. Secondly, the study defines various elements of RL (environment, value, state, reward, and policy) relevant for training and validating models in SPL. The study provides novel insight essential for manufacturing managers and extends current understanding related to research combining artificial intelligence and SPL, granting manufacturing companies a unique competitive advantage.}
@@ -746,7 +779,7 @@
       \endverb
       \keyw{Type your keywords here,separated by semicolons}
     \endentry
-    \entry{kingma2014adam}{article}{}
+    \entry{kingma2014adam}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b6fbd171848aad4edf3925543f1f1522}{%
            family={Kingma},
@@ -763,21 +796,23 @@
       }
       \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
       \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhashraw}{a09df9f123146b8e2c7f1134c9496932}
       \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
       \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
       \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
       \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhashraw}{a09df9f123146b8e2c7f1134c9496932}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1412.6980}
       \field{title}{Adam: A method for stochastic optimization}
       \field{year}{2014}
     \endentry
-    \entry{kurdi2020memetic}{article}{}
+    \entry{kurdi2020memetic}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=93e7e083ece325cc6cbf861bf194e50e}{%
            family={Kurdi},
@@ -791,14 +826,16 @@
       }
       \strng{namehash}{93e7e083ece325cc6cbf861bf194e50e}
       \strng{fullhash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{fullhashraw}{93e7e083ece325cc6cbf861bf194e50e}
       \strng{bibnamehash}{93e7e083ece325cc6cbf861bf194e50e}
       \strng{authorbibnamehash}{93e7e083ece325cc6cbf861bf194e50e}
       \strng{authornamehash}{93e7e083ece325cc6cbf861bf194e50e}
       \strng{authorfullhash}{93e7e083ece325cc6cbf861bf194e50e}
+      \strng{authorfullhashraw}{93e7e083ece325cc6cbf861bf194e50e}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Soft Computing}
@@ -808,7 +845,7 @@
       \field{pages}{106458}
       \range{pages}{1}
     \endentry
-    \entry{lenstra1981complexity}{article}{}
+    \entry{lenstra1981complexity}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6e2e92a3e1619c0eb372733ac57cbf32}{%
            family={Lenstra},
@@ -828,14 +865,16 @@
       }
       \strng{namehash}{57400f5884629c571201105708d404c6}
       \strng{fullhash}{57400f5884629c571201105708d404c6}
+      \strng{fullhashraw}{57400f5884629c571201105708d404c6}
       \strng{bibnamehash}{57400f5884629c571201105708d404c6}
       \strng{authorbibnamehash}{57400f5884629c571201105708d404c6}
       \strng{authornamehash}{57400f5884629c571201105708d404c6}
       \strng{authorfullhash}{57400f5884629c571201105708d404c6}
+      \strng{authorfullhashraw}{57400f5884629c571201105708d404c6}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Networks}
@@ -846,7 +885,7 @@
       \field{pages}{221\bibrangedash 227}
       \range{pages}{7}
     \endentry
-    \entry{lin2014unrelated}{article}{}
+    \entry{lin2014unrelated}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b12f8878923786c814ca7c4d0d659846}{%
            family={Lin},
@@ -866,14 +905,16 @@
       }
       \strng{namehash}{f16fbca63844f8c4274e27bdf27e8acc}
       \strng{fullhash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{fullhashraw}{f16fbca63844f8c4274e27bdf27e8acc}
       \strng{bibnamehash}{f16fbca63844f8c4274e27bdf27e8acc}
       \strng{authorbibnamehash}{f16fbca63844f8c4274e27bdf27e8acc}
       \strng{authornamehash}{f16fbca63844f8c4274e27bdf27e8acc}
       \strng{authorfullhash}{f16fbca63844f8c4274e27bdf27e8acc}
+      \strng{authorfullhashraw}{f16fbca63844f8c4274e27bdf27e8acc}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Production Research}
@@ -884,7 +925,7 @@
       \field{pages}{1200\bibrangedash 1214}
       \range{pages}{15}
     \endentry
-    \entry{liu2020coordinated}{article}{}
+    \entry{liu2020coordinated}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=1c17a20c4acfa6f32b73321fc505433b}{%
            family={Liu},
@@ -916,14 +957,16 @@
       }
       \strng{namehash}{017adced1571e7ceee64961e2eee3f90}
       \strng{fullhash}{bd362b4bbf4dfc642a2717eebfa24c13}
+      \strng{fullhashraw}{bd362b4bbf4dfc642a2717eebfa24c13}
       \strng{bibnamehash}{017adced1571e7ceee64961e2eee3f90}
       \strng{authorbibnamehash}{017adced1571e7ceee64961e2eee3f90}
       \strng{authornamehash}{017adced1571e7ceee64961e2eee3f90}
       \strng{authorfullhash}{bd362b4bbf4dfc642a2717eebfa24c13}
+      \strng{authorfullhashraw}{bd362b4bbf4dfc642a2717eebfa24c13}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Heuristics}
@@ -934,7 +977,7 @@
       \field{pages}{33\bibrangedash 58}
       \range{pages}{26}
     \endentry
-    \entry{mao2021effective}{article}{}
+    \entry{mao2021effective}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=624f4f7f3cccd45f3c2e0a6aa6071100}{%
            family={Mao},
@@ -966,14 +1009,16 @@
       }
       \strng{namehash}{bb930c1bb479fd185792c197b911a75d}
       \strng{fullhash}{d60d378e0c81aad5703e82acd4dbc7d6}
+      \strng{fullhashraw}{d60d378e0c81aad5703e82acd4dbc7d6}
       \strng{bibnamehash}{bb930c1bb479fd185792c197b911a75d}
       \strng{authorbibnamehash}{bb930c1bb479fd185792c197b911a75d}
       \strng{authornamehash}{bb930c1bb479fd185792c197b911a75d}
       \strng{authorfullhash}{d60d378e0c81aad5703e82acd4dbc7d6}
+      \strng{authorfullhashraw}{d60d378e0c81aad5703e82acd4dbc7d6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Expert Systems with Applications}
@@ -983,7 +1028,7 @@
       \field{pages}{114495}
       \range{pages}{1}
     \endentry
-    \entry{martins2021combining}{article}{}
+    \entry{martins2021combining}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=8605d51ca08da236617b30aa61b4b19e}{%
            family={Martins},
@@ -1021,14 +1066,16 @@
       }
       \strng{namehash}{7d760a7a04ee31b4008f24b57b565b6c}
       \strng{fullhash}{db123e22d031aa03d01fa4ff735ea391}
+      \strng{fullhashraw}{db123e22d031aa03d01fa4ff735ea391}
       \strng{bibnamehash}{7d760a7a04ee31b4008f24b57b565b6c}
       \strng{authorbibnamehash}{7d760a7a04ee31b4008f24b57b565b6c}
       \strng{authornamehash}{7d760a7a04ee31b4008f24b57b565b6c}
       \strng{authorfullhash}{db123e22d031aa03d01fa4ff735ea391}
+      \strng{authorfullhashraw}{db123e22d031aa03d01fa4ff735ea391}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Industrial Engineering}
@@ -1038,7 +1085,7 @@
       \field{pages}{107486}
       \range{pages}{1}
     \endentry
-    \entry{Modrak2024}{article}{}
+    \entry{Modrak2024}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=ef99f156cfbadfe3d53d6eb3c85e73cd}{%
            family={Modrak},
@@ -1067,14 +1114,16 @@
       }
       \strng{namehash}{396d7485f0059ec658ba322006edbebb}
       \strng{fullhash}{840a28231d85784b64065e4edb2a6620}
+      \strng{fullhashraw}{840a28231d85784b64065e4edb2a6620}
       \strng{bibnamehash}{396d7485f0059ec658ba322006edbebb}
       \strng{authorbibnamehash}{396d7485f0059ec658ba322006edbebb}
       \strng{authornamehash}{396d7485f0059ec658ba322006edbebb}
       \strng{authorfullhash}{840a28231d85784b64065e4edb2a6620}
+      \strng{authorfullhashraw}{840a28231d85784b64065e4edb2a6620}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this study, a systematic review on production scheduling based on reinforcement learning (RL) techniques using especially bibliometric analysis has been carried out. The aim of this work is, among other things, to point out the growing interest in this domain and to outline the influence of RL as a type of machine learning on production scheduling. To achieve this, the paper explores production scheduling using RL by investigating the descriptive metadata of pertinent publications contained in Scopus, ScienceDirect, and Google Scholar databases. The study focuses on a wide spectrum of publications spanning the years between 1996 and 2024. The findings of this study can serve as new insights for future research endeavors in the realm of production scheduling using RL techniques.}
@@ -1094,7 +1143,7 @@
       \verb https://www.mdpi.com/1999-4893/17/8/343
       \endverb
     \endentry
-    \entry{MOHAMMADI2020347}{article}{}
+    \entry{MOHAMMADI2020347}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=47a52e3b76edb16bce62aa8c6bad8b69}{%
            family={Mohammadi},
@@ -1117,14 +1166,16 @@
       }
       \strng{namehash}{c0d5d7e7936e4ce470b93a78834a85f9}
       \strng{fullhash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{fullhashraw}{33ec16f18047c0fa32050d31abb45330}
       \strng{bibnamehash}{33ec16f18047c0fa32050d31abb45330}
       \strng{authorbibnamehash}{33ec16f18047c0fa32050d31abb45330}
       \strng{authornamehash}{c0d5d7e7936e4ce470b93a78834a85f9}
       \strng{authorfullhash}{33ec16f18047c0fa32050d31abb45330}
+      \strng{authorfullhashraw}{33ec16f18047c0fa32050d31abb45330}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0925-5273}
@@ -1145,7 +1196,7 @@
       \endverb
       \keyw{Supply chain scheduling,Multi-objective optimization,Integrated production-distribution,ε-constraint method,Hybrid particle swarm optimization algorithm}
     \endentry
-    \entry{monden2011toyota}{book}{}
+    \entry{monden2011toyota}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=64803f0b9cdffa612cfdaff51eeb57de}{%
            family={Monden},
@@ -1162,20 +1213,22 @@
       }
       \strng{namehash}{64803f0b9cdffa612cfdaff51eeb57de}
       \strng{fullhash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{fullhashraw}{64803f0b9cdffa612cfdaff51eeb57de}
       \strng{bibnamehash}{64803f0b9cdffa612cfdaff51eeb57de}
       \strng{authorbibnamehash}{64803f0b9cdffa612cfdaff51eeb57de}
       \strng{authornamehash}{64803f0b9cdffa612cfdaff51eeb57de}
       \strng{authorfullhash}{64803f0b9cdffa612cfdaff51eeb57de}
+      \strng{authorfullhashraw}{64803f0b9cdffa612cfdaff51eeb57de}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Toyota production system: an integrated approach to just-in-time}
       \field{year}{2011}
     \endentry
-    \entry{nagano2022solution}{article}{}
+    \entry{nagano2022solution}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=5f11611414491caff1e2f2b1d98efb2c}{%
            family={Nagano},
@@ -1207,14 +1260,16 @@
       }
       \strng{namehash}{1d85e8fcace059be0c200ca9ab02f41d}
       \strng{fullhash}{ee065c550b4df7f9e947604dcb6d74fb}
+      \strng{fullhashraw}{ee065c550b4df7f9e947604dcb6d74fb}
       \strng{bibnamehash}{1d85e8fcace059be0c200ca9ab02f41d}
       \strng{authorbibnamehash}{1d85e8fcace059be0c200ca9ab02f41d}
       \strng{authornamehash}{1d85e8fcace059be0c200ca9ab02f41d}
       \strng{authorfullhash}{ee065c550b4df7f9e947604dcb6d74fb}
+      \strng{authorfullhashraw}{ee065c550b4df7f9e947604dcb6d74fb}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Project Management}
@@ -1225,7 +1280,7 @@
       \field{pages}{155\bibrangedash 166}
       \range{pages}{12}
     \endentry
-    \entry{nahhas2022deep}{article}{}
+    \entry{nahhas2022deep}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5ea9f58b0dc0b6be0d7a54ddf35ab85b}{%
            family={Nahhas},
@@ -1248,20 +1303,22 @@
       }
       \strng{namehash}{6eb17f532e03bf5544c3c4f083a37a82}
       \strng{fullhash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{fullhashraw}{3ba6390bbc2350a07a66cd66a2dded0a}
       \strng{bibnamehash}{3ba6390bbc2350a07a66cd66a2dded0a}
       \strng{authorbibnamehash}{3ba6390bbc2350a07a66cd66a2dded0a}
       \strng{authornamehash}{6eb17f532e03bf5544c3c4f083a37a82}
       \strng{authorfullhash}{3ba6390bbc2350a07a66cd66a2dded0a}
+      \strng{authorfullhashraw}{3ba6390bbc2350a07a66cd66a2dded0a}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Deep Reinforcement Learning Techniques for Solving Hybrid Flow Shop Scheduling Problems: Proximal Policy Optimization (PPO) and Asynchronous Advantage Actor-Critic (A3C)}
       \field{year}{2022}
     \endentry
-    \entry{nawaz1983heuristic}{article}{}
+    \entry{nawaz1983heuristic}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f321e496a7638e806d87d58268f5f466}{%
            family={Nawaz},
@@ -1287,14 +1344,16 @@
       }
       \strng{namehash}{7a8ce81c0df24af9102e8e381da60c8b}
       \strng{fullhash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{fullhashraw}{135889c33f85067f5b3ccf9585a35b0a}
       \strng{bibnamehash}{135889c33f85067f5b3ccf9585a35b0a}
       \strng{authorbibnamehash}{135889c33f85067f5b3ccf9585a35b0a}
       \strng{authornamehash}{7a8ce81c0df24af9102e8e381da60c8b}
       \strng{authorfullhash}{135889c33f85067f5b3ccf9585a35b0a}
+      \strng{authorfullhashraw}{135889c33f85067f5b3ccf9585a35b0a}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Omega}
@@ -1305,7 +1364,7 @@
       \field{pages}{91\bibrangedash 95}
       \range{pages}{5}
     \endentry
-    \entry{nazari2018reinforcement}{article}{}
+    \entry{nazari2018reinforcement}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=609f8f941fe503ac72e04baf3a783505}{%
            family={Nazari},
@@ -1334,14 +1393,16 @@
       }
       \strng{namehash}{3c5f7c9c93902d5d62e6a49571e96204}
       \strng{fullhash}{f3d48c3966a4072c739ba6be5b39d819}
+      \strng{fullhashraw}{f3d48c3966a4072c739ba6be5b39d819}
       \strng{bibnamehash}{3c5f7c9c93902d5d62e6a49571e96204}
       \strng{authorbibnamehash}{3c5f7c9c93902d5d62e6a49571e96204}
       \strng{authornamehash}{3c5f7c9c93902d5d62e6a49571e96204}
       \strng{authorfullhash}{f3d48c3966a4072c739ba6be5b39d819}
+      \strng{authorfullhashraw}{f3d48c3966a4072c739ba6be5b39d819}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in neural information processing systems}
@@ -1349,7 +1410,7 @@
       \field{volume}{31}
       \field{year}{2018}
     \endentry
-    \entry{pan2019effective}{article}{}
+    \entry{pan2019effective}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=edecd7ab25dac6baa0785b4fe084860a}{%
            family={Pan},
@@ -1387,14 +1448,16 @@
       }
       \strng{namehash}{71c52846c33cdb3499821bcbdc5a0a92}
       \strng{fullhash}{28d79ca801941c7bb584a722012cd2bd}
+      \strng{fullhashraw}{28d79ca801941c7bb584a722012cd2bd}
       \strng{bibnamehash}{71c52846c33cdb3499821bcbdc5a0a92}
       \strng{authorbibnamehash}{71c52846c33cdb3499821bcbdc5a0a92}
       \strng{authornamehash}{71c52846c33cdb3499821bcbdc5a0a92}
       \strng{authorfullhash}{28d79ca801941c7bb584a722012cd2bd}
+      \strng{authorfullhashraw}{28d79ca801941c7bb584a722012cd2bd}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Expert Systems with Applications}
@@ -1404,7 +1467,7 @@
       \field{pages}{309\bibrangedash 324}
       \range{pages}{16}
     \endentry
-    \entry{peng2020deep}{article}{}
+    \entry{peng2020deep}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=883ca506b36387ef49f12b3a0d8dbacf}{%
            family={Peng},
@@ -1430,14 +1493,16 @@
       }
       \strng{namehash}{e64ae1f1eb1f52c01c609252d10bc696}
       \strng{fullhash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{fullhashraw}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
       \strng{bibnamehash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
       \strng{authorbibnamehash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
       \strng{authornamehash}{e64ae1f1eb1f52c01c609252d10bc696}
       \strng{authorfullhash}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
+      \strng{authorfullhashraw}{91b49080bc3ca5dc8a9a3e22b8ab1f06}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Artificial Intelligence Algorithms and Applications: 11th International Symposium, ISICA 2019, Guangzhou, China, November 16--17, 2019, Revised Selected Papers 11}
@@ -1446,7 +1511,7 @@
       \field{pages}{636\bibrangedash 650}
       \range{pages}{15}
     \endentry
-    \entry{penna2013iterated}{article}{}
+    \entry{penna2013iterated}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=80f65c8ec8662821748f7ed9483220b7}{%
            family={Penna},
@@ -1472,14 +1537,16 @@
       }
       \strng{namehash}{99ac16b1566f141e6c7e04b8950665bf}
       \strng{fullhash}{e66d51181a532494553e80014b34a840}
+      \strng{fullhashraw}{e66d51181a532494553e80014b34a840}
       \strng{bibnamehash}{e66d51181a532494553e80014b34a840}
       \strng{authorbibnamehash}{e66d51181a532494553e80014b34a840}
       \strng{authornamehash}{99ac16b1566f141e6c7e04b8950665bf}
       \strng{authorfullhash}{e66d51181a532494553e80014b34a840}
+      \strng{authorfullhashraw}{e66d51181a532494553e80014b34a840}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Heuristics}
@@ -1490,7 +1557,7 @@
       \field{pages}{201\bibrangedash 232}
       \range{pages}{32}
     \endentry
-    \entry{rl-zoo3}{misc}{}
+    \entry{rl-zoo3}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=646dfae388f2fca3d68ff9214acd722c}{%
            family={Raffin},
@@ -1504,14 +1571,16 @@
       }
       \strng{namehash}{646dfae388f2fca3d68ff9214acd722c}
       \strng{fullhash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{fullhashraw}{646dfae388f2fca3d68ff9214acd722c}
       \strng{bibnamehash}{646dfae388f2fca3d68ff9214acd722c}
       \strng{authorbibnamehash}{646dfae388f2fca3d68ff9214acd722c}
       \strng{authornamehash}{646dfae388f2fca3d68ff9214acd722c}
       \strng{authorfullhash}{646dfae388f2fca3d68ff9214acd722c}
+      \strng{authorfullhashraw}{646dfae388f2fca3d68ff9214acd722c}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://github.com/DLR-RM/rl-baselines3-zoo}}
@@ -1519,7 +1588,7 @@
       \field{title}{RL Baselines3 Zoo}
       \field{year}{2020}
     \endentry
-    \entry{stable-baselines3}{article}{}
+    \entry{stable-baselines3}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=646dfae388f2fca3d68ff9214acd722c}{%
            family={Raffin},
@@ -1560,14 +1629,16 @@
       }
       \strng{namehash}{5044a4768c7fc20f25fb680bb11f4aaf}
       \strng{fullhash}{e3c43789f8de334374c8e95d9d514552}
+      \strng{fullhashraw}{e3c43789f8de334374c8e95d9d514552}
       \strng{bibnamehash}{5044a4768c7fc20f25fb680bb11f4aaf}
       \strng{authorbibnamehash}{5044a4768c7fc20f25fb680bb11f4aaf}
       \strng{authornamehash}{5044a4768c7fc20f25fb680bb11f4aaf}
       \strng{authorfullhash}{e3c43789f8de334374c8e95d9d514552}
+      \strng{authorfullhashraw}{e3c43789f8de334374c8e95d9d514552}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Machine Learning Research}
@@ -1584,7 +1655,7 @@
       \verb http://jmlr.org/papers/v22/20-1364.html
       \endverb
     \endentry
-    \entry{schulman2017proximal}{article}{}
+    \entry{schulman2017proximal}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=3e09bd2a25d237ebdaed560a07c0451e}{%
            family={Schulman},
@@ -1619,21 +1690,23 @@
       }
       \strng{namehash}{8d6613ae59595910252a86a61babf6c8}
       \strng{fullhash}{a6c6ed5a5aeb74e536f16291276ae392}
+      \strng{fullhashraw}{a6c6ed5a5aeb74e536f16291276ae392}
       \strng{bibnamehash}{8d6613ae59595910252a86a61babf6c8}
       \strng{authorbibnamehash}{8d6613ae59595910252a86a61babf6c8}
       \strng{authornamehash}{8d6613ae59595910252a86a61babf6c8}
       \strng{authorfullhash}{a6c6ed5a5aeb74e536f16291276ae392}
+      \strng{authorfullhashraw}{a6c6ed5a5aeb74e536f16291276ae392}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1707.06347}
       \field{title}{Proximal policy optimization algorithms}
       \field{year}{2017}
     \endentry
-    \entry{solomon1987algorithms}{article}{}
+    \entry{solomon1987algorithms}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7c509b0ca1c5ce1ab460732fcf604559}{%
            family={Solomon},
@@ -1647,14 +1720,16 @@
       }
       \strng{namehash}{7c509b0ca1c5ce1ab460732fcf604559}
       \strng{fullhash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{fullhashraw}{7c509b0ca1c5ce1ab460732fcf604559}
       \strng{bibnamehash}{7c509b0ca1c5ce1ab460732fcf604559}
       \strng{authorbibnamehash}{7c509b0ca1c5ce1ab460732fcf604559}
       \strng{authornamehash}{7c509b0ca1c5ce1ab460732fcf604559}
       \strng{authorfullhash}{7c509b0ca1c5ce1ab460732fcf604559}
+      \strng{authorfullhashraw}{7c509b0ca1c5ce1ab460732fcf604559}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Operations research}
@@ -1665,7 +1740,7 @@
       \field{pages}{254\bibrangedash 265}
       \range{pages}{12}
     \endentry
-    \entry{subramanian2013hybrid}{article}{}
+    \entry{subramanian2013hybrid}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=010571c164ca89ae5a13d1d2878d0afa}{%
            family={Subramanian},
@@ -1691,14 +1766,16 @@
       }
       \strng{namehash}{3403b146d76853b12528714665046759}
       \strng{fullhash}{5a793208e379478aabedff7462fb96da}
+      \strng{fullhashraw}{5a793208e379478aabedff7462fb96da}
       \strng{bibnamehash}{5a793208e379478aabedff7462fb96da}
       \strng{authorbibnamehash}{5a793208e379478aabedff7462fb96da}
       \strng{authornamehash}{3403b146d76853b12528714665046759}
       \strng{authorfullhash}{5a793208e379478aabedff7462fb96da}
+      \strng{authorfullhashraw}{5a793208e379478aabedff7462fb96da}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Operations Research}
@@ -1709,7 +1786,7 @@
       \field{pages}{2519\bibrangedash 2531}
       \range{pages}{13}
     \endentry
-    \entry{sugimori1977toyota}{article}{}
+    \entry{sugimori1977toyota}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=a6cf58228e5c10bcec51ec00cc1a9970}{%
            family={Sugimori},
@@ -1741,14 +1818,16 @@
       }
       \strng{namehash}{0af8f6d74453c7eed473cc8d26cb6a88}
       \strng{fullhash}{549f0c05735516dc375451afebfe5982}
+      \strng{fullhashraw}{549f0c05735516dc375451afebfe5982}
       \strng{bibnamehash}{0af8f6d74453c7eed473cc8d26cb6a88}
       \strng{authorbibnamehash}{0af8f6d74453c7eed473cc8d26cb6a88}
       \strng{authornamehash}{0af8f6d74453c7eed473cc8d26cb6a88}
       \strng{authorfullhash}{549f0c05735516dc375451afebfe5982}
+      \strng{authorfullhashraw}{549f0c05735516dc375451afebfe5982}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The international journal of production research}
@@ -1759,7 +1838,7 @@
       \field{pages}{553\bibrangedash 564}
       \range{pages}{12}
     \endentry
-    \entry{ta2015heuristic}{inproceedings}{}
+    \entry{ta2015heuristic}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=63589df51de18fc3c17895fcbb4261f4}{%
            family={Ta},
@@ -1785,14 +1864,16 @@
       }
       \strng{namehash}{d9242c70527f1e37bfcf54b46c29f264}
       \strng{fullhash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{fullhashraw}{b781b986d2b57f9811cca9d670d9c96c}
       \strng{bibnamehash}{b781b986d2b57f9811cca9d670d9c96c}
       \strng{authorbibnamehash}{b781b986d2b57f9811cca9d670d9c96c}
       \strng{authornamehash}{d9242c70527f1e37bfcf54b46c29f264}
       \strng{authorfullhash}{b781b986d2b57f9811cca9d670d9c96c}
+      \strng{authorfullhashraw}{b781b986d2b57f9811cca9d670d9c96c}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2015 International conference on industrial engineering and systems management (IESM)}
@@ -1801,7 +1882,7 @@
       \field{pages}{128\bibrangedash 134}
       \range{pages}{7}
     \endentry
-    \entry{tamannaei2019mathematical}{article}{}
+    \entry{tamannaei2019mathematical}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=986417a1fafbd7996fc161113074c328}{%
            family={Tamannaei},
@@ -1821,14 +1902,16 @@
       }
       \strng{namehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
       \strng{fullhash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{fullhashraw}{f12abe068e18ba46e4d7c77ae2b41cc2}
       \strng{bibnamehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
       \strng{authorbibnamehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
       \strng{authornamehash}{f12abe068e18ba46e4d7c77ae2b41cc2}
       \strng{authorfullhash}{f12abe068e18ba46e4d7c77ae2b41cc2}
+      \strng{authorfullhashraw}{f12abe068e18ba46e4d7c77ae2b41cc2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Industrial Engineering}
@@ -1838,7 +1921,7 @@
       \field{pages}{643\bibrangedash 656}
       \range{pages}{14}
     \endentry
-    \entry{ullrich2013integrated}{article}{}
+    \entry{ullrich2013integrated}{article}{}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=2e780a197b69bb2734ad6c5dd31906d2}{%
            family={Ullrich},
@@ -1852,16 +1935,18 @@
       }
       \strng{namehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{fullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{fullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{bibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{authorbibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{authornamehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{authorfullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorfullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
       \field{extraname}{1}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradate}{1}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{European Journal of Operational Research}
@@ -1872,7 +1957,7 @@
       \field{pages}{152\bibrangedash 165}
       \range{pages}{14}
     \endentry
-    \entry{ULLRICH2013152}{article}{}
+    \entry{ULLRICH2013152}{article}{}{}
       \name{author}{1}{}{%
         {{un=2,uniquepart=given,hash=2e780a197b69bb2734ad6c5dd31906d2}{%
            family={Ullrich},
@@ -1883,16 +1968,18 @@
       }
       \strng{namehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{fullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{fullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{bibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{authorbibnamehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{authornamehash}{2e780a197b69bb2734ad6c5dd31906d2}
       \strng{authorfullhash}{2e780a197b69bb2734ad6c5dd31906d2}
+      \strng{authorfullhashraw}{2e780a197b69bb2734ad6c5dd31906d2}
       \field{extraname}{2}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradate}{2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0377-2217}
@@ -1914,7 +2001,7 @@
       \endverb
       \keyw{Supply Chain Scheduling,Parallel machines,Vehicle routing,Time windows,Total tardiness,Genetic algorithm}
     \endentry
-    \entry{vasconcelos2021algoritmo}{article}{}
+    \entry{vasconcelos2021algoritmo}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c478da1f751bbbd837f7670e9b5a61bc}{%
            family={VASCONCELOS},
@@ -1940,25 +2027,27 @@
       }
       \strng{namehash}{bdc50fdce8fbc859d3eb4ce298419091}
       \strng{fullhash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{fullhashraw}{7a273753165d4ad4a49c8a23e2c5a200}
       \strng{bibnamehash}{7a273753165d4ad4a49c8a23e2c5a200}
       \strng{authorbibnamehash}{7a273753165d4ad4a49c8a23e2c5a200}
       \strng{authornamehash}{bdc50fdce8fbc859d3eb4ce298419091}
       \strng{authorfullhash}{7a273753165d4ad4a49c8a23e2c5a200}
+      \strng{authorfullhashraw}{7a273753165d4ad4a49c8a23e2c5a200}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Trends in Computational and Applied Mathematics}
       \field{number}{3}
-      \field{title}{Algoritmo GVNS Hı́brido Aplicado ao Problema das p-Medianas Capacitado}
+      \field{title}{Algoritmo GVNS Híbrido Aplicado ao Problema das p-Medianas Capacitado}
       \field{volume}{22}
       \field{year}{2021}
       \field{pages}{453\bibrangedash 473}
       \range{pages}{21}
     \endentry
-    \entry{VIDAL2020401}{article}{}
+    \entry{VIDAL2020401}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=f8b1fe2b57f8a82a140583738588869a}{%
            family={Vidal},
@@ -1981,14 +2070,16 @@
       }
       \strng{namehash}{f14b4d033960169db8e536b480066b9f}
       \strng{fullhash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{fullhashraw}{ed84fff1d17f359a12ae1e35f6118132}
       \strng{bibnamehash}{ed84fff1d17f359a12ae1e35f6118132}
       \strng{authorbibnamehash}{ed84fff1d17f359a12ae1e35f6118132}
       \strng{authornamehash}{f14b4d033960169db8e536b480066b9f}
       \strng{authorfullhash}{ed84fff1d17f359a12ae1e35f6118132}
+      \strng{authorfullhashraw}{ed84fff1d17f359a12ae1e35f6118132}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0377-2217}
@@ -2010,7 +2101,7 @@
       \endverb
       \keyw{Transportation,Combinatorial optimization,Vehicle routing problem,Challenges and perspectives}
     \endentry
-    \entry{wang2020variable}{article}{}
+    \entry{wang2020variable}{article}{}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=9539f8ac7aea1165c72ac3da53ebccc7}{%
            family={Wang},
@@ -2042,14 +2133,16 @@
       }
       \strng{namehash}{7889317db3d6001249aa686a74d3bc11}
       \strng{fullhash}{948c3101478b1cdb0f34f7027b15cd69}
+      \strng{fullhashraw}{948c3101478b1cdb0f34f7027b15cd69}
       \strng{bibnamehash}{7889317db3d6001249aa686a74d3bc11}
       \strng{authorbibnamehash}{7889317db3d6001249aa686a74d3bc11}
       \strng{authornamehash}{7889317db3d6001249aa686a74d3bc11}
       \strng{authorfullhash}{948c3101478b1cdb0f34f7027b15cd69}
+      \strng{authorfullhashraw}{948c3101478b1cdb0f34f7027b15cd69}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Soft Computing}
@@ -2060,7 +2153,7 @@
       \field{pages}{8917\bibrangedash 8936}
       \range{pages}{20}
     \endentry
-    \entry{Wangetal2013}{article}{}
+    \entry{Wangetal2013}{article}{}{}
       \name{author}{4}{}{%
         {{un=1,uniquepart=given,hash=8c0d8d495d30364a6fdc14d3ee19f5b7}{%
            family={Wang},
@@ -2089,14 +2182,16 @@
       }
       \strng{namehash}{82258e666869d4f882ef5ec016bc3fdb}
       \strng{fullhash}{5be6dc1c512f33f6ed7f4be2e45dd7d8}
+      \strng{fullhashraw}{5be6dc1c512f33f6ed7f4be2e45dd7d8}
       \strng{bibnamehash}{82258e666869d4f882ef5ec016bc3fdb}
       \strng{authorbibnamehash}{82258e666869d4f882ef5ec016bc3fdb}
       \strng{authornamehash}{82258e666869d4f882ef5ec016bc3fdb}
       \strng{authorfullhash}{5be6dc1c512f33f6ed7f4be2e45dd7d8}
+      \strng{authorfullhashraw}{5be6dc1c512f33f6ed7f4be2e45dd7d8}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physica A.}
@@ -2106,7 +2201,7 @@
       \field{pages}{6578\bibrangedash 6586}
       \range{pages}{9}
     \endentry
-    \entry{WangLi2013}{article}{}
+    \entry{WangLi2013}{article}{}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=bbe869383a7d3458b82c516a21e4482c}{%
            family={Wang},
@@ -2123,14 +2218,16 @@
       }
       \strng{namehash}{d1d3a271a42f8ce98b63aa37c97b5922}
       \strng{fullhash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{fullhashraw}{d1d3a271a42f8ce98b63aa37c97b5922}
       \strng{bibnamehash}{d1d3a271a42f8ce98b63aa37c97b5922}
       \strng{authorbibnamehash}{d1d3a271a42f8ce98b63aa37c97b5922}
       \strng{authornamehash}{d1d3a271a42f8ce98b63aa37c97b5922}
       \strng{authorfullhash}{d1d3a271a42f8ce98b63aa37c97b5922}
+      \strng{authorfullhashraw}{d1d3a271a42f8ce98b63aa37c97b5922}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physica A.}
@@ -2140,7 +2237,7 @@
       \field{pages}{2555\bibrangedash 2563}
       \range{pages}{9}
     \endentry
-    \entry{WANG2025}{article}{}
+    \entry{WANG2025}{article}{}{}
       \name{author}{5}{}{%
         {{un=1,uniquepart=given,hash=97ea4addef0a6948a5af2dcd3a97e675}{%
            family={Wang},
@@ -2175,14 +2272,16 @@
       }
       \strng{namehash}{78da58c085b7e56d197d94ceb741e3b0}
       \strng{fullhash}{ce44cbf6655aa86e6b07f1520c7442bc}
+      \strng{fullhashraw}{ce44cbf6655aa86e6b07f1520c7442bc}
       \strng{bibnamehash}{78da58c085b7e56d197d94ceb741e3b0}
       \strng{authorbibnamehash}{78da58c085b7e56d197d94ceb741e3b0}
       \strng{authornamehash}{78da58c085b7e56d197d94ceb741e3b0}
       \strng{authorfullhash}{ce44cbf6655aa86e6b07f1520c7442bc}
+      \strng{authorfullhashraw}{ce44cbf6655aa86e6b07f1520c7442bc}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The rapid development of the urban logistics recycling industry, combined with the complexity of the pickup and delivery networks, has created a surge in dynamic customer demands and exacerbated the difficulty of logistics resource sharing. Accordingly, this work focuses on a multi-depot pickup and delivery vehicle routing problem with time windows and dynamic demands, which incorporates resource sharing. A bi-objective mathematical model is formulated to minimize the total operating cost and number of vehicles. A three-dimensional affinity propagation clustering and an adaptive nondominated sorting genetic algorithm-II are combined to find Pareto optimal solutions. A dynamic demand insertion strategy is proposed to determine the vehicle service sequences for dynamic situations. Combined with an elite iteration mechanism to prevent the proposed algorithm from falling into search stagnation and improve the convergence performance. The superiority of the proposed algorithm is verified by comparing with CPLEX solver (i.e., ILOG CPLEX Optimization Studio 12.10), multi-objective ant colony optimization, multi-objective particle swarm optimization, multi-objective evolutionary algorithm, multi-objective genetic algorithm, and decomposition-based multi-objective evolutionary algorithm with tabu search. Besides, the proposed model and algorithm are tested by a real-world case study in Chongqing city, China, and the further analysis indicates that significant improvement can be achieved. Furthermore, by incorporating the recognition and prediction techniques of artificial intelligence on dynamic demand data, the proposed approach can realize the self-optimization of multi-depot vehicle routes and the precise allocation of logistics resources in dynamic environments. This study is conducive to the construction of a digitally-intelligent urban logistics system.}
@@ -2204,7 +2303,7 @@
       \endverb
       \keyw{Multi-depot pickup and delivery vehicle routing problem,Dynamic demands,Adaptive nondominated sorting genetic algorithm-II,Elite iterative mechanism,Artificial intelligence}
     \endentry
-    \entry{YAGMUR2024121586}{article}{}
+    \entry{YAGMUR2024121586}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=8549d9100708e4cf44895107535ff377}{%
            family={Yağmur},
@@ -2221,14 +2320,16 @@
       }
       \strng{namehash}{08ea746899a6e2728b3529e9fc64e974}
       \strng{fullhash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{fullhashraw}{08ea746899a6e2728b3529e9fc64e974}
       \strng{bibnamehash}{08ea746899a6e2728b3529e9fc64e974}
       \strng{authorbibnamehash}{08ea746899a6e2728b3529e9fc64e974}
       \strng{authornamehash}{08ea746899a6e2728b3529e9fc64e974}
       \strng{authorfullhash}{08ea746899a6e2728b3529e9fc64e974}
+      \strng{authorfullhashraw}{08ea746899a6e2728b3529e9fc64e974}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0957-4174}
@@ -2249,7 +2350,7 @@
       \endverb
       \keyw{Parallel machine scheduling,Machine speed mode,Vehicle routing,Earliness,Tardiness,Mathematical model}
     \endentry
-    \entry{yildiz2023variable}{article}{}
+    \entry{yildiz2023variable}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=ae9cf95ae5ae16034bf7598d07fd0494}{%
            family={Yildiz},
@@ -2275,14 +2376,16 @@
       }
       \strng{namehash}{2dd0f7b381cf29f4402b817135589436}
       \strng{fullhash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{fullhashraw}{02c6540be89048caeaa398e33b11f8ac}
       \strng{bibnamehash}{02c6540be89048caeaa398e33b11f8ac}
       \strng{authorbibnamehash}{02c6540be89048caeaa398e33b11f8ac}
       \strng{authornamehash}{2dd0f7b381cf29f4402b817135589436}
       \strng{authorfullhash}{02c6540be89048caeaa398e33b11f8ac}
+      \strng{authorfullhashraw}{02c6540be89048caeaa398e33b11f8ac}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Engineering Research}
@@ -2291,7 +2394,7 @@
       \field{pages}{100145}
       \range{pages}{1}
     \endentry
-    \entry{zar1999biostatistical}{article}{}
+    \entry{zar1999biostatistical}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=efbb4246e8c471287a8116b3680cb18c}{%
            family={Zar},
@@ -2302,14 +2405,16 @@
       }
       \strng{namehash}{efbb4246e8c471287a8116b3680cb18c}
       \strng{fullhash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{fullhashraw}{efbb4246e8c471287a8116b3680cb18c}
       \strng{bibnamehash}{efbb4246e8c471287a8116b3680cb18c}
       \strng{authorbibnamehash}{efbb4246e8c471287a8116b3680cb18c}
       \strng{authornamehash}{efbb4246e8c471287a8116b3680cb18c}
       \strng{authorfullhash}{efbb4246e8c471287a8116b3680cb18c}
+      \strng{authorfullhashraw}{efbb4246e8c471287a8116b3680cb18c}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New Jersey, USA}
@@ -2318,7 +2423,7 @@
       \field{pages}{929}
       \range{pages}{1}
     \endentry
-    \entry{zhang2020enhanced}{article}{}
+    \entry{zhang2020enhanced}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=4f3bb1d3c7fa2a05241e353723deaf63}{%
            family={Zhang},
@@ -2344,14 +2449,16 @@
       }
       \strng{namehash}{9903ba5e58f3fd45b7c11ce0f796ad00}
       \strng{fullhash}{459ef31bad1459c972bb228d192f5926}
+      \strng{fullhashraw}{459ef31bad1459c972bb228d192f5926}
       \strng{bibnamehash}{459ef31bad1459c972bb228d192f5926}
       \strng{authorbibnamehash}{459ef31bad1459c972bb228d192f5926}
       \strng{authornamehash}{9903ba5e58f3fd45b7c11ce0f796ad00}
       \strng{authorfullhash}{459ef31bad1459c972bb228d192f5926}
+      \strng{authorfullhashraw}{459ef31bad1459c972bb228d192f5926}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Bio-Inspired Computation}
@@ -2362,7 +2469,7 @@
       \field{pages}{113\bibrangedash 124}
       \range{pages}{12}
     \endentry
-    \entry{zhu2020deep}{inproceedings}{}
+    \entry{zhu2020deep}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6c2542160103b0fbba4e6bb8b13ec1cf}{%
            family={Zhu},
@@ -2388,14 +2495,16 @@
       }
       \strng{namehash}{f1c37c5d648b1e102e196be71c8e0078}
       \strng{fullhash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{fullhashraw}{69fded7c8bbae658d1d2fe41784d083d}
       \strng{bibnamehash}{69fded7c8bbae658d1d2fe41784d083d}
       \strng{authorbibnamehash}{69fded7c8bbae658d1d2fe41784d083d}
       \strng{authornamehash}{f1c37c5d648b1e102e196be71c8e0078}
       \strng{authorfullhash}{69fded7c8bbae658d1d2fe41784d083d}
+      \strng{authorfullhashraw}{69fded7c8bbae658d1d2fe41784d083d}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2020 IEEE 9th Data Driven Control and Learning Systems Conference (DDCLS)}
@@ -2404,7 +2513,7 @@
       \field{pages}{1220\bibrangedash 1225}
       \range{pages}{6}
     \endentry
-    \entry{zou2018coordinated}{article}{}
+    \entry{zou2018coordinated}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=597ce6f9f18006ffc071e3fbbb24dc91}{%
            family={Zou},
@@ -2436,14 +2545,16 @@
       }
       \strng{namehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
       \strng{fullhash}{a2b5368b0c51ec997ddf3c1b26521bd0}
+      \strng{fullhashraw}{a2b5368b0c51ec997ddf3c1b26521bd0}
       \strng{bibnamehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
       \strng{authorbibnamehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
       \strng{authornamehash}{95c56e1dc4273f8c8f3ffdfa2c72a920}
       \strng{authorfullhash}{a2b5368b0c51ec997ddf3c1b26521bd0}
+      \strng{authorfullhashraw}{a2b5368b0c51ec997ddf3c1b26521bd0}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Production Research}

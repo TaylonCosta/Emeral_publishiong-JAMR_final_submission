@@ -913,7 +913,7 @@ To quantitatively assess the quality of the obtained solutions, we employed the 
 
 Where $F_{best}$ represents the minimum TWT (total weighted tardiness of jobs delays) value obtained among all compared methods, and $F_{method}$ is the TWT obtained with a specific method.
 
-\subsection{\textcolor{red}{PPO Training}}
+\textcolor{red}{\subsection{PPO Training}}
 \label{subsec:PPOtraining}
 
 \textcolor{red}{As mentioned in earlier sections, we optimized the hyperparameters of the PPO agent using OptunaAt each trial, Optuna samples a complete PPO configuration by drawing from a mixture of categorical and continuous distributions. The categorical parameters include: batch size (8-512), number of rollout steps (8-2048), discount factor (0.--0.9999), clipping range (0.1-0.4), number of training epochs per update (1-20), GAE parameter $\lambda$ (0.8-1.0), maximum gradient norm (0.3-5), network architecture, and activation function (tanh or ReLU). Continuous parameters include the learning rate (log-uniform in [1e-5, 1]) and the entropy coefficient (log-uniform in [1e-8, 1e-1]), along with a uniform value-function loss coefficient in [0, 1]. To ensure valid training configurations, the batch size is constrained not to exceed the number of rollout steps, and the selected architecture is mapped to predefined multilayer perceptrons for the policy and value networks (either [64, 64] or [256, 256] units per layer). The hyperparameters found via Optuna utilized in training are shown in Table \ref{tab:hyperparams}.}
@@ -978,7 +978,7 @@ Figures \ref{fig:grafico10}, \ref{fig:grafico15}, and \ref{fig:grafico30} illust
 
 This section presents a thorough and comprehensive computational analysis, clearly demonstrating the significant advancements achieved by our proposed methodologies compared to existing approaches. The evaluated methods include the proposed Mixed-Integer Linear Programming (MILP) model, the PPO-VND metaheuristic, the RVND metaheuristic, the machine-learning-driven Framework, and the eight Neighborhood Search Heuristics (NSH). Given the inherent stochastic nature of PPO-VND and RVND, each of these algorithms underwent five independent executions per instance, ensuring robustness and reliability of the reported results.
 
-Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborhood Search Heuristics. Meanwhile, Table \ref{tab:Resultados} displays the average GAPs for the other algorithms discussed in this work. Each row in these tables presents the average GAPs across 60 instances, categorized by the number of jobs and machines. The smallest average GAPs are highlighted in bold. The final rows of each table summarizes the average\textcolor{red}{{ and standard deviation} of GAPs for the entire set of instances.
+Table \ref{tab:ResultadosNSH} provides the average GAPs for the eight Neighborhood Search Heuristics. Meanwhile, Table \ref{tab:Resultados} displays the average GAPs for the other algorithms discussed in this work. Each row in these tables presents the average GAPs across 60 instances, categorized by the number of jobs and machines. The smallest average GAPs are highlighted in bold. The final rows of each table summarizes the average\textcolor{red}{ and standard deviation} of GAPs for the entire set of instances.
 
 \begin{table}
 \centering % Este comando centraliza a tabela.
@@ -1077,7 +1077,7 @@ Averange    & 581.54 & 69.24   & 130.35 & 5.95      & 4.71  & 7.37  & 9.27  & 34
 \end{table}
 
 
-A holistic evaluation, considering overall GAP outcomes, decisively positions PPO-VND as the top-performing methodology, boasting an exceptional average GAP of 29\% \textcolor{red}{{and standard deviation of 8.52\%}. The framework follows, achieving a GAP of 36\%. NSH 6 ranks third with a GAP of 37\%. The remaining algorithms are classified as follows: MILP (40\%), RVND (41\%), NSH 8 (53\%), NSH 2 (64\%), NSH 5 (65\%), NSH 7 (69\%), NSH 4 (70\%), NSH 1 (71\%), and finally, NSH 3 (74\%).
+A holistic evaluation, considering overall GAP outcomes, decisively positions PPO-VND as the top-performing methodology, boasting an exceptional average GAP of 29\% \textcolor{red}{and standard deviation of 8.52\%}. The framework follows, achieving a GAP of 36\%. NSH 6 ranks third with a GAP of 37\%. The remaining algorithms are classified as follows: MILP (40\%), RVND (41\%), NSH 8 (53\%), NSH 2 (64\%), NSH 5 (65\%), NSH 7 (69\%), NSH 4 (70\%), NSH 1 (71\%), and finally, NSH 3 (74\%).
 
 
 To evaluate the percentage of improvement caused by the heuristic relative to the initial solution, the Relative Percentage Improvement (RPI) was calculated. The RPI metric is defined by the equation \ref{eq:RPI}:
@@ -1129,6 +1129,11 @@ Average                   & \textbf{71\%} & 69\%          & 67\%      & 28\%  & 
 \end{table}
 
 In conclusion, these computational results robustly confirm the remarkable effectiveness, adaptability, and scalability of PPO-VND and the Framework. The innovations presented herein significantly advance the state-of-the-art, establishing these methods as powerful tools for solving complex, integrated scheduling and routing challenges in logistics.
+
+\textcolor{red}{\subsection{Practical Case}}
+\textcolor{red}{An practical case is considered based on a regional manufacturing and distribution system operating under make-to-order conditions. The system consists of multiple unrelated parallel machines with machine-dependent processing and setup times, responsible for producing customized orders. Once production is completed, the orders must be delivered to geographically dispersed customers using a limited-capacity vehicle fleet departing from a central depot.}
+
+\textcolor{red}{In this context, production scheduling decisions directly affect vehicle departure times, while routing decisions influence delivery completion and customer tardiness. The proposed framework is applied to jointly determine machine assignments, job sequences, and delivery routes, aiming to minimize total weighted tardiness. This illustrative case reflects typical constraints found in real logistics operations, such as heterogeneous processing capabilities, tight delivery deadlines, and limited transportation resources, and serves to demonstrate the practical applicability of the integrated optimization approach.}
 
 \section{Conclusion}
 \label{sec:Conclusions}
