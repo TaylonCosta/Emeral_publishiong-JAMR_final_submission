@@ -2428,52 +2428,11 @@
     <bcf:citekey order="64" intorder="1">hansen2001variable</bcf:citekey>
     <bcf:citekey order="65" intorder="1">optuna_2019</bcf:citekey>
     <bcf:citekey order="66" intorder="1">de2022heuristics</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">hansen2001variable</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">haddad2014aiv</bcf:citekey>
-    <bcf:citekey order="68" intorder="2">yildiz2023variable</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">subramanian2013hybrid</bcf:citekey>
-    <bcf:citekey order="69" intorder="2">penna2013iterated</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">Arroyo_felix</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">rl-zoo3</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">rl-zoo3</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">hansen2001variable</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">haddad2014aiv</bcf:citekey>
+    <bcf:citekey order="69" intorder="2">yildiz2023variable</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">subramanian2013hybrid</bcf:citekey>
+    <bcf:citekey order="70" intorder="2">penna2013iterated</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">Arroyo_felix</bcf:citekey>
     <bcf:citekey order="72" intorder="1">zar1999biostatistical</bcf:citekey>
-  </bcf:section>
-  <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nyt">
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sortingtemplate>
-  <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="nyt/global//global/global"
-                type="entry"
-                sortingtemplatename="nyt"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
-</bcf:controlfile>
